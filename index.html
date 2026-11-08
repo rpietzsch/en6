@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2f6fed">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Vokabeln">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Vokabel-Trainer Access 2</title>
+<style>
+:root{--bg:#f4f6fb;--card:#fff;--ink:#1c2333;--mute:#667088;--line:#dde2ee;--pri:#2f6fed;--pri-ink:#fff;--ok:#1b9e5a;--okbg:#e3f6ec;--bad:#d6393f;--badbg:#fde8e9;--warn:#e08a00}
+@media(prefers-color-scheme:dark){:root{--bg:#10141f;--card:#1a2030;--ink:#e8ecf6;--mute:#93a0bd;--line:#2b3347;--pri:#5b92ff;--pri-ink:#07101f;--ok:#46d28a;--okbg:#12301f;--bad:#ff7076;--badbg:#3a1a1d;--warn:#ffb340}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:640px;margin:0 auto;padding:16px}
+h1{font-size:1.5rem;margin:.2em 0 .1em}h2{font-size:1.2rem;margin:1.2em 0 .4em}
+.mute{color:var(--mute);font-size:.9rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin:12px 0}
+button,.btn{white-space:nowrap;font:inherit;border:0;border-radius:12px;padding:12px 18px;background:var(--pri);color:var(--pri-ink);cursor:pointer;font-weight:600}
+button.sec{background:transparent;color:var(--pri);border:2px solid var(--pri)}
+button.ghost{background:transparent;color:var(--mute);font-weight:500;padding:8px 10px}
+button.ok{background:var(--ok);color:#fff}button.bad{background:var(--bad);color:#fff}
+button:disabled{opacity:.4}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.row>*{flex:1}.row>.back{flex:0 0 auto;padding:12px 16px;font-size:1.2rem;line-height:1}
+.grid{display:grid;gap:10px}
+.big{display:block;width:100%;text-align:left;padding:16px 18px;white-space:normal}
+.big small{display:block;font-weight:400;opacity:.85}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;text-align:center}
+.stats b{display:block;font-size:1.5rem}
+.prompt{font-size:1.6rem;font-weight:700;margin:.3em 0;word-break:break-word}
+.tag{display:inline-block;font-size:.75rem;padding:2px 9px;border-radius:99px;background:var(--line);color:var(--mute);margin-right:6px}
+input[type=text],textarea,select{font:inherit;width:100%;padding:13px;border:2px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink)}
+input:focus,textarea:focus{outline:none;border-color:var(--pri)}
+.fb{padding:12px 14px;border-radius:12px;margin:12px 0;font-weight:600}
+.fb.good{background:var(--okbg);color:var(--ok)}.fb.nope{background:var(--badbg);color:var(--bad)}
+.ans{font-size:1.3rem;font-weight:700}
+.ex{margin:14px 0 2px;padding:10px 12px;border-left:3px solid var(--pri);background:var(--bg);border-radius:0 10px 10px 0}.ex b{color:var(--pri)}
+.vex{padding:10px 0;border-top:1px solid var(--line)}.vex:first-of-type{margin-top:10px}
+.vlab{font-size:.72rem;color:var(--mute);text-transform:uppercase;letter-spacing:.05em}
+.vexrow{display:flex;gap:8px;align-items:flex-start;justify-content:space-between}.vexrow>div{min-width:0}.vexrow .ghost{padding:6px 4px;flex:0 0 auto}
+.vform{font-size:1.5rem;font-weight:800;color:var(--pri);line-height:1.2}.vsent{margin-top:2px}.vsent b{color:var(--pri)}
+.vtable{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.vrow{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr) minmax(0,1fr) auto;gap:8px;align-items:center;padding:9px 10px;border-top:1px solid var(--line)}
+.vrow:first-child{border-top:0}.vhead{font-size:.75rem;color:var(--mute);text-transform:uppercase;letter-spacing:.04em;padding-block:7px}
+.vf{font-weight:700;color:var(--pri);overflow-wrap:anywhere}.vact{display:flex}.vact .ghost{padding:6px 5px}
+.vq{display:grid;grid-template-columns:minmax(0,9.5rem) minmax(0,1fr);gap:8px;align-items:center;padding:7px 0;border-top:1px solid var(--line)}
+.vq:first-child{border-top:0}.vq .mute{font-size:.8rem}.vgiven{font-weight:700;font-size:1.1rem;overflow-wrap:anywhere}.vgiven.okc{color:var(--ok)}.vgiven.badc{color:var(--bad)}
+.vq input{padding:9px 10px}.vq.gap input{border-color:var(--pri)}
+.ipa{color:var(--mute);font-family:"Segoe UI",system-ui,sans-serif}
+.bar{height:8px;background:var(--line);border-radius:9px;overflow:hidden}.bar>i{display:block;height:100%;background:var(--pri);transition:width .3s}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{padding:6px 11px;border-radius:99px;border:2px solid var(--line);background:transparent;color:var(--ink);font-weight:600;font-size:.9rem}
+.chip.on{background:var(--pri);color:var(--pri-ink);border-color:var(--pri)}
+.top{display:flex;justify-content:space-between;align-items:center}
+table{width:100%;border-collapse:collapse}td{padding:8px 4px;border-bottom:1px solid var(--line);vertical-align:top;font-size:.95rem}
+label.chk{display:flex;gap:8px;align-items:center}
+#toast{position:fixed;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:max(12px,env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:12px 14px;border-radius:12px;font-size:.9rem;opacity:0;pointer-events:none;transition:opacity .2s;z-index:50}#toast.show{opacity:1}
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script>
+"use strict";
+/* ---------- Grundlagen ---------- */
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const today = () => { const d = new Date(); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); };
+const addDays = (iso, n) => { const d = new Date(iso + "T12:00:00"); d.setDate(d.getDate() + n); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); };
+const hl = t => esc(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");   // **Wort** hervorheben
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const INTERVALS = [1, 3, 7, 14, 30];            // Box 0..4 -> Tage bis zur nächsten Wiederholung
+const KEY = "en6.v1";
+
+let WORDS = [], BY_ID = new Map(), EXAMPLES = {};
+let S;                                           // gespeicherter Zustand
+
+function load() {
+  let s = null;
+  try { s = JSON.parse(localStorage.getItem(KEY)); } catch (e) {}
+  S = Object.assign({ cards: {}, units: {}, sentences: {}, days: {},
+    settings: { perDay: 10, order: "random", input: "type", scopeType: "all", letters: [], unitSel: [], forms: false },
+    daily: { date: "", newIds: [] } }, s || {});
+  S.settings = Object.assign({ perDay: 10, order: "random", input: "type", scopeType: "all", letters: [], unitSel: [], forms: false }, S.settings);
+}
+function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} }
+const card = id => S.cards[id] || (S.cards[id] = { box: -1, due: "", right: 0, wrong: 0, streak: 0, problem: false, known: false });
+
+/* ---------- Wortauswahl ---------- */
+const isForm = w => w.form_of !== undefined;
+function inScope(w) {
+  const st = S.settings;
+  if (w.deck === "a1") return false;             // Access-1-Wörter laufen im Modus „Festigen“
+  if (isForm(w) && !st.forms) return false;
+  if (card(w.id).known) return false;
+  if (st.scopeType === "letters" && st.letters.length) return st.letters.includes(w.en[0].toUpperCase());
+  if (st.scopeType === "unit" && st.unitSel.length) return st.unitSel.some(u => (S.units[u] || []).includes(w.en.toLowerCase()));
+  return true;
+}
+const scoped = () => WORDS.filter(inScope);
+const A1_UNITS = ["HWG 1", "HWG 2", "1.1", "1.2", "2.1", "2.2", "3.1", "3.2", "4.1", "4.2", "5.1", "5.2"];
+const a1Words = units => WORDS.filter(w => w.deck === "a1" && !card(w.id).known && (!units.length || units.includes(w.unit)));
+const unitLabel = u => u.startsWith("HWG") ? "Here we go " + u.slice(4) : "Unit " + u;
+const isProblem = id => { const c = card(id); return c.wrong > 0 && (c.problem || (c.wrong >= 2 && c.box <= 1)); };
+
+/* ---------- Antworten prüfen ---------- */
+const norm = s => s.toLowerCase().replace(/[’`´]/g, "'").replace(/\([^)]*\)/g, " ").replace(/\b(sb|sth)\.?/g, " ")
+  .replace(/[^\p{L}\p{N}' ]+/gu, " ").replace(/\s+/g, " ").trim();
+function lev(a, b) {
+  const d = Array.from({ length: a.length + 1 }, (_, i) => [i, ...Array(b.length).fill(0)]);
+  for (let j = 1; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++) for (let j = 1; j <= b.length; j++)
+    d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+  return d[a.length][b.length];
+}
+const slashVariants = t => {   // „on the radio/TV“ -> „on the radio“, „on the TV“
+  const m = t.match(/[\p{L}'’-]+(?:\/[\p{L}'’-]+)+/u);
+  return m ? m[0].split("/").flatMap(o => slashVariants(t.replace(m[0], o))) : [t];
+};
+const bag = s => s.split(" ").filter(x => x && !["and", "or", "und", "oder"].includes(x)).sort().join(" ");   // Reihenfolge egal
+function alternatives(text, lang) {
+  const colon = text.split(/:\s*/);                                 // „ago: two hours ago“ -> Stichwort und Beispiel
+  const base = [text, ...(colon.length > 1 ? [colon[0], colon.slice(1).join(": ")] : [])];
+  const parts = base.flatMap(slashVariants).flatMap(x => x.split(lang === "de" ? /[;,]|\s\/\s/ : /[,;+]|\s\/\s/)).map(norm).filter(Boolean);
+  return [...new Set([norm(text), ...parts])];
+}
+function check(w, dir, answer) {            // dir: "en2de" | "de2en"
+  const a = norm(answer);
+  if (!a) return "wrong";
+  const target = dir === "en2de" ? w.de : w.en;
+  const alts = alternatives(target, dir === "en2de" ? "de" : "en");
+  if (alts.includes(a)) return "right";
+  const ba = bag(a);
+  if (ba && alts.some(t => bag(t) === ba)) return "right";
+  if (alts.some(t => t.length >= 5 && lev(a, t) <= 1)) return "close";
+  return "wrong";
+}
+
+/* ---------- Sprachausgabe (iOS/Safari-tauglich) ---------- */
+const CAN_SPEAK = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+let VOICES = [], lastUtt = null, hintTimer = 0, speakLog = null;   // speakLog: optional Callback für die Diagnose
+function loadVoices() { try { VOICES = speechSynthesis.getVoices() || []; } catch (e) {} }
+if (CAN_SPEAK) {
+  loadVoices();
+  try { speechSynthesis.addEventListener("voiceschanged", loadVoices); } catch (e) { speechSynthesis.onvoiceschanged = loadVoices; }
+  // Safari erlaubt Sprache erst nach der ersten Berührung: einmal lautlos „freischalten“
+  const unlock = () => { try { const u = new SpeechSynthesisUtterance(" "); u.volume = 0; speechSynthesis.speak(u); } catch (e) {} };
+  window.addEventListener("pointerdown", unlock, { once: true, capture: true });
+}
+function pickVoice() {
+  const norm = v => (v.lang || "").replace("_", "-").toLowerCase();
+  const en = VOICES.filter(v => norm(v).startsWith("en"));
+  return en.find(v => norm(v) === "en-gb" && !/compact/i.test(v.voiceURI || "")) || en.find(v => norm(v) === "en-gb") || en.find(v => norm(v) === "en-us") || en[0] || null;
+}
+function toast(msg) {
+  let t = $("#toast");
+  if (!t) { t = document.createElement("div"); t.id = "toast"; t.setAttribute("role", "status"); document.body.appendChild(t); }
+  t.textContent = msg; t.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove("show"), 9000);
+}
+const FRAMED = (() => { try { return window.top !== window.self; } catch (e) { return true; } })();
+const FRAME_HELP = "Du siehst die Seite eingebettet (z. B. in einer App). Dort ist die Sprachausgabe oft gesperrt. Öffne die Seite direkt in Safari (Link in der Adresszeile antippen oder „In Safari öffnen“).";
+/* Aufbereitung für die Sprachausgabe: Kürzel, Platzhalter und Hinweise im Wortlisten-Eintrag */
+const ACRONYMS = { AD: "A D", BC: "B C", PE: "P E", ICT: "I C T", TV: "T V", URL: "U R L", UK: "U K", IT: "I T" };
+function speechText(en) {
+  let t = en;
+  t = t.replace(/^([^:]+):\s*(.*)$/, (m, head, ex) => {                  // „ago: two hours ago“
+    const short = head.length <= 3 || /^(any|both|could|didn't|either|ever|go|mustn't|needn't|should|that|one|ones|off|own|past)$/.test(head);
+    return short ? ex : head + ", " + ex;                                // Funktionswörter nur mit Beispiel sprechen
+  });
+  t = t.replace(/\((?:no pl|pl|infml|trans|intrans|Tabelle|[^)]*\d\.[^)]*|1\. & \d\. Person)\)/g, "");   // Hinweise in Klammern
+  t = t.replace(/\bget in\(to\)/g, "get into").replace(/^a \/ one /, "one ").replace(/^bed \(flower bed\)$/, "bed, flower bed").replace(/^UK \(United Kingdom\)$/, "U K, United Kingdom");
+  t = t.replace(/\s*\/\s*(…|\.\.\.)/g, "");
+  t = t.replace(/(\w)\((s|e|to)\)/g, (m, w, x) => x === "to" ? w + " to" : w);          // hill(s) -> hill, blond(e) -> blond
+  t = t.replace(/, pl\.? ?…?/g, ", ").replace(/\bpl\.? /g, "");           // „foot, pl feet“ -> „foot, feet“
+  t = t.replace(/\(UK\)/g, "");
+  t = t.replace(/\bsb\.\s*\/\s*sth\./g, "somebody or something").replace(/\bsth\.\s*\/\s*sb\./g, "something or somebody");
+  t = t.replace(/\bsb\./g, "somebody").replace(/\bsth\./g, "something");
+  t = t.replace(/[()]/g, " ").replace(/\bfrom … to\b/, "from, to").replace(/…|\.\.\./g, " ");
+  t = t.replace(/\s*\+\s*/g, ", ").replace(/\s*\/\s*/g, " or ");
+  t = t.replace(/\b[A-Z]{2,3}\b/g, m => ACRONYMS[m] || m);
+  return t.replace(/\s+/g, " ").replace(/\s+([,?!.])/g, "$1").replace(/(, ?)+$/, "").replace(/^[ ,]+/, "").trim();
+}
+const SPEAK_HELP_BASE = "Kein Ton? Am iPhone/iPad: Stumm-Schalter ausschalten (Ton an) und Lautstärke hoch. Außerdem: Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen → Englisch → eine Stimme laden.";
+const SPEAK_HELP = FRAMED ? FRAME_HELP : SPEAK_HELP_BASE;
+function speak(text) {
+  if (!CAN_SPEAK) { toast("Dieser Browser kann keine Sprachausgabe."); return; }
+  const go = () => {
+    try {
+      loadVoices();
+      const u = new SpeechSynthesisUtterance(text);
+      const v = pickVoice();
+      if (v) { u.voice = v; u.lang = v.lang; } else u.lang = "en-GB";
+      u.rate = 0.85; u.volume = 1;
+      let started = false;
+      u.onstart = () => { started = true; clearTimeout(hintTimer); if (speakLog) speakLog("gestartet"); };
+      u.onend = () => { if (speakLog) speakLog("beendet"); };
+      u.onerror = e => { if (speakLog) speakLog("Fehler: " + e.error); if (e.error !== "interrupted" && e.error !== "canceled") toast(SPEAK_HELP); };
+      lastUtt = u;                                   // Referenz halten, sonst wird die Äußerung in Safari manchmal verworfen
+      if (speakLog) speakLog("sende „" + u.text + "“ mit Stimme " + (v ? v.name + " (" + v.lang + ")" : "Standard"));
+      speechSynthesis.speak(u);
+      clearTimeout(hintTimer);
+      hintTimer = setTimeout(() => { if (!started) toast(VOICES.some(x => (x.lang || "").toLowerCase().startsWith("en")) ? SPEAK_HELP : "Keine englische Stimme gefunden. Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen → Englisch laden."); }, 2000);
+    } catch (e) { toast(SPEAK_HELP); }
+  };
+  try {
+    if (speechSynthesis.paused) speechSynthesis.resume();
+    if (speechSynthesis.speaking || speechSynthesis.pending) { speechSynthesis.cancel(); setTimeout(go, 80); } else go();   // direkt cancel()+speak() wird von iOS oft verschluckt
+  } catch (e) { go(); }
+}
+
+/* ---------- Lernlogik ---------- */
+function grade(id, correct) {
+  const c = card(id), t = today();
+  c.seen = (c.seen || 0) + 1;
+  if (correct) { c.right++; c.streak++; c.box = Math.min(4, c.box + 1); if (c.box < 0) c.box = 0; c.due = addDays(t, INTERVALS[c.box]); if (c.streak >= 3) c.problem = false; }
+  else { c.wrong++; c.streak = 0; c.box = 0; c.due = addDays(t, 1); }
+  const d = S.days[t] || (S.days[t] = { done: 0, right: 0 });
+  d.done++; if (correct) d.right++;
+  save();
+}
+function streakDays() { let n = 0, d = today(); if (!S.days[d]) d = addDays(d, -1); while (S.days[d]) { n++; d = addDays(d, -1); } return n; }
+
+function dueIds() { const t = today(); return scoped().filter(w => card(w.id).box >= 0 && card(w.id).due <= t).map(w => w.id); }
+function newIdsForToday(extra = 0) {
+  const t = today();
+  if (S.daily.date !== t) S.daily = { date: t, newIds: [] };
+  const want = S.settings.perDay + extra;
+  if (S.daily.newIds.length < want) {
+    let pool = scoped().filter(w => card(w.id).box === -1 && !S.daily.newIds.includes(w.id));
+    if (S.settings.order === "random") pool = shuffle(pool);
+    S.daily.newIds.push(...pool.slice(0, want - S.daily.newIds.length).map(w => w.id));
+    save();
+  }
+  return S.daily.newIds.filter(id => card(id).box === -1);
+}
+const dirFor = () => Math.random() < .5 ? "en2de" : "de2en";
+
+/* ---------- Ansichten ---------- */
+const app = $("#app");
+let sess = null;   // laufende Sitzung
+
+function home() {
+  sess = null; load();
+  const sc = scoped(), learned = sc.filter(w => card(w.id).box >= 0).length;
+  const a1All = a1Words([]), a1Total = a1All.length, a1Due = a1All.filter(w => card(w.id).box >= 0 && card(w.id).due <= today()).length;
+  const due = dueIds().length, prob = sc.filter(w => isProblem(w.id)).length;
+  const t = S.days[today()] || { done: 0 };
+  app.innerHTML = `
+  <div class="top"><div><h1>🇬🇧 Vokabel-Trainer</h1><div class="mute">Access 2 · Klasse 6</div></div>
+    <button class="ghost" id="bSet">⚙️</button></div>
+  <div class="card stats">
+    <div><b>${due}</b><span class="mute">fällig</span></div>
+    <div><b>${learned}</b><span class="mute">gelernt</span></div>
+    <div><b>${prob}</b><span class="mute">Problem</span></div>
+    <div><b>${streakDays()}🔥</b><span class="mute">Tage</span></div>
+  </div>
+  <div class="grid">
+    <button class="big" id="bDay">▶ Tagesrunde (ca. 15 Min.)<small>${due} wiederholen · bis zu ${S.settings.perDay} neue · gemischte Abfrage · eigene Sätze</small></button>
+    <button class="big sec" id="bProb" ${prob ? "" : "disabled"}>🎯 Problemwörter üben<small>${prob} Wörter, die oft falsch waren</small></button>
+    <button class="big sec" id="bFree">🔀 Freies Üben<small>zufällige gelernte Wörter, beide Richtungen</small></button>
+    ${CAN_SPEAK ? `<button class="big sec" id="bListen">🎧 Hören & Schreiben<small>Wort anhören und englisch aufschreiben</small></button>` : ""}
+    <button class="big sec" id="bVerbs">🔁 Unregelmäßige Verben<small>Lernmodus und Test: Grundform, Übersetzung, 2. und 3. Form</small></button>
+    <button class="big sec" id="bA1">🧱 Access 1 festigen<small>${a1Due} fällig · ${a1Total} Wörter aus Klasse 5 (nach Unit wählbar)</small></button>
+    <button class="big sec" id="bList">📚 Wortliste (${sc.length} im Lernbereich)</button>
+  </div>
+  <p class="mute">Heute geübt: ${t.done} Karten. Der Fortschritt wird nur in diesem Browser gespeichert.</p>`;
+  $("#bSet").onclick = settings;
+  $("#bDay").onclick = startDay;
+  $("#bProb").onclick = () => startSimple("Problemwörter", shuffle(sc.filter(w => isProblem(w.id)).map(w => w.id)).slice(0, 10));
+  $("#bFree").onclick = () => { const l = sc.filter(w => card(w.id).box >= 0).map(w => w.id); startSimple("Freies Üben", shuffle(l).slice(0, 12), l.length ? "" : "Noch keine Wörter gelernt – starte zuerst die Tagesrunde."); };
+  if (CAN_SPEAK) $("#bListen").onclick = () => { const l = sc.filter(w => card(w.id).box >= 0).map(w => w.id); startSimple("Hören & Schreiben", shuffle(l).slice(0, 10), l.length ? "" : "Noch keine Wörter gelernt.", "listen"); };
+  $("#bList").onclick = list;
+  $("#bA1").onclick = a1Menu;
+  $("#bVerbs").onclick = verbMenu;
+}
+
+function a1Menu() {
+  const sel = S.settings.a1Units || [];
+  app.innerHTML = `<div class="top"><button class="ghost" id="bBack">← Zurück</button></div><h1>Access 1 festigen</h1>
+    <p class="mute">Wörter aus den Vocabulary Action Sheets von Access 1 (Klasse 5). Ohne Auswahl kommen alle Units dran. Neue Wörter werden direkt abgefragt: Was sitzt, wandert in längere Abstände.</p>
+    <div class="chips" id="chips">${A1_UNITS.map(u => `<button class="chip ${sel.includes(u) ? "on" : ""}" data-v="${u}">${unitLabel(u)}</button>`).join("")}</div>
+    <div class="card"><div id="a1Info" class="mute"></div><button id="bGo" style="margin-top:10px">▶ 12 Wörter üben</button></div>`;
+  $("#bBack").onclick = home;
+  const info = () => { const ws = a1Words(S.settings.a1Units || []), t = today();
+    $("#a1Info").textContent = `${ws.length} Wörter in der Auswahl, davon ${ws.filter(w => card(w.id).box >= 0 && card(w.id).due <= t).length} fällig und ${ws.filter(w => card(w.id).box < 0).length} noch nie geübt.`; };
+  document.querySelectorAll("#chips .chip").forEach(b => b.onclick = () => {
+    const a = S.settings.a1Units || (S.settings.a1Units = []), v = b.dataset.v, i = a.indexOf(v); i < 0 ? a.push(v) : a.splice(i, 1);
+    b.classList.toggle("on"); save(); info(); });
+  info();
+  $("#bGo").onclick = () => {
+    const ws = a1Words(S.settings.a1Units || []), t = today();
+    const due = shuffle(ws.filter(w => card(w.id).box >= 0 && card(w.id).due <= t)), fresh = shuffle(ws.filter(w => card(w.id).box < 0));
+    const ids = [...due, ...fresh].slice(0, 12).map(w => w.id);
+    startSimple("Access 1 festigen", ids, "In dieser Auswahl gibt es nichts zu üben.");
+  };
+}
+
+function startSimple(title, ids, msg, mode) {
+  if (!ids.length) { alert(msg || "Keine Wörter verfügbar."); return; }
+  sess = { title, steps: ids.map(id => ({ type: "ask", id, dir: mode === "listen" ? "listen" : dirFor() })), i: 0, right: 0, total: 0, retried: new Set() };
+  render();
+}
+
+function startDay() {
+  const sc = scoped();
+  if (!sc.length) { alert("Im Lernbereich sind keine Wörter. Bitte die Einstellungen prüfen."); return; }
+  const due = shuffle(dueIds()).slice(0, 15);
+  const fresh = newIdsForToday();
+  const steps = [];
+  due.forEach(id => steps.push({ type: "ask", id, dir: dirFor(), phase: "Wiederholen" }));
+  if (fresh.length) {
+    steps.push({ type: "info", text: `Jetzt kommen ${fresh.length} neue Wörter. Lies, sprich nach und merk sie dir – danach wirst du abgefragt.` });
+    fresh.forEach(id => steps.push({ type: "intro", id, phase: "Neue Wörter" }));
+    shuffle(fresh).forEach(id => steps.push({ type: "ask", id, dir: "de2en", phase: "Neue Wörter abfragen", fresh: true }));
+  }
+  const mixPool = sc.filter(w => card(w.id).box >= 0 && !due.includes(w.id) && !fresh.includes(w.id));
+  const probs = mixPool.filter(w => isProblem(w.id)), rest = shuffle(mixPool.filter(w => !isProblem(w.id)));
+  const mix = shuffle([...shuffle(probs).slice(0, 4), ...rest]).slice(0, 8);
+  mix.forEach(w => steps.push({ type: "ask", id: w.id, dir: dirFor(), phase: "Gemischte Abfrage" }));
+  const sentWords = shuffle([...fresh, ...probs.map(w => w.id)]).slice(0, 3);
+  sentWords.forEach(id => steps.push({ type: "sentence", id, phase: "Eigene Sätze" }));
+  if (!steps.length) { alert("Heute ist nichts mehr zu tun – super! 🎉"); return; }
+  sess = { title: "Tagesrunde", steps, i: 0, right: 0, total: 0, retried: new Set() };
+  render();
+}
+
+const backBtn = () => `<button class="sec back" id="bPrev" aria-label="Zurück" title="Zurück" ${sess.i ? "" : "disabled"}>‹</button>`;
+function render() {
+  if (!sess) return home();
+  const s = sess.steps[sess.i];
+  if (!s) return finish();
+  const pct = Math.round(sess.i / sess.steps.length * 100);
+  const head = `<div class="top"><span class="mute">${esc(s.phase || sess.title)} · ${sess.i + 1}/${sess.steps.length}</span><button class="ghost" id="bQuit">Beenden ✕</button></div><div class="bar"><i style="width:${pct}%"></i></div>`;
+  if (s.type === "info") { app.innerHTML = head + `<div class="card"><p>${esc(s.text)}</p><div class="row">${backBtn()}<button id="bNext">Los geht's</button></div></div>`; $("#bNext").onclick = next; }
+  else if (s.type === "intro") intro(s, head);
+  else if (s.type === "sentence") sentence(s, head);
+  else if (s.type === "verb") verbStep(s, head);
+  else if (s.type === "vlearn") vlearnStep(s, head);
+  else ask(s, head);
+  const pv = $("#bPrev"); if (pv) pv.onclick = () => { if (sess.i > 0) { sess.i--; render(); } };
+  const q = $("#bQuit"); if (q) q.onclick = () => { if (confirm("Runde wirklich beenden?")) home(); };
+}
+function next() { sess.i++; render(); }
+
+function intro(s, head) {
+  const w = BY_ID.get(s.id);
+  app.innerHTML = head + `<div class="card"><span class="tag">neu</span>
+    <div class="prompt">${esc(w.en)}</div>${w.ipa ? `<div class="ipa">[ ${esc(w.ipa)} ]</div>` : ""}
+    <div class="ans" style="margin-top:.6em">${esc(w.de)}</div>
+    ${EXAMPLES[w.id] ? `<div class="ex"><div lang="en">${hl(EXAMPLES[w.id][0])}</div><div class="mute" lang="de">${hl(EXAMPLES[w.id][1])}</div></div>` : ""}
+    <div class="row" style="margin-top:16px">${backBtn()}${CAN_SPEAK ? `<button class="sec" id="bSay">🔊 Anhören</button>` : ""}<button id="bNext">Weiter</button></div>
+    <p class="mute">Tipp: Sprich das Wort laut nach und denk dir einen kurzen Satz aus.</p></div>`;
+  $("#bNext").onclick = next;
+  if (CAN_SPEAK) { $("#bSay").onclick = () => speak(speechText(w.en)); speak(speechText(w.en)); }
+}
+
+function ask(s, head) {
+  const w = BY_ID.get(s.id), listen = s.dir === "listen";
+  const dir = listen ? "de2en" : s.dir;
+  const q = listen ? "" : dir === "en2de" ? w.en : w.de;
+  const lbl = listen ? "Schreibe, was du hörst (Englisch)" : dir === "en2de" ? "Was heißt das auf Deutsch?" : "Was heißt das auf Englisch?";
+  const self = S.settings.input === "self" && !listen;
+  const sayBtn = id => CAN_SPEAK ? `<button class="ghost" id="${id}">🔊</button>` : "";
+  if (s.done) {   // schon beantwortet (nach „Zurück“): nur ansehen, nicht erneut werten
+    const sol = dir === "en2de" ? esc(w.de) : esc(w.en) + (w.ipa ? `  <span class="ipa">[ ${esc(w.ipa)} ]</span>` : "");
+    app.innerHTML = head + `<div class="card"><span class="tag">schon beantwortet</span><div class="prompt">${esc(q || "🎧")}</div>
+      <div class="mute">Lösung</div><div class="ans">${sol}</div>${dir === "en2de" && w.ipa ? `<div class="ipa">[ ${esc(w.ipa)} ]</div>` : ""}
+      <div class="row" style="margin-top:14px">${backBtn()}<button id="bNext">Weiter</button>${sayBtn("bSay3")}</div></div>`;
+    $("#bNext").onclick = next; if (CAN_SPEAK) $("#bSay3").onclick = () => speak(speechText(w.en)); return;
+  }
+  app.innerHTML = head + `<div class="card"><span class="tag">${lbl}</span>
+    ${listen ? `<div class="prompt">🎧</div><button class="sec" id="bSay">🔊 Nochmal anhören</button>` : `<div class="prompt">${esc(q)}</div>`}
+    <div id="in" style="margin-top:12px">${self
+      ? `<p class="mute">Sag die Antwort laut, dann schau nach.</p><button id="bShow">Lösung zeigen</button>`
+      : `<input type="text" id="ans" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Antwort eintippen …">
+         <div class="row" style="margin-top:10px">${backBtn()}<button id="bOk">Prüfen</button><button class="ghost" id="bDk">Weiß ich nicht</button></div>`}</div>
+    <div id="fb"></div></div>`;
+  if (listen) { $("#bSay").onclick = () => speak(speechText(w.en)); speak(speechText(w.en)); }
+  const reveal = (res, typed) => {
+    const shown = dir === "en2de" ? w.de : w.en + (w.ipa ? `  <span class="ipa">[ ${esc(w.ipa)} ]</span>` : "");
+    const msg = res === "right" ? `<div class="fb good">Richtig! ✓</div>` : res === "close" ? `<div class="fb good">Fast – kleiner Tippfehler. Richtig: ${shown}</div>` : res === "self" ? "" : `<div class="fb nope">Nicht ganz.${typed ? ` Du hast „${esc(typed)}“ geschrieben.` : ""}</div>`;
+    $("#in").innerHTML = "";
+    $("#fb").innerHTML = msg + `<div class="mute">Lösung</div><div class="ans">${shown}</div>${dir === "en2de" ? `<div class="ipa">${esc(w.en)}${w.ipa ? ` [ ${esc(w.ipa)} ]` : ""}</div>` : ""}
+      <div class="row" style="margin-top:14px">${backBtn()}${res === "right" || res === "close" ? `<button id="bNext">Weiter</button>` :
+      res === "self" ? `<button class="bad" id="bNo">Gewusst nicht</button><button class="ok" id="bYes">Gewusst!</button>` :
+      `<button class="sec" id="bYes">Doch richtig gewesen</button><button id="bNo">Weiter</button>`}
+      ${sayBtn("bSay2")}</div>`;
+    if (CAN_SPEAK) { $("#bSay2").onclick = () => speak(speechText(w.en)); if (dir === "en2de") speak(speechText(w.en)); }
+    const done = ok => { finishCard(s, ok); };
+    if ($("#bNext")) $("#bNext").onclick = () => done(true);
+    if ($("#bYes")) $("#bYes").onclick = () => done(true);
+    if ($("#bNo")) $("#bNo").onclick = () => done(false);
+  };
+  if (self) $("#bShow").onclick = () => reveal("self");
+  else {
+    const inp = $("#ans"); inp.focus();
+    const go = () => reveal(check(w, dir, inp.value), inp.value.trim());
+    $("#bOk").onclick = go; $("#bDk").onclick = () => reveal("wrong", "");
+    inp.addEventListener("keydown", e => { if (e.key === "Enter") go(); });
+  }
+}
+function finishCard(s, ok) {
+  s.done = true; sess.total++; if (ok) sess.right++;
+  const c = card(s.id);
+  if (!ok) {
+    grade(s.id, false);
+    if (c.wrong >= 3) c.problem = true;
+    if (!sess.retried.has(s.id)) { sess.retried.add(s.id); sess.steps.splice(Math.min(sess.steps.length, sess.i + 4), 0, { type: "ask", id: s.id, dir: s.dir === "en2de" ? "de2en" : "en2de", phase: "Nochmal versuchen", retry: true }); }
+    save();
+  } else if (!s.retry) grade(s.id, true);
+  else { const t = S.days[today()] || (S.days[today()] = { done: 0, right: 0 }); t.done++; save(); }
+  next();
+}
+
+function sentence(s, head) {
+  const w = BY_ID.get(s.id), key = w.id;
+  app.innerHTML = head + `<div class="card"><span class="tag">Eigener Satz</span>
+    <div class="prompt">${esc(w.en)}</div><div class="mute">${esc(w.de)}</div>
+    <p>Schreibe einen kurzen englischen Satz mit diesem Wort, z. B. „I’m hungry.“</p>
+    <textarea id="sen" rows="2" placeholder="Mein Satz …">${esc(S.sentences[key] || "")}</textarea>
+    <div class="row" style="margin-top:10px">${backBtn()}<button class="ghost" id="bSkip">Überspringen</button><button id="bSave">Speichern & weiter</button></div></div>`;
+  $("#bSkip").onclick = next;
+  $("#bSave").onclick = () => { const v = $("#sen").value.trim(); if (v) { S.sentences[key] = v; save(); } next(); };
+}
+
+function finish() {
+  const r = sess.right, t = sess.total;
+  const problems = [...new Set(sess.steps.filter(s => s.type === "ask" || s.type === "verb").map(s => s.type === "verb" ? vKey(s.base) : s.id))].filter(id => isProblem(id));
+  app.innerHTML = `<h1>Geschafft! 🎉</h1><div class="card stats" style="grid-template-columns:repeat(3,1fr)">
+    <div><b>${t || sess.steps.filter(x => x.type === "vlearn").length}</b><span class="mute">${t ? "Karten" : "angesehen"}</span></div><div><b>${t ? r : "–"}</b><span class="mute">richtig</span></div><div><b>${streakDays()}🔥</b><span class="mute">Tage in Folge</span></div></div>
+    ${problems.length ? `<div class="card"><b>Problemwörter</b><div class="mute">Diese kommen morgen wieder dran:</div><p>${problems.map(id => esc(BY_ID.has(id) ? BY_ID.get(id).en : String(id).slice(2))).join(" · ")}</p></div>` : ""}
+    <p class="mute">Morgen kurz weitermachen – kleine Portionen jeden Tag wirken besser als einmal viel.</p>
+    <button id="bHome">Fertig</button>`;
+  $("#bHome").onclick = home;
+}
+
+/* ---------- Unregelmäßige Verben ---------- */
+let VERBS = [], VERB_BY = {}, VERB_EX = {};
+const vKey = b => "v:" + b;
+const vPattern = v => v.base === v.past && v.past === v.pp ? "AAA" : v.base === v.pp ? "ABA" : v.past === v.pp ? "ABB" : "ABC";
+const V_GROUPS = { AAA: "alle drei gleich (cut – cut – cut)", ABA: "1. = 3. Form (come – came – come)", ABB: "2. = 3. Form (buy – bought – bought)", ABC: "alle verschieden (sing – sang – sung)" };
+const V_FIELDS = [["base", "Grundform"], ["de", "Übersetzung"], ["past", "2. Form (simple past)"], ["pp", "3. Form (past participle)"]];
+const vSel = () => (S.settings.vGroups && S.settings.vGroups.length ? S.settings.vGroups : Object.keys(V_GROUPS));
+const vPool = () => VERBS.filter(v => vSel().includes(vPattern(v)));
+const vSay = v => speak([v.base, v.past, v.pp].join(", ").replace(/\//g, " or "));
+
+function verbMenu() {
+  sess = null;
+  const t = today(), sel = S.settings.vGroups || (S.settings.vGroups = []);
+  const pool = vPool(), learned = pool.filter(v => card(vKey(v.base)).box >= 0).length;
+  const due = pool.filter(v => { const c = card(vKey(v.base)); return c.box >= 0 && c.due <= t; }).length;
+  app.innerHTML = `<div class="top"><button class="ghost" id="bBack">← Zurück</button></div><h1>Unregelmäßige Verben</h1>
+    <p class="mute">${VERBS.length} Verben aus Access 1 und 2 · ${learned}/${pool.length} gelernt · ${due} fällig. Pro Runde kommen 10–12 Verben dran.</p>
+    <div class="grid">
+      <button class="big" id="bLearn">📖 Lernen<small>Lernkarten: Verb, Übersetzung und je ein Beispielsatz für alle drei Formen</small></button>
+      <button class="big sec" id="bMix">🔀 Mix<small>Lernkarten und Testkarten gemischt – getestet wird immer erst nach der Lernkarte</small></button>
+      <button class="big sec" id="bTest">✍️ Test<small>nur Testkarten: 1–3 Lücken (Übersetzung, Grundform, 2. und 3. Form)</small></button>
+    </div>
+    <h2 style="margin-top:20px">Muster filtern</h2>
+    <div class="chips" id="chips">${Object.entries(V_GROUPS).map(([k, l]) => `<button class="chip ${sel.includes(k) ? "on" : ""}" data-v="${k}">${esc(l)}</button>`).join("")}</div>
+    <p class="mute">Ohne Auswahl sind alle Muster dabei.</p>`;
+  $("#bBack").onclick = home;
+  document.querySelectorAll("#chips .chip").forEach(b => b.onclick = () => { const a = S.settings.vGroups, v = b.dataset.v, i = a.indexOf(v); i < 0 ? a.push(v) : a.splice(i, 1); save(); verbMenu(); });
+  $("#bLearn").onclick = () => startVerbs("learn"); $("#bMix").onclick = () => startVerbs("mix"); $("#bTest").onclick = () => startVerbs("test");
+}
+
+function vlearnStep(s, head) {
+  const v = VERB_BY[s.base], ex = VERB_EX[s.base] || [], forms = [v.base, v.past, v.pp], labels = ["1. Form · Grundform", "2. Form · simple past", "3. Form · past participle"];
+  app.innerHTML = head + `<div class="card"><span class="tag">Lernkarte</span>
+    <div class="prompt">${esc(v.base)}</div><div class="ans" style="font-size:1.15rem">${esc(v.de)}</div>
+    ${forms.map((f, i) => `<div class="vex"><div class="vlab">${labels[i]}</div>
+      <div class="vexrow"><div><div class="vform">${esc(f)}</div>${ex[i] ? `<div class="vsent">${hl(ex[i][0])}</div><div class="mute" style="font-size:.9rem">${esc(ex[i][1])}</div>` : ""}</div>
+      <button class="ghost" data-i="${i}" aria-label="Anhören">🔊</button></div></div>`).join("")}
+    <div class="row" style="margin-top:14px">${backBtn()}<button id="bNext">Weiter</button></div></div>`;
+  $("#bNext").onclick = next;
+  document.querySelectorAll("[data-i]").forEach(b => b.onclick = () => speak((ex[+b.dataset.i] ? ex[+b.dataset.i][0].replace(/\*\*/g, "") : forms[+b.dataset.i])));
+}
+
+function pickVerbs(n) {   // fällige zuerst, dann Problemverben, dann neue, dann der Rest
+  const pool = vPool(), t = today(), cs = v => card(vKey(v.base));
+  const due = shuffle(pool.filter(v => cs(v).box >= 0 && cs(v).due <= t)), prob = shuffle(pool.filter(v => isProblem(vKey(v.base)) && !due.includes(v)));
+  const fresh = shuffle(pool.filter(v => cs(v).box < 0)), rest = shuffle(pool.filter(v => cs(v).box >= 0 && !due.includes(v) && !prob.includes(v)));
+  return shuffle([...new Set([...due.slice(0, 5), ...prob.slice(0, 3), ...fresh.slice(0, 5), ...rest, ...due, ...prob, ...fresh])].slice(0, n));
+}
+function mixOrder(picks) {   // zufällige Reihenfolge, Testkarte immer erst nach der zugehörigen Lernkarte
+  const out = [], rest = picks.slice(), shown = [];
+  while (rest.length || shown.length) {
+    if (rest.length && (!shown.length || Math.random() < 0.55)) { const v = rest.shift(); out.push({ type: "vlearn", base: v.base }); shown.push(v); }
+    else { const v = shown.splice(Math.floor(Math.random() * shown.length), 1)[0]; out.push({ type: "verb", base: v.base, blanks: pickBlanks(card(vKey(v.base))) }); }
+  }
+  return out;
+}
+function startVerbs(mode) {
+  if (!vPool().length) { alert("Keine Verben in dieser Auswahl."); return; }
+  const picks = pickVerbs(mode === "learn" ? 12 : 10);
+  const steps = mode === "learn" ? picks.map(v => ({ type: "vlearn", base: v.base })) : mode === "test" ? picks.map(v => ({ type: "verb", base: v.base, blanks: pickBlanks(card(vKey(v.base))) })) : mixOrder(picks);
+  sess = { title: mode === "learn" ? "Verben lernen" : mode === "mix" ? "Verben-Mix" : "Verben-Test", steps, i: 0, right: 0, total: 0, retried: new Set() };
+  render();
+}
+
+function pickBlanks(c) {   // 1–3 Lücken; bei sicheren Verben eher mehr
+  const n = Math.min(3, 1 + Math.floor((Math.max(c.box, 0) + Math.random() * 2) / 1.6));
+  return shuffle(V_FIELDS.map(f => f[0])).slice(0, n);
+}
+function checkVerbField(v, f, val) {
+  const a = norm(val); if (!a) return false;
+  if (f === "de") { const alts = alternatives(v.de, "de"); return alts.includes(a) || alts.some(x => bag(x) === bag(a)) || alts.some(x => x.length >= 5 && lev(a, x) <= 1); }
+  const alts = [...new Set([norm(v[f]), ...slashVariants(v[f]).map(norm)])];
+  return alts.includes(a) || alts.some(x => bag(x) === bag(a));
+}
+function verbStep(s, head) {
+  const v = VERB_BY[s.base];
+  const rowsHtml = (inputs, res) => V_FIELDS.map(([f, label]) => {
+    const blank = inputs && s.blanks.includes(f), r = res && res[f];
+    const cell = blank ? `<input type="text" id="vf_${f}" data-f="${f}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="${label}">`
+      : `<span class="vgiven ${r === true ? "okc" : r === false ? "badc" : ""}">${esc(v[f])}</span>`;
+    return `<div class="vq ${blank ? "gap" : ""}"><div class="mute">${label}</div><div>${cell}</div></div>`; }).join("");
+  if (s.done) {   // nach „Zurück“: ansehen, nicht erneut werten
+    app.innerHTML = head + `<div class="card"><span class="tag">schon beantwortet</span>${rowsHtml(false)}<div class="row" style="margin-top:14px">${backBtn()}<button id="bNext">Weiter</button><button class="ghost" id="bSayV" aria-label="Anhören">🔊</button></div></div>`;
+    $("#bNext").onclick = next; $("#bSayV").onclick = () => vSay(v); return;
+  }
+  app.innerHTML = head + `<div class="card"><span class="tag">${s.blanks.length === 1 ? "1 Lücke" : s.blanks.length + " Lücken"} ausfüllen</span><div id="vq">${rowsHtml(true)}</div>
+    <div id="fb"></div><div class="row" id="vbtn" style="margin-top:14px">${backBtn()}<button id="bOk">Prüfen</button></div></div>`;
+  const inputs = [...document.querySelectorAll("#vq input")]; inputs[0].focus();
+  const go = () => {
+    const typed = {}; s.blanks.forEach(f => typed[f] = $("#vf_" + f).value.trim());
+    const res = {}; s.blanks.forEach(f => res[f] = checkVerbField(v, f, typed[f]));
+    const ok = s.blanks.every(f => res[f]);
+    $("#vq").innerHTML = V_FIELDS.map(([f, label]) => {
+      const blank = s.blanks.includes(f);
+      const val = !blank ? `<span class="vgiven">${esc(v[f])}</span>` : res[f] ? `<span class="vgiven okc">${esc(v[f])} ✓</span>` : `<span class="vgiven badc">${typed[f] ? "<s>" + esc(typed[f]) + "</s> → " : ""}${esc(v[f])}</span>`;
+      return `<div class="vq"><div class="mute">${label}</div><div>${val}</div></div>`; }).join("");
+    $("#fb").innerHTML = ok ? `<div class="fb good">Alles richtig! ✓</div>` : `<div class="fb nope">${s.blanks.filter(f => !res[f]).length === 1 ? "Eine Lücke" : "Einige Lücken"} nicht ganz richtig.</div>`;
+    $("#vbtn").innerHTML = `${backBtn()}${ok ? "" : `<button class="sec" id="bYes">Doch richtig</button>`}<button id="bNext">Weiter</button><button class="ghost" id="bSayV" aria-label="Anhören">🔊</button>`;
+    $("#bSayV").onclick = () => vSay(v); vSay(v);
+    $("#bNext").onclick = () => finishVerb(s, ok);
+    if ($("#bYes")) $("#bYes").onclick = () => finishVerb(s, true);
+    const pv = $("#bPrev"); if (pv) pv.onclick = () => { if (sess.i > 0) { sess.i--; render(); } };
+  };
+  $("#bOk").onclick = go;
+  inputs.forEach((inp, i) => inp.addEventListener("keydown", e => { if (e.key === "Enter") { i < inputs.length - 1 ? inputs[i + 1].focus() : go(); } }));
+}
+function finishVerb(s, ok) {
+  s.done = true; sess.total++; if (ok) sess.right++;
+  const key = vKey(s.base), c = card(key);
+  if (!ok) {
+    grade(key, false); if (c.wrong >= 3) c.problem = true;
+    if (!sess.retried.has(key)) { sess.retried.add(key); sess.steps.splice(Math.min(sess.steps.length, sess.i + 4), 0, { type: "verb", base: s.base, blanks: pickBlanks(c), phase: "Nochmal versuchen", retry: true }); }
+    save();
+  } else if (!s.retry) grade(key, true);
+  else { const t = S.days[today()] || (S.days[today()] = { done: 0, right: 0 }); t.done++; save(); }
+  next();
+}
+
+/* ---------- Wortliste ---------- */
+function list() {
+  app.innerHTML = `<div class="top"><button class="ghost" id="bBack">← Zurück</button></div><h1>Wortliste</h1>
+    <input type="text" id="q" placeholder="Suchen …"><label class="chk mute" style="margin:8px 0"><input type="checkbox" id="onlyP"> nur Problemwörter</label>
+    <div class="card" style="padding:6px 12px"><table id="tb"></table></div>`;
+  $("#bBack").onclick = home;
+  const draw = () => {
+    const q = $("#q").value.toLowerCase().trim(), op = $("#onlyP").checked;
+    const rows = WORDS.filter(w => !isForm(w) || S.settings.forms).filter(w => (!q || (w.en + " " + w.de).toLowerCase().includes(q)) && (!op || isProblem(w.id))).slice(0, 150);
+    $("#tb").innerHTML = rows.map(w => { const c = card(w.id); return `<tr><td><b>${esc(w.en)}</b>${w.deck === "a1" ? ` <span class="tag">Access 1 · ${esc(unitLabel(w.unit))}</span>` : ""}<br><span class="mute">${esc(w.de)}</span></td>
+      <td style="text-align:right;white-space:nowrap">${CAN_SPEAK ? `<button class="ghost" data-s="${w.id}">🔊</button>` : ""}<button class="ghost" data-p="${w.id}" title="Problemwort">${c.problem ? "⭐" : "☆"}</button><button class="ghost" data-k="${w.id}" title="Kann ich schon sicher">${c.known ? "✅" : "⬜"}</button></td></tr>`; }).join("") || `<tr><td class="mute">Nichts gefunden.</td></tr>`;
+  };
+  document.addEventListener("click", function h(e) {
+    if (!$("#tb")) { document.removeEventListener("click", h); return; }
+    const b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.s) speak(speechText(BY_ID.get(+b.dataset.s).en));
+    if (b.dataset.p) { const c = card(+b.dataset.p); c.problem = !c.problem; if (c.problem && c.box < 0) c.box = 0, c.due = today(); save(); draw(); }
+    if (b.dataset.k) { const c = card(+b.dataset.k); c.known = !c.known; save(); draw(); }
+  });
+  $("#q").oninput = draw; $("#onlyP").onchange = draw; draw();
+}
+
+/* ---------- Einstellungen ---------- */
+function settings() {
+  const st = S.settings, letters = [...new Set(WORDS.map(w => w.en[0].toUpperCase()))].filter(l => /[A-Z]/.test(l)).sort();
+  const unitNames = Object.keys(S.units);
+  app.innerHTML = `<div class="top"><button class="ghost" id="bBack">← Zurück</button></div><h1>Einstellungen</h1>
+  <div class="card"><b>Neue Wörter pro Tag</b>
+    <select id="perDay">${[5, 8, 10, 12, 15, 20].map(n => `<option ${n === st.perDay ? "selected" : ""}>${n}</option>`).join("")}</select>
+    <p><b>Reihenfolge neuer Wörter</b></p><select id="order"><option value="abc" ${st.order === "abc" ? "selected" : ""}>alphabetisch (wie in der Wortliste)</option><option value="random" ${st.order === "random" ? "selected" : ""}>gemischt</option></select>
+    <p><b>Antwort-Art</b></p><select id="input"><option value="type" ${st.input === "type" ? "selected" : ""}>Eintippen (wird geprüft)</option><option value="self" ${st.input === "self" ? "selected" : ""}>Laut sagen, dann selbst bewerten</option></select>
+    <p><label class="chk"><input type="checkbox" id="forms" ${st.forms ? "checked" : ""}> Verbformen („siehe …“, z. B. <i>bought</i>) mitlernen</label></p></div>
+  <div class="card"><b>Lernbereich</b><div class="mute">Welche Wörter sind gerade dran (z. B. nur die Wörter der aktuellen Unit)?</div>
+    <select id="scopeType" style="margin:8px 0"><option value="all" ${st.scopeType === "all" ? "selected" : ""}>Alle Wörter</option><option value="letters" ${st.scopeType === "letters" ? "selected" : ""}>Nach Anfangsbuchstaben</option>${unitNames.length ? `<option value="unit" ${st.scopeType === "unit" ? "selected" : ""}>Nach Unit</option>` : ""}</select>
+    <div class="chips" id="chips"></div></div>
+  <div class="card"><b>Units zuordnen (optional)</b><div class="mute">Die Zuordnung zu den Units steht nicht in der Wortliste. Aus dem Schulbuch (Wordbank der Unit) oder der Lehrerliste kannst du die englischen Wörter hier einfügen – ein Wort pro Zeile oder mit Komma getrennt.</div>
+    <input type="text" id="uName" placeholder="Name, z. B. Unit 1" style="margin:8px 0"><textarea id="uWords" rows="4" placeholder="holiday, weather, …"></textarea>
+    <div class="row" style="margin-top:8px"><button id="uSave" class="sec">Unit speichern</button></div><div id="uMsg" class="mute"></div>
+    <div class="chips" style="margin-top:8px">${unitNames.map(u => `<span class="tag">${esc(u)} (${S.units[u].length}) <a href="#" data-del="${esc(u)}">✕</a></span>`).join("")}</div></div>
+  <div class="card"><b>Sprachausgabe testen</b>
+    <div class="mute" id="spInfo" style="margin:6px 0"></div>
+    <button class="sec" id="spTest">🔊 „hello“ sprechen</button>
+    <pre id="spLog" class="mute" style="white-space:pre-wrap;margin:8px 0 0;font-size:.8rem"></pre></div>
+  <div class="card"><b>Fortschritt</b><div class="row" style="margin-top:8px"><button class="sec" id="exp">Sichern (Datei)</button><button class="sec" id="imp">Laden</button><button class="bad" id="rst">Zurücksetzen</button></div><input type="file" id="file" accept="application/json" hidden></div>`;
+  $("#bBack").onclick = home;
+  const chips = () => {
+    const t = $("#scopeType").value, el = $("#chips");
+    el.innerHTML = t === "letters" ? letters.map(l => `<button class="chip ${st.letters.includes(l) ? "on" : ""}" data-v="${l}">${l}</button>`).join("")
+      : t === "unit" ? unitNames.map(u => `<button class="chip ${st.unitSel.includes(u) ? "on" : ""}" data-v="${esc(u)}">${esc(u)}</button>`).join("") : "";
+    el.querySelectorAll("button").forEach(b => b.onclick = () => { const arr = t === "letters" ? st.letters : st.unitSel, v = b.dataset.v; const i = arr.indexOf(v); i < 0 ? arr.push(v) : arr.splice(i, 1); save(); chips(); });
+  };
+  $("#scopeType").onchange = () => { st.scopeType = $("#scopeType").value; save(); chips(); };
+  $("#perDay").onchange = () => { st.perDay = +$("#perDay").value; save(); };
+  $("#order").onchange = () => { st.order = $("#order").value; save(); };
+  $("#input").onchange = () => { st.input = $("#input").value; save(); };
+  $("#forms").onchange = () => { st.forms = $("#forms").checked; save(); };
+  chips();
+  $("#uSave").onclick = () => {
+    const n = $("#uName").value.trim(), ws = $("#uWords").value.split(/[\n,;]+/).map(x => x.trim().toLowerCase()).filter(Boolean);
+    if (!n || !ws.length) { $("#uMsg").textContent = "Bitte Name und Wörter eingeben."; return; }
+    const known = new Set(WORDS.map(w => w.en.toLowerCase())), hit = ws.filter(x => known.has(x));
+    S.units[n] = hit; save();
+    $("#uMsg").textContent = `${hit.length} von ${ws.length} Wörtern in der Wortliste gefunden${hit.length < ws.length ? ". Nicht gefunden: " + ws.filter(x => !known.has(x)).slice(0, 15).join(", ") : ""}.`;
+    setTimeout(settings, 1800);
+  };
+  document.querySelectorAll("[data-del]").forEach(a => a.onclick = e => { e.preventDefault(); delete S.units[a.dataset.del]; st.unitSel = st.unitSel.filter(u => u !== a.dataset.del); if (!Object.keys(S.units).length && st.scopeType === "unit") st.scopeType = "all"; save(); settings(); });
+  { loadVoices(); const en = VOICES.filter(v => (v.lang || "").toLowerCase().replace("_", "-").startsWith("en"));
+    $("#spInfo").textContent = !CAN_SPEAK ? "Dieser Browser hat keine Sprachausgabe." :
+      `Stimmen: ${VOICES.length} gesamt, ${en.length} englisch${en.length ? " (" + en.slice(0, 3).map(v => v.name).join(", ") + ")" : ""} · ${FRAMED ? "eingebettet (App/Frame)" : "eigenständige Seite"}. Wenn „gestartet“ erscheint, aber kein Ton kommt: Stumm-Schalter und Lautstärke prüfen.`;
+    $("#spTest").onclick = () => { const L = $("#spLog"); L.textContent = ""; speakLog = m => { L.textContent += m + "\n"; }; speak("hello"); setTimeout(() => { if (!L.textContent.includes("gestartet")) L.textContent += "(nach 3 s noch nicht gestartet)\n"; }, 3000); }; }
+  $("#exp").onclick = () => { const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([JSON.stringify(S)], { type: "application/json" })); a.download = "vokabel-fortschritt-" + today() + ".json"; a.click(); };
+  $("#imp").onclick = () => $("#file").click();
+  $("#file").onchange = async e => { try { const j = JSON.parse(await e.target.files[0].text()); if (!j.cards) throw 0; localStorage.setItem(KEY, JSON.stringify(j)); load(); alert("Geladen."); home(); } catch (_) { alert("Datei nicht lesbar."); } };
+  $("#rst").onclick = () => { if (confirm("Wirklich den gesamten Fortschritt löschen?")) { localStorage.removeItem(KEY); load(); home(); } };
+}
+
+/* ---------- Start ---------- */
+if ("serviceWorker" in navigator && location.protocol.startsWith("http")) addEventListener("load", () => { try { navigator.serviceWorker.register("sw.js").catch(() => {}); } catch (e) {} });
+Promise.all([fetch("data/words.json").then(r => r.json()), fetch("data/words_a1.json").then(r => r.json()).catch(() => []), fetch("data/examples.json").then(r => r.json()).catch(() => ({})), fetch("data/verbs.json").then(r => r.json()).catch(() => []), fetch("data/verb_examples.json").then(r => r.json()).catch(() => ({}))]).then(([a2, a1, ex, verbs, vex]) => {
+  const j = a2.concat(a1); EXAMPLES = ex; VERBS = verbs; VERB_EX = vex; VERB_BY = Object.fromEntries(verbs.map(v => [v.base, v]));
+  WORDS = j; BY_ID = new Map(j.map(w => [w.id, w]));
+  load(); home();
+  if ("speechSynthesis" in window) speechSynthesis.getVoices();
+}).catch(() => { app.innerHTML = `<div class="card">Die Wortliste konnte nicht geladen werden.</div>`; });
+</script>
+</body>
+</html>

@@ -1,0 +1,6051 @@
+[
+{
+"id": 0,
+"en": "a 150-kilogram bear",
+"de": "ein 150 Kilo schwerer Bär"
+},
+{
+"id": 1,
+"en": "a 20-mile tour",
+"de": "eine 20-Meilen-Tour"
+},
+{
+"id": 2,
+"en": "a 24-hour supermarket",
+"de": "ein Supermarkt, der 24 Stunden geöffnet ist"
+},
+{
+"id": 3,
+"en": "a 60-year-old waiter",
+"de": "ein 60-jähriger Kellner"
+},
+{
+"id": 4,
+"en": "a fun experience",
+"de": "ein unterhaltsames Erlebnis"
+},
+{
+"id": 5,
+"en": "a half-hour trip",
+"de": "eine halbstündige Fahrt"
+},
+{
+"id": 6,
+"en": "a six-month stay",
+"de": "ein sechsmonatiger Aufenthalt"
+},
+{
+"id": 7,
+"en": "a ten-minute walk",
+"de": "ein zehnminütiger Spaziergang"
+},
+{
+"id": 8,
+"en": "a three-week holiday",
+"de": "ein dreiwöchiger Urlaub"
+},
+{
+"id": 9,
+"en": "a: twice a month",
+"de": "zweimal pro Monat"
+},
+{
+"id": 10,
+"en": "above",
+"de": "oben, darüber; über, oberhalb (von)",
+"ipa": "əˈbʌv"
+},
+{
+"id": 11,
+"en": "action",
+"de": "Action; Handlung, Tat",
+"ipa": "ˈækʃn"
+},
+{
+"id": 12,
+"en": "Actually, …",
+"de": "eigentlich; übrigens; tatsächlich",
+"ipa": "ˈæktʃuəli"
+},
+{
+"id": 13,
+"en": "AD",
+"de": "n. Chr. (nach Christus)",
+"ipa": "ˌeɪ ˈdiː"
+},
+{
+"id": 14,
+"en": "adventure",
+"de": "Abenteuer",
+"ipa": "ədˈventʃə"
+},
+{
+"id": 15,
+"en": "advice (no pl)",
+"de": "Rat, Ratschlag, Ratschläge",
+"ipa": "ədˈvaɪs"
+},
+{
+"id": 16,
+"en": "afraid: be afraid (of sth./sb.)",
+"de": "Angst haben (vor etwas/jm.)",
+"ipa": "əˈfreɪd"
+},
+{
+"id": 17,
+"en": "again and again",
+"de": "immer wieder"
+},
+{
+"id": 18,
+"en": "age",
+"de": "Zeitalter",
+"ipa": "eɪdʒ"
+},
+{
+"id": 19,
+"en": "ago: two hours ago",
+"de": "vor zwei Stunden",
+"ipa": "əˈɡəʊ"
+},
+{
+"id": 20,
+"en": "air",
+"de": "Luft",
+"ipa": "eə"
+},
+{
+"id": 21,
+"en": "all summer",
+"de": "den ganzen Sommer",
+"ipa": "ɔːl"
+},
+{
+"id": 22,
+"en": "along the street/the river/...",
+"de": "die Straße/den Fluss/... entlang",
+"ipa": "əˈlɒŋ"
+},
+{
+"id": 23,
+"en": "although",
+"de": "obwohl",
+"ipa": "ɔːlˈðəʊ"
+},
+{
+"id": 24,
+"en": "altogether",
+"de": "insgesamt, alles in allem",
+"ipa": "ˌɔːltəˈɡeðə"
+},
+{
+"id": 25,
+"en": "animal centre",
+"de": "Tierheim"
+},
+{
+"id": 26,
+"en": "any: in any colour",
+"de": "in jeder Farbe",
+"ipa": "ˈeni"
+},
+{
+"id": 27,
+"en": "anybody? / anyone?",
+"de": "(irgend)jemand?",
+"ipa": "ˈenibɒdi"
+},
+{
+"id": 28,
+"en": "anything else",
+"de": "sonst noch etwas"
+},
+{
+"id": 29,
+"en": "anything?",
+"de": "(irgend)etwas?",
+"ipa": "ˈeniθɪŋ"
+},
+{
+"id": 30,
+"en": "Anyway, …",
+"de": "Jedenfalls, … / Aber egal, …",
+"ipa": "ˈeniweɪ"
+},
+{
+"id": 31,
+"en": "appointment",
+"de": "Verabredung, Termin",
+"ipa": "əˈpɔɪntmənt"
+},
+{
+"id": 32,
+"en": "Are you ready to order",
+"de": "Möchten Sie schon bestellen?"
+},
+{
+"id": 33,
+"en": "article",
+"de": "Artikel",
+"ipa": "ˈɑːtɪkl"
+},
+{
+"id": 34,
+"en": "artist",
+"de": "Künstler/in",
+"ipa": "ˈɑːtɪst"
+},
+{
+"id": 35,
+"en": "as",
+"de": "als, während",
+"ipa": "æz / əz"
+},
+{
+"id": 36,
+"en": "as a superhero",
+"de": "als Superheld/in + teacher, kid etc",
+"ipa": "æz / əz"
+},
+{
+"id": 37,
+"en": "as cool as",
+"de": "so cool wie",
+"ipa": "æz / əz"
+},
+{
+"id": 38,
+"en": "ask sb. the way (to …)",
+"de": "jn. nach dem Weg (nach/zu …) fragen"
+},
+{
+"id": 39,
+"en": "astronaut",
+"de": "Astronaut/in",
+"ipa": "ˈæstrənɔːt"
+},
+{
+"id": 40,
+"en": "at first",
+"de": "anfangs",
+"ipa": "ət ˈfɜːst"
+},
+{
+"id": 41,
+"en": "at the last moment",
+"de": "im letzten Moment"
+},
+{
+"id": 42,
+"en": "ate",
+"de": "siehe „eat“",
+"ipa": "et / eɪt",
+"form_of": "eat"
+},
+{
+"id": 43,
+"en": "attention",
+"de": "Aufmerksamkeit",
+"ipa": "əˈtenʃn"
+},
+{
+"id": 44,
+"en": "awake",
+"de": "wach",
+"ipa": "əˈweɪk"
+},
+{
+"id": 45,
+"en": "awful",
+"de": "schrecklich, fürchterlich",
+"ipa": "ˈɔːfl"
+},
+{
+"id": 46,
+"en": "bacon",
+"de": "Schinkenspeck",
+"ipa": "ˈbeɪkən"
+},
+{
+"id": 47,
+"en": "badger",
+"de": "Dachs",
+"ipa": "ˈbædʒə"
+},
+{
+"id": 48,
+"en": "bank",
+"de": "Bank",
+"ipa": "bæŋk"
+},
+{
+"id": 49,
+"en": "batter",
+"de": "Backteig",
+"ipa": "ˈbætər"
+},
+{
+"id": 50,
+"en": "battery",
+"de": "Batterie, Akku",
+"ipa": "ˈbætəri"
+},
+{
+"id": 51,
+"en": "battle",
+"de": "Schlacht; Kampf",
+"ipa": "ˈbætl"
+},
+{
+"id": 52,
+"en": "BC",
+"de": "v. Chr.",
+"ipa": "ˌbiː ˈsiː"
+},
+{
+"id": 53,
+"en": "be in charge of sth./sb.",
+"de": "für etwas/jn. verantwortlich sein",
+"ipa": "ˈtʃɑːdʒ"
+},
+{
+"id": 54,
+"en": "be lost",
+"de": "sich verlaufen haben",
+"ipa": "lɒst"
+},
+{
+"id": 55,
+"en": "beanie",
+"de": "Beanie-Mütze",
+"ipa": "ˈbiːni"
+},
+{
+"id": 56,
+"en": "bear",
+"de": "Bär",
+"ipa": "beə"
+},
+{
+"id": 57,
+"en": "became",
+"de": "siehe „become“",
+"ipa": "bɪˈkeɪm",
+"form_of": "become"
+},
+{
+"id": 58,
+"en": "become",
+"de": "werden",
+"ipa": "bɪˈkʌm"
+},
+{
+"id": 59,
+"en": "bed (flower bed)",
+"de": "Beet (Blumenbeet)",
+"ipa": "bed"
+},
+{
+"id": 60,
+"en": "beef",
+"de": "Rindfleisch",
+"ipa": "biːf"
+},
+{
+"id": 61,
+"en": "been",
+"de": "",
+"ipa": "biːn",
+"form_of": ""
+},
+{
+"id": 62,
+"en": "before",
+"de": "(vorher) schon mal",
+"ipa": "bɪˈfɔː"
+},
+{
+"id": 63,
+"en": "before long",
+"de": "schon bald"
+},
+{
+"id": 64,
+"en": "began",
+"de": "siehe „begin“",
+"ipa": "bɪˈɡæn",
+"form_of": "begin"
+},
+{
+"id": 65,
+"en": "beginning",
+"de": "Anfang, Beginn",
+"ipa": "bɪˈɡɪnɪŋ"
+},
+{
+"id": 66,
+"en": "belong to sb.",
+"de": "jm. gehören; zu jm. gehören",
+"ipa": "bɪˈlɒŋ"
+},
+{
+"id": 67,
+"en": "belt",
+"de": "Gürtel",
+"ipa": "belt"
+},
+{
+"id": 68,
+"en": "bend down",
+"de": "sich hinunterbeugen, sich bücken",
+"ipa": "bend"
+},
+{
+"id": 69,
+"en": "bent",
+"de": "siehe „bend“",
+"ipa": "bent",
+"form_of": "bend"
+},
+{
+"id": 70,
+"en": "beside",
+"de": "neben",
+"ipa": "bɪˈsaɪd"
+},
+{
+"id": 71,
+"en": "best: You played the best.",
+"de": "am besten",
+"ipa": "best"
+},
+{
+"id": 72,
+"en": "better",
+"de": "besser",
+"ipa": "ˈbetə"
+},
+{
+"id": 73,
+"en": "bird",
+"de": "Vogel",
+"ipa": "bɜːd"
+},
+{
+"id": 74,
+"en": "birdcage",
+"de": "Vogelkäfig",
+"ipa": "ˈbɜːdkeɪdʒ"
+},
+{
+"id": 75,
+"en": "bit",
+"de": "Stück, Teil",
+"ipa": "bɪt"
+},
+{
+"id": 76,
+"en": "bitter",
+"de": "bitter",
+"ipa": "ˈbɪtə"
+},
+{
+"id": 77,
+"en": "black pudding",
+"de": "Blutwurst",
+"ipa": "ˌblæk ˈpʊdɪŋ"
+},
+{
+"id": 78,
+"en": "bland",
+"de": "fade, langweilig",
+"ipa": "blænd"
+},
+{
+"id": 79,
+"en": "blender",
+"de": "Mixgerät",
+"ipa": "ˈblendə"
+},
+{
+"id": 80,
+"en": "blog",
+"de": "Blog (Web + Log), ein auf einer Website geführtes, öffentliches Tagebuch",
+"ipa": "blɒɡ"
+},
+{
+"id": 81,
+"en": "blouse",
+"de": "Bluse",
+"ipa": "blaʊz"
+},
+{
+"id": 82,
+"en": "blow, blew, blown",
+"de": "wehen",
+"ipa": "bləʊ, blu:, bləʊn"
+},
+{
+"id": 83,
+"en": "body",
+"de": "Körper",
+"ipa": "ˈbɒdi"
+},
+{
+"id": 84,
+"en": "body language",
+"de": "Körpersprache",
+"ipa": "ˈbɒdi læŋɡwɪdʒ"
+},
+{
+"id": 85,
+"en": "bonfire",
+"de": "Lagerfeuer",
+"ipa": "ˈbɒnfaɪə"
+},
+{
+"id": 86,
+"en": "bookshop",
+"de": "Buchladen, Buchhandlung",
+"ipa": "ˈbʊkʃɒp"
+},
+{
+"id": 87,
+"en": "boot",
+"de": "Stiefel",
+"ipa": "buːt"
+},
+{
+"id": 88,
+"en": "both: You both work …",
+"de": "ihr arbeitet beide",
+"ipa": "bəʊθ"
+},
+{
+"id": 89,
+"en": "bottom",
+"de": "unterste(r, s)",
+"ipa": "ˈbɒtəm"
+},
+{
+"id": 90,
+"en": "bought",
+"de": "siehe „buy“",
+"ipa": "bɔːt",
+"form_of": "buy"
+},
+{
+"id": 91,
+"en": "bowl",
+"de": "Schüssel",
+"ipa": "bəʊl"
+},
+{
+"id": 92,
+"en": "bridge",
+"de": "Brücke",
+"ipa": "brɪdʒ"
+},
+{
+"id": 93,
+"en": "broke",
+"de": "siehe „break“",
+"ipa": "brəʊk",
+"form_of": "break"
+},
+{
+"id": 94,
+"en": "brought",
+"de": "siehe „bring“",
+"ipa": "brɔːt",
+"form_of": "bring"
+},
+{
+"id": 95,
+"en": "brought",
+"de": "siehe „bring”",
+"ipa": "brɔːt",
+"form_of": "bring"
+},
+{
+"id": 96,
+"en": "buddy",
+"de": "Kumpel",
+"ipa": "ˈbʌdi"
+},
+{
+"id": 97,
+"en": "building",
+"de": "Gebäude",
+"ipa": "ˈbɪldɪŋ"
+},
+{
+"id": 98,
+"en": "built",
+"de": "siehe „build“",
+"ipa": "bɪlt",
+"form_of": "build"
+},
+{
+"id": 99,
+"en": "burger",
+"de": "Hamburger",
+"ipa": "ˈbɜːɡə"
+},
+{
+"id": 100,
+"en": "burn",
+"de": "brennen; verbrennen",
+"ipa": "bɜːn"
+},
+{
+"id": 101,
+"en": "bus stop",
+"de": "Bushaltestelle",
+"ipa": "ˈbʌs stɒp"
+},
+{
+"id": 102,
+"en": "busy",
+"de": "belebt, geschäftig, hektisch",
+"ipa": "ˈbɪzi"
+},
+{
+"id": 103,
+"en": "busy: be busy",
+"de": "beschäftigt sein",
+"ipa": "ˈbɪzi"
+},
+{
+"id": 104,
+"en": "button",
+"de": "Knopf; Taste",
+"ipa": "ˈbʌtn"
+},
+{
+"id": 105,
+"en": "buzz",
+"de": "summen (auch bee)",
+"ipa": "bʌz"
+},
+{
+"id": 106,
+"en": "by",
+"de": "von",
+"ipa": "baɪ"
+},
+{
+"id": 107,
+"en": "by: go by bus/car/…",
+"de": "mit dem Bus/Auto/… fahren"
+},
+{
+"id": 108,
+"en": "calm",
+"de": "ruhig",
+"ipa": "kɑːm"
+},
+{
+"id": 109,
+"en": "came",
+"de": "siehe „come“",
+"ipa": "keɪm",
+"form_of": "come"
+},
+{
+"id": 110,
+"en": "camera",
+"de": "Kamera, Fotoapparat",
+"ipa": "ˈkæmərə"
+},
+{
+"id": 111,
+"en": "camera operator",
+"de": "Kameramann, Kamerafrau",
+"ipa": "ˈɒpəreɪtə"
+},
+{
+"id": 112,
+"en": "campsite",
+"de": "Zeltplatz",
+"ipa": "ˈkæmpsaɪt"
+},
+{
+"id": 113,
+"en": "cap",
+"de": "Mütze, Kappe",
+"ipa": "kæp"
+},
+{
+"id": 114,
+"en": "captain",
+"de": "Kapitän/in",
+"ipa": "ˈkæptɪn"
+},
+{
+"id": 115,
+"en": "caravan",
+"de": "Wohnwagen",
+"ipa": "ˈkærəvæn"
+},
+{
+"id": 116,
+"en": "card",
+"de": "Karte",
+"ipa": "kɑːd"
+},
+{
+"id": 117,
+"en": "cartoon",
+"de": "Comicstrip; Zeichentrickfilm",
+"ipa": "kɑːˈtuːn"
+},
+{
+"id": 118,
+"en": "castle",
+"de": "Burg, Schloss",
+"ipa": "ˈkɑːsl"
+},
+{
+"id": 119,
+"en": "catch",
+"de": "fangen",
+"ipa": "kætʃ"
+},
+{
+"id": 120,
+"en": "cathedral",
+"de": "Kathedrale, Dom",
+"ipa": "kəˈθiːdrəl"
+},
+{
+"id": 121,
+"en": "Catholic",
+"de": "katholisch; Katholik/in",
+"ipa": "ˈkæθlɪk"
+},
+{
+"id": 122,
+"en": "caveman, pl. cavemen",
+"de": "Höhlenbewohner",
+"ipa": "ˈkeɪvmæn"
+},
+{
+"id": 123,
+"en": "cavewoman, pl. cavewomen",
+"de": "Höhlenbewohnerin",
+"ipa": "ˈkeɪvwʊmən"
+},
+{
+"id": 124,
+"en": "celebrate",
+"de": "feiern",
+"ipa": "ˈselɪbreɪt"
+},
+{
+"id": 125,
+"en": "celebration",
+"de": "Feier",
+"ipa": "ˌselɪˈbreɪʃn"
+},
+{
+"id": 126,
+"en": "cent",
+"de": "Cent",
+"ipa": "sent"
+},
+{
+"id": 127,
+"en": "centre",
+"de": "Zentrum, Mitte",
+"ipa": "ˈsentə"
+},
+{
+"id": 128,
+"en": "century",
+"de": "Jahrhundert",
+"ipa": "ˈsentʃəri"
+},
+{
+"id": 129,
+"en": "cereal",
+"de": "Frühstücksflocken (pl)",
+"ipa": "ˈsɪəriəl"
+},
+{
+"id": 130,
+"en": "ceremony",
+"de": "Zeremonie",
+"ipa": "ˈserəməni"
+},
+{
+"id": 131,
+"en": "chance",
+"de": "Gelegenheit, Möglichkeit, Chance",
+"ipa": "tʃɑːns"
+},
+{
+"id": 132,
+"en": "changing room(s)",
+"de": "Umkleidekabine",
+"ipa": "ˈtʃeɪndʒɪŋ ruːm"
+},
+{
+"id": 133,
+"en": "charge sth.",
+"de": "etwas (auf)laden",
+"ipa": "ˈtʃɑːdʒ"
+},
+{
+"id": 134,
+"en": "chariot",
+"de": "Streitwagen",
+"ipa": "ˈtʃæriət"
+},
+{
+"id": 135,
+"en": "charity",
+"de": "Wohlfahrtsorganisation; Wohltätigkeit, wohltätige Zwecke",
+"ipa": "ˈtʃærəti"
+},
+{
+"id": 136,
+"en": "cheap",
+"de": "billig, preiswert",
+"ipa": "tʃiːp"
+},
+{
+"id": 137,
+"en": "cheat",
+"de": "schummeln, mogeln; betrügen",
+"ipa": "tʃiːt"
+},
+{
+"id": 138,
+"en": "chef",
+"de": "Koch, Köchin",
+"ipa": "ʃef"
+},
+{
+"id": 139,
+"en": "chicken",
+"de": "Huhn; (Brat-)Hähnchen",
+"ipa": "ˈtʃɪkɪn"
+},
+{
+"id": 140,
+"en": "chill out (infml)",
+"de": "sich entspannen, chillen",
+"ipa": "ˌtʃɪlˈaʊt"
+},
+{
+"id": 141,
+"en": "chop",
+"de": "(zer)hacken, klein schneiden",
+"ipa": "tʃɒp"
+},
+{
+"id": 142,
+"en": "chore",
+"de": "(Haus-)Arbeit; (lästige) Pflicht",
+"ipa": "tʃɔː"
+},
+{
+"id": 143,
+"en": "chose",
+"de": "siehe „choose“",
+"ipa": "tʃəʊz",
+"form_of": "choose"
+},
+{
+"id": 144,
+"en": "church",
+"de": "Kirche",
+"ipa": "tʃɜːtʃ"
+},
+{
+"id": 145,
+"en": "chutney",
+"de": "Chutney",
+"ipa": "ˈtʃʌtni"
+},
+{
+"id": 146,
+"en": "city centre",
+"de": "Stadtzentrum",
+"ipa": "ˌ sɪti ˈsentə"
+},
+{
+"id": 147,
+"en": "clap (your hands)",
+"de": "(in die Hände) klatschen",
+"ipa": "klæp"
+},
+{
+"id": 148,
+"en": "class trip",
+"de": "Klassenfahrt",
+"ipa": "ˌklɑːs ˈtrɪp"
+},
+{
+"id": 149,
+"en": "classical",
+"de": "klassisch",
+"ipa": "ˈklæsɪkl"
+},
+{
+"id": 150,
+"en": "cliff",
+"de": "Klippe",
+"ipa": "klɪf"
+},
+{
+"id": 151,
+"en": "climb (onto)",
+"de": "klettern; hinaufklettern (auf)",
+"ipa": "klaɪm"
+},
+{
+"id": 152,
+"en": "clip",
+"de": "Clip",
+"ipa": "klɪp"
+},
+{
+"id": 153,
+"en": "cloak",
+"de": "Umhang",
+"ipa": "kləʊk"
+},
+{
+"id": 154,
+"en": "close (to)",
+"de": "nah, dicht (bei, an)",
+"ipa": "kləʊs"
+},
+{
+"id": 155,
+"en": "clothes shop",
+"de": "Kleidungsgeschäft"
+},
+{
+"id": 156,
+"en": "clue",
+"de": "(Lösungs-)Hinweis; Anhaltspunkt",
+"ipa": "kluː"
+},
+{
+"id": 157,
+"en": "coast",
+"de": "Küste",
+"ipa": "kəʊst"
+},
+{
+"id": 158,
+"en": "coat",
+"de": "Mantel",
+"ipa": "kəʊt"
+},
+{
+"id": 159,
+"en": "code",
+"de": "Code",
+"ipa": "kəʊd"
+},
+{
+"id": 160,
+"en": "coder",
+"de": "Programmierer/in",
+"ipa": "ˈkəʊdə"
+},
+{
+"id": 161,
+"en": "colony, pl colonies",
+"de": "Kolonie",
+"ipa": "ˈkɒləni"
+},
+{
+"id": 162,
+"en": "colourful",
+"de": "bunt, farbenfroh",
+"ipa": "ˈkʌləfl"
+},
+{
+"id": 163,
+"en": "come to the throne",
+"de": "den Thron besteigen"
+},
+{
+"id": 164,
+"en": "comment",
+"de": "Kommentar",
+"ipa": "ˈkɒment"
+},
+{
+"id": 165,
+"en": "community",
+"de": "Gemeinde; Gemeinschaft",
+"ipa": "kəˈmjuːnəti"
+},
+{
+"id": 166,
+"en": "community service",
+"de": "gemeinnützige Arbeit",
+"ipa": "kəˌmjuːnəti ˈsɜːvɪs"
+},
+{
+"id": 167,
+"en": "company: I need some company.",
+"de": "Gesellschaft",
+"ipa": "ˈkʌmpəni"
+},
+{
+"id": 168,
+"en": "completely",
+"de": "völlig, vollkommen",
+"ipa": "kəmˈpliːtli"
+},
+{
+"id": 169,
+"en": "confident",
+"de": "selbstbewusst",
+"ipa": "ˈkɒnfɪdənt"
+},
+{
+"id": 170,
+"en": "Congratulations! (pl)",
+"de": "Herzlichen Glückwunsch!",
+"ipa": "kənˌɡrætʃəˈleɪʃnz"
+},
+{
+"id": 171,
+"en": "cool",
+"de": "kühl",
+"ipa": "kuːl"
+},
+{
+"id": 172,
+"en": "copy",
+"de": "kopieren, abschreiben",
+"ipa": "ˈkɒpi"
+},
+{
+"id": 173,
+"en": "corner",
+"de": "Ecke",
+"ipa": "ˈkɔːnə"
+},
+{
+"id": 174,
+"en": "corner shop",
+"de": "Laden an der Ecke; Tante-Emma-Laden",
+"ipa": "ˈkɔːnə ʃɒp"
+},
+{
+"id": 175,
+"en": "cost",
+"de": "siehe „cost“",
+"ipa": "kɒst",
+"form_of": "cost"
+},
+{
+"id": 176,
+"en": "could",
+"de": "konnte(n)",
+"ipa": "ˈkʊd"
+},
+{
+"id": 177,
+"en": "could: you could invite everyone",
+"de": "könnte",
+"ipa": "kʊd"
+},
+{
+"id": 178,
+"en": "couldn’t",
+"de": "konnte(n) nicht",
+"ipa": "ˈkʊdnt"
+},
+{
+"id": 179,
+"en": "count",
+"de": "zählen",
+"ipa": "kaʊnt"
+},
+{
+"id": 180,
+"en": "countryside",
+"de": "Landschaft, (ländliche) Gegend",
+"ipa": "ˈkʌntrisaɪd"
+},
+{
+"id": 181,
+"en": "county",
+"de": "Grafschaft",
+"ipa": "ˈkaʊnti"
+},
+{
+"id": 182,
+"en": "cover",
+"de": "behandeln, abdecken",
+"ipa": "ˈkʌvə"
+},
+{
+"id": 183,
+"en": "cow",
+"de": "Kuh",
+"ipa": "kaʊ"
+},
+{
+"id": 184,
+"en": "cranberry",
+"de": "Preiselbeere",
+"ipa": "ˈkrænbəri"
+},
+{
+"id": 185,
+"en": "create",
+"de": "schaffen, erschaffen, kreieren",
+"ipa": "kriˈeɪt"
+},
+{
+"id": 186,
+"en": "criterion, pl criteria",
+"de": "Kriterium",
+"ipa": "kraɪˈtɪəriən, kraɪˈtɪəriə"
+},
+{
+"id": 187,
+"en": "crop",
+"de": "(Feld-)Frucht); Ernte",
+"ipa": "krɒp"
+},
+{
+"id": 188,
+"en": "cross (with sb.)",
+"de": "böse, sauer (auf jn.)",
+"ipa": "krɒs"
+},
+{
+"id": 189,
+"en": "crossroads",
+"de": "Straßenkreuzung",
+"ipa": "ˈkrɒsrəʊdz"
+},
+{
+"id": 190,
+"en": "crown",
+"de": "Krone",
+"ipa": "kraʊn"
+},
+{
+"id": 191,
+"en": "cupcake",
+"de": "Cupcake (kleine, in einer tassenförmigen Backform gebackene Torte)",
+"ipa": "ˈkʌpkeɪk"
+},
+{
+"id": 192,
+"en": "curry",
+"de": "Curry(gericht)",
+"ipa": "ˈkʌri"
+},
+{
+"id": 193,
+"en": "custard",
+"de": "Vanillesoße",
+"ipa": "ˈkʌstəd"
+},
+{
+"id": 194,
+"en": "cut",
+"de": "siehe „cut“",
+"ipa": "kʌt",
+"form_of": "cut"
+},
+{
+"id": 195,
+"en": "cut (the grass)",
+"de": "mähen",
+"ipa": "kʌt"
+},
+{
+"id": 196,
+"en": "cut sth. back",
+"de": "etwas zurückschneiden"
+},
+{
+"id": 197,
+"en": "dandelion",
+"de": "Löwenzahn",
+"ipa": "ˈdændɪlaɪən"
+},
+{
+"id": 198,
+"en": "dangerous",
+"de": "gefährlich",
+"ipa": "ˈdeɪndʒərəs"
+},
+{
+"id": 199,
+"en": "dark",
+"de": "Dunkelheit",
+"ipa": "dɑːk"
+},
+{
+"id": 200,
+"en": "day trip",
+"de": "Tagesausflug",
+"ipa": "ˈdeɪ trɪp"
+},
+{
+"id": 201,
+"en": "Dear",
+"de": "Liebe/r … / Sehr geehrte(r) …",
+"ipa": "dɪə"
+},
+{
+"id": 202,
+"en": "Dear Sir or Madam",
+"de": "Sehr geehrte Damen und Herren"
+},
+{
+"id": 203,
+"en": "deep",
+"de": "tief",
+"ipa": "diːp"
+},
+{
+"id": 204,
+"en": "deer",
+"de": "Reh, Hirsch",
+"ipa": "dɪə"
+},
+{
+"id": 205,
+"en": "degree",
+"de": "Grad",
+"ipa": "dɪˈɡriː"
+},
+{
+"id": 206,
+"en": "delete",
+"de": "löschen; streichen",
+"ipa": "dɪˈliːt"
+},
+{
+"id": 207,
+"en": "delicious",
+"de": "köstlich, lecker",
+"ipa": "dɪˈlɪʃəs"
+},
+{
+"id": 208,
+"en": "delivery",
+"de": "Vortragsweise",
+"ipa": "dɪˈlɪvəri"
+},
+{
+"id": 209,
+"en": "design",
+"de": "Entwurf",
+"ipa": "dɪˈzaɪn"
+},
+{
+"id": 210,
+"en": "dessert",
+"de": "Nachtisch",
+"ipa": "dɪˈzɜːt"
+},
+{
+"id": 211,
+"en": "device",
+"de": "Gerät",
+"ipa": "dɪˈvaɪs"
+},
+{
+"id": 212,
+"en": "dialogue",
+"de": "Dialog",
+"ipa": "ˈdaɪəlɒɡ"
+},
+{
+"id": 213,
+"en": "diary",
+"de": "Tagebuch; Kalender",
+"ipa": "ˈdaɪəri"
+},
+{
+"id": 214,
+"en": "did",
+"de": "siehe „do“",
+"ipa": "dɪd",
+"form_of": "do"
+},
+{
+"id": 215,
+"en": "didn't: I didn't see.",
+"de": "Ich sah nicht.",
+"ipa": "ˈdɪdnt"
+},
+{
+"id": 216,
+"en": "die",
+"de": "sterben",
+"ipa": "daɪ"
+},
+{
+"id": 217,
+"en": "difference",
+"de": "Unterschied",
+"ipa": "ˈdɪfrəns"
+},
+{
+"id": 218,
+"en": "different from",
+"de": "anders als"
+},
+{
+"id": 219,
+"en": "difficult",
+"de": "schwierig",
+"ipa": "ˈdɪfɪkəlt"
+},
+{
+"id": 220,
+"en": "directions (pl): ask for directions",
+"de": "nach dem Weg fragen"
+},
+{
+"id": 221,
+"en": "director",
+"de": "Direktor/in; Regisseur/in",
+"ipa": "dəˈrektə"
+},
+{
+"id": 222,
+"en": "dirt",
+"de": "Dreck",
+"ipa": "dɜːt"
+},
+{
+"id": 223,
+"en": "disappear",
+"de": "verschwinden",
+"ipa": "ˌdɪsəˈpɪə"
+},
+{
+"id": 224,
+"en": "disaster",
+"de": "Desaster, Katastrophe",
+"ipa": "dɪˈzɑːstə"
+},
+{
+"id": 225,
+"en": "disgusting",
+"de": "ekelhaft, widerlich",
+"ipa": "dɪsˈɡʌstɪŋ"
+},
+{
+"id": 226,
+"en": "dish",
+"de": "Gericht (Speise)",
+"ipa": "dɪʃ"
+},
+{
+"id": 227,
+"en": "dishwasher",
+"de": "Geschirrspülmaschine",
+"ipa": "ˈdɪʃwɒʃə"
+},
+{
+"id": 228,
+"en": "do a great job",
+"de": "großartige Arbeit leisten"
+},
+{
+"id": 229,
+"en": "do a job",
+"de": "Arbeit machen",
+"ipa": "dʒɒb"
+},
+{
+"id": 230,
+"en": "do the shopping",
+"de": "den Einkauf erledigen"
+},
+{
+"id": 231,
+"en": "download",
+"de": "herunterladen",
+"ipa": "ˌdaʊnˈləʊd"
+},
+{
+"id": 232,
+"en": "drank",
+"de": "siehe „drink“",
+"ipa": "dræŋk",
+"form_of": "drink"
+},
+{
+"id": 233,
+"en": "dream of sth./sb.",
+"de": "träumen",
+"ipa": "driːm"
+},
+{
+"id": 234,
+"en": "dress",
+"de": "Kleid",
+"ipa": "dres"
+},
+{
+"id": 235,
+"en": "dress",
+"de": "sich kleiden, sich anziehen in green/black",
+"ipa": "dres"
+},
+{
+"id": 236,
+"en": "dress up",
+"de": "sich verkleiden; sich schick anziehen",
+"ipa": "ˌdresˈʌp"
+},
+{
+"id": 237,
+"en": "drew",
+"de": "siehe „draw“",
+"ipa": "druː",
+"form_of": "draw"
+},
+{
+"id": 238,
+"en": "drive",
+"de": "(mit dem Auto) fahren",
+"ipa": "draɪv"
+},
+{
+"id": 239,
+"en": "drop",
+"de": "Tropfen",
+"ipa": "drɒp"
+},
+{
+"id": 240,
+"en": "drove",
+"de": "siehe „drive“",
+"ipa": "drəʊv",
+"form_of": "drive"
+},
+{
+"id": 241,
+"en": "duck",
+"de": "Ente",
+"ipa": "dʌk"
+},
+{
+"id": 242,
+"en": "each",
+"de": "jeder, jede, jedes (einzelne)",
+"ipa": "iːtʃ"
+},
+{
+"id": 243,
+"en": "ear",
+"de": "Ohr",
+"ipa": "ɪə"
+},
+{
+"id": 244,
+"en": "earth",
+"de": "Erde (der Planet)",
+"ipa": "ɜːθ"
+},
+{
+"id": 245,
+"en": "eat out",
+"de": "essen gehen, auswärts essen"
+},
+{
+"id": 246,
+"en": "eaten",
+"de": "siehe „eat”",
+"ipa": "ˈiːtn",
+"form_of": "eat"
+},
+{
+"id": 247,
+"en": "edge",
+"de": "Rand, Kante",
+"ipa": "edʒ"
+},
+{
+"id": 248,
+"en": "edit",
+"de": "bearbeiten; schneiden (Film, Video)",
+"ipa": "ˈedɪt"
+},
+{
+"id": 249,
+"en": "either: not either",
+"de": "] auch nicht",
+"ipa": "ˈaɪðə"
+},
+{
+"id": 250,
+"en": "elephant",
+"de": "Elefant",
+"ipa": "ˈelɪfənt"
+},
+{
+"id": 251,
+"en": "empty",
+"de": "ausräumen; leeren",
+"ipa": "ˈempti"
+},
+{
+"id": 252,
+"en": "ending",
+"de": "Ende, (Ab-)Schluss",
+"ipa": "ˈendɪŋ"
+},
+{
+"id": 253,
+"en": "enemy",
+"de": "Feind/in",
+"ipa": "ˈenəmi"
+},
+{
+"id": 254,
+"en": "energy",
+"de": "Energie, Kraft",
+"ipa": "ˈenədʒi"
+},
+{
+"id": 255,
+"en": "enjoy",
+"de": "genießen",
+"ipa": "ɪnˈdʒɔɪ"
+},
+{
+"id": 256,
+"en": "Enjoy your meal. Kurz \"Enjoy\"",
+"de": "Guten Appetit!",
+"ipa": "ɪnˈdʒɔɪ"
+},
+{
+"id": 257,
+"en": "Enjoy!",
+"de": "Genießt es."
+},
+{
+"id": 258,
+"en": "entrance",
+"de": "Eingang",
+"ipa": "ˈentrəns"
+},
+{
+"id": 259,
+"en": "euro",
+"de": "Euro",
+"ipa": "ˈjʊərəʊ"
+},
+{
+"id": 260,
+"en": "ever: Have you ever",
+"de": "jemals",
+"ipa": "ˈevə"
+},
+{
+"id": 261,
+"en": "everyone else",
+"de": "alle anderen; sonst jeder"
+},
+{
+"id": 262,
+"en": "everywhere",
+"de": "überall",
+"ipa": "ˈevriweə"
+},
+{
+"id": 263,
+"en": "evil",
+"de": "übel, böse",
+"ipa": "ˈiːvl"
+},
+{
+"id": 264,
+"en": "expect sth.",
+"de": "etwas erwarten",
+"ipa": "ɪkˈspekt"
+},
+{
+"id": 265,
+"en": "experience",
+"de": "Erlebnis",
+"ipa": "ɪkˈspɪəriəns"
+},
+{
+"id": 266,
+"en": "expression",
+"de": "Ausdruck",
+"ipa": "ɪkˈspreʃn"
+},
+{
+"id": 267,
+"en": "fair",
+"de": "fair, gerecht",
+"ipa": "feə"
+},
+{
+"id": 268,
+"en": "fairy tale",
+"de": "Märchen",
+"ipa": "ˈfeəri teɪl"
+},
+{
+"id": 269,
+"en": "fall",
+"de": "fallen, stürzen; hinfallen",
+"ipa": "fɔːl"
+},
+{
+"id": 270,
+"en": "fall over",
+"de": "umfallen",
+"ipa": "ˌfɔːlˈəʊvə"
+},
+{
+"id": 271,
+"en": "fallen",
+"de": "siehe „fall”",
+"ipa": "ˈfɔːlən",
+"form_of": "fall"
+},
+{
+"id": 272,
+"en": "fancy-dress party",
+"de": "Kostümfest",
+"ipa": "ˌfænsi ˈdres"
+},
+{
+"id": 273,
+"en": "far more",
+"de": "weit/viel mehr"
+},
+{
+"id": 274,
+"en": "farm",
+"de": "Bauernhof, Farm",
+"ipa": "fɑːm"
+},
+{
+"id": 275,
+"en": "fast",
+"de": "schnell",
+"ipa": "fɑːst"
+},
+{
+"id": 276,
+"en": "faster",
+"de": "schneller"
+},
+{
+"id": 277,
+"en": "fastest",
+"de": "der/die/das schnellste; am schnellsten"
+},
+{
+"id": 278,
+"en": "fat",
+"de": "dick, fett",
+"ipa": "fæt"
+},
+{
+"id": 279,
+"en": "fed",
+"de": "siehe „feed“",
+"ipa": "fed",
+"form_of": "feed"
+},
+{
+"id": 280,
+"en": "feed, fed",
+"de": "füttern",
+"ipa": "fiːd"
+},
+{
+"id": 281,
+"en": "feedback",
+"de": "Rückmeldung, Feedback",
+"ipa": "ˈfiːdbæk"
+},
+{
+"id": 282,
+"en": "feel + felt",
+"de": "spüren",
+"ipa": "fiːl"
+},
+{
+"id": 283,
+"en": "feel silly",
+"de": "sich albern fühlen"
+},
+{
+"id": 284,
+"en": "fell",
+"de": "siehe „fall“",
+"ipa": "fel",
+"form_of": "fall"
+},
+{
+"id": 285,
+"en": "felt",
+"de": "siehe „feel“",
+"ipa": "felt",
+"form_of": "feel"
+},
+{
+"id": 286,
+"en": "festival",
+"de": "Fest, Festival",
+"ipa": "ˈfestɪvl"
+},
+{
+"id": 287,
+"en": "field",
+"de": "Feld, Acker, Weide",
+"ipa": "fiːld"
+},
+{
+"id": 288,
+"en": "fight (for sth.), fought",
+"de": "(um etwas) kämpfen",
+"ipa": "faɪt"
+},
+{
+"id": 289,
+"en": "file",
+"de": "Datei, Akte",
+"ipa": "faɪl"
+},
+{
+"id": 290,
+"en": "fill",
+"de": "füllen",
+"ipa": "fɪl"
+},
+{
+"id": 291,
+"en": "filling",
+"de": "Füllung",
+"ipa": "ˈfɪlɪŋ"
+},
+{
+"id": 292,
+"en": "finally",
+"de": "endlich, schließlich",
+"ipa": "ˈfaɪnəli"
+},
+{
+"id": 293,
+"en": "find out about sth.",
+"de": "etwas herausfinden"
+},
+{
+"id": 294,
+"en": "finish (trans)",
+"de": "etwas beenden;mit etwas fertig werden/sein",
+"ipa": "ˈfɪnɪʃ"
+},
+{
+"id": 295,
+"en": "fireworks (pl)",
+"de": "Feuerwerk",
+"ipa": "ˈfaɪəwɜːks"
+},
+{
+"id": 296,
+"en": "first time",
+"de": "beim ersten Mal"
+},
+{
+"id": 297,
+"en": "Firstly, …",
+"de": "Erstens …",
+"ipa": "ˈfɜːstli"
+},
+{
+"id": 298,
+"en": "fit",
+"de": "fit, …?",
+"ipa": "fɪt"
+},
+{
+"id": 299,
+"en": "fix a problem",
+"de": "ein Problem beheben"
+},
+{
+"id": 300,
+"en": "flash",
+"de": "blinken",
+"ipa": "flæʃ"
+},
+{
+"id": 301,
+"en": "flew",
+"de": "siehe „fly“",
+"ipa": "fluː",
+"form_of": "fly"
+},
+{
+"id": 302,
+"en": "flicker",
+"de": "flackern",
+"ipa": "ˈflɪkə"
+},
+{
+"id": 303,
+"en": "flow",
+"de": "fließen",
+"ipa": "fləʊ"
+},
+{
+"id": 304,
+"en": "flower bed",
+"de": "Blumenbeet",
+"ipa": "ˈflaʊə bed"
+},
+{
+"id": 305,
+"en": "flyer",
+"de": "Flugblatt, Flyer",
+"ipa": "ˈflaɪə"
+},
+{
+"id": 306,
+"en": "focus (on sth.)",
+"de": "sich (auf etwas) konzentrieren",
+"ipa": "ˈfəʊkəs"
+},
+{
+"id": 307,
+"en": "follow rules",
+"de": "beachten",
+"ipa": "ˈfɒləʊ"
+},
+{
+"id": 308,
+"en": "foot, pl feet",
+"de": "Fuß",
+"ipa": "fʊt"
+},
+{
+"id": 309,
+"en": "for ever",
+"de": "(für) immer; ewig",
+"ipa": "fər ˈevə"
+},
+{
+"id": 310,
+"en": "for free",
+"de": "kostenlos, umsonst"
+},
+{
+"id": 311,
+"en": "foreign",
+"de": "fremd, ausländisch",
+"ipa": "ˈfɒrən"
+},
+{
+"id": 312,
+"en": "foreign language",
+"de": "Fremdsprache"
+},
+{
+"id": 313,
+"en": "forest",
+"de": "Wald",
+"ipa": "ˈfɒrɪst"
+},
+{
+"id": 314,
+"en": "forgot",
+"de": "siehe „forget“",
+"ipa": "fəˈɡɒt",
+"form_of": "forget"
+},
+{
+"id": 315,
+"en": "formal",
+"de": "formell, förmlich",
+"ipa": "ˈfɔːml"
+},
+{
+"id": 316,
+"en": "fought",
+"de": "siehe „fight“",
+"ipa": "fɔːt",
+"form_of": "fight"
+},
+{
+"id": 317,
+"en": "found",
+"de": "siehe „find“",
+"ipa": "faʊnd",
+"form_of": "find"
+},
+{
+"id": 318,
+"en": "free",
+"de": "kostenlos",
+"ipa": "friː"
+},
+{
+"id": 319,
+"en": "freedom",
+"de": "Freiheit",
+"ipa": "ˈfriːdəm"
+},
+{
+"id": 320,
+"en": "front: at the front",
+"de": "vorne, an der Spitze",
+"ipa": "frʌnt"
+},
+{
+"id": 321,
+"en": "frown",
+"de": "die Stirn runzeln",
+"ipa": "fraʊn"
+},
+{
+"id": 322,
+"en": "frown",
+"de": "Stirnrunzeln",
+"ipa": "fraʊn"
+},
+{
+"id": 323,
+"en": "full",
+"de": "satt",
+"ipa": "fʊl"
+},
+{
+"id": 324,
+"en": "full of (people)",
+"de": "voller (Menschen)"
+},
+{
+"id": 325,
+"en": "funeral",
+"de": "Trauerfeier",
+"ipa": "ˈfjuːnərəl"
+},
+{
+"id": 326,
+"en": "future",
+"de": "Zukunft",
+"ipa": "ˈfjuːtʃə"
+},
+{
+"id": 327,
+"en": "gate",
+"de": "Tor (Öffnung in einer Mauer usw.)",
+"ipa": "ɡeɪt"
+},
+{
+"id": 328,
+"en": "gate: school gate",
+"de": "Tor, Pforte, Gatter",
+"ipa": "ɡeɪt"
+},
+{
+"id": 329,
+"en": "gave",
+"de": "siehe „give“",
+"ipa": "ɡeɪv",
+"form_of": "give"
+},
+{
+"id": 330,
+"en": "generation",
+"de": "Generation",
+"ipa": "ˌdʒenəˈreɪʃn"
+},
+{
+"id": 331,
+"en": "gentleman",
+"de": "Herr",
+"ipa": "ˈdʒentlmən"
+},
+{
+"id": 332,
+"en": "get attention",
+"de": "Aufmerksamkeit holen",
+"ipa": "ɡet əˈtenʃən"
+},
+{
+"id": 333,
+"en": "get in(to) a car",
+"de": "einsteigen"
+},
+{
+"id": 334,
+"en": "get off a boat/bus/plane/train",
+"de": "aussteigen"
+},
+{
+"id": 335,
+"en": "get off sth.",
+"de": "von etwas herunterkommen"
+},
+{
+"id": 336,
+"en": "get on a boat/bus/plane/train",
+"de": "einsteigen"
+},
+{
+"id": 337,
+"en": "get out of a car",
+"de": "aussteigen"
+},
+{
+"id": 338,
+"en": "get ready (for)",
+"de": "sich fertig machen (für); sich vorbereiten (auf)",
+"ipa": "ˈredi"
+},
+{
+"id": 339,
+"en": "ghost",
+"de": "Geist, Gespenst",
+"ipa": "ɡəʊst"
+},
+{
+"id": 340,
+"en": "ghost train",
+"de": "Geisterbahn",
+"ipa": "ˈɡəʊst treɪn"
+},
+{
+"id": 341,
+"en": "give sb. directions",
+"de": "jm. den Weg beschreiben"
+},
+{
+"id": 342,
+"en": "glad",
+"de": "froh, dankbar",
+"ipa": "ɡlæd"
+},
+{
+"id": 343,
+"en": "glove",
+"de": "Handschuh",
+"ipa": "ɡlʌv"
+},
+{
+"id": 344,
+"en": "go off",
+"de": "ausgehen (Licht)"
+},
+{
+"id": 345,
+"en": "go on",
+"de": "weiterreden, fortfahren, weitermachen",
+"ipa": "ˌɡəʊˈɒn"
+},
+{
+"id": 346,
+"en": "go on",
+"de": "angehen (Licht)"
+},
+{
+"id": 347,
+"en": "Go on then.",
+"de": "Na los.",
+"ipa": "ɡəʊ ɒn ðen."
+},
+{
+"id": 348,
+"en": "go shopping",
+"de": "einkaufen gehen",
+"ipa": "ˈʃɒpɪŋ"
+},
+{
+"id": 349,
+"en": "go: We're going to talk",
+"de": "Wir werden reden. / Wir haben vor zu reden."
+},
+{
+"id": 350,
+"en": "goal",
+"de": "Tor (Sport)",
+"ipa": "ɡəʊl"
+},
+{
+"id": 351,
+"en": "gold",
+"de": "Gold",
+"ipa": "ɡəʊld"
+},
+{
+"id": 352,
+"en": "golf",
+"de": "Golf",
+"ipa": "ɡɒlf"
+},
+{
+"id": 353,
+"en": "gone",
+"de": "siehe „go”",
+"ipa": "ɡɒn",
+"form_of": "go"
+},
+{
+"id": 354,
+"en": "gone: be gone",
+"de": "weg sein, nicht (mehr) da sein",
+"ipa": "ɡɒn"
+},
+{
+"id": 355,
+"en": "got",
+"de": "siehe „get“",
+"ipa": "ɡɒt",
+"form_of": "get"
+},
+{
+"id": 356,
+"en": "grab",
+"de": "schnappen, packen",
+"ipa": "ɡræb"
+},
+{
+"id": 357,
+"en": "grandchild",
+"de": "Enkel/in",
+"ipa": "ˈɡræntʃaɪld"
+},
+{
+"id": 358,
+"en": "granddaughter",
+"de": "Enkelin",
+"ipa": "ˈɡrændɔːtə"
+},
+{
+"id": 359,
+"en": "grandparents (pl)",
+"de": "Großeltern",
+"ipa": "ˈɡrænpeərənts"
+},
+{
+"id": 360,
+"en": "grandson",
+"de": "Enkel",
+"ipa": "ˈɡrænsʌn"
+},
+{
+"id": 361,
+"en": "gravy",
+"de": "Soße (herzhaft)",
+"ipa": "ˈɡreɪvi"
+},
+{
+"id": 362,
+"en": "greedy",
+"de": "gierig, habgierig",
+"ipa": "ˈɡriːdi"
+},
+{
+"id": 363,
+"en": "guess: I guess ...",
+"de": "Ich nehme an, … / Ich denke, …",
+"ipa": "ɡes"
+},
+{
+"id": 364,
+"en": "guide",
+"de": "führen",
+"ipa": "ɡaɪd"
+},
+{
+"id": 365,
+"en": "guide dog",
+"de": "Blindenführhund",
+"ipa": "ˈɡaɪd dɒɡ"
+},
+{
+"id": 366,
+"en": "gym",
+"de": "Fitnessstudio"
+},
+{
+"id": 367,
+"en": "had",
+"de": "siehe „have“",
+"ipa": "hæd / həd",
+"form_of": "have"
+},
+{
+"id": 368,
+"en": "half an hour",
+"de": "eine halbe Stunde"
+},
+{
+"id": 369,
+"en": "handsome",
+"de": "schön (meist von Männern)",
+"ipa": "ˈhænsəm"
+},
+{
+"id": 370,
+"en": "hang (intrans)",
+"de": "hängen",
+"ipa": "hæŋ"
+},
+{
+"id": 371,
+"en": "hang sth. up",
+"de": "etwas aufhängen",
+"ipa": "ˌhæŋˈʌp"
+},
+{
+"id": 372,
+"en": "hard",
+"de": "genau, angestrengt",
+"ipa": "hɑːd"
+},
+{
+"id": 373,
+"en": "hard-working",
+"de": "fleißig",
+"ipa": "ˌhɑːdˈwɜːkɪŋ"
+},
+{
+"id": 374,
+"en": "hard: work hard",
+"de": "hart arbeiten",
+"ipa": "hɑːd"
+},
+{
+"id": 375,
+"en": "hat",
+"de": "Hut",
+"ipa": "hæt"
+},
+{
+"id": 376,
+"en": "haunted",
+"de": "heimgesucht, verflucht",
+"ipa": "ˈhɔːntɪd"
+},
+{
+"id": 377,
+"en": "head",
+"de": "Kopf",
+"ipa": "hed"
+},
+{
+"id": 378,
+"en": "head teacher",
+"de": "Schulleiter/in",
+"ipa": "ˌhed ˈtiːtʃə"
+},
+{
+"id": 379,
+"en": "heading",
+"de": "Überschrift",
+"ipa": "ˈhedɪŋ"
+},
+{
+"id": 380,
+"en": "healthy",
+"de": "gesund",
+"ipa": "ˈhelθi"
+},
+{
+"id": 381,
+"en": "heard",
+"de": "siehe „hear“",
+"ipa": "hɜːd",
+"form_of": "hear"
+},
+{
+"id": 382,
+"en": "heart",
+"de": "Herz",
+"ipa": "hɑːt"
+},
+{
+"id": 383,
+"en": "held",
+"de": "siehe „hold“",
+"ipa": "held",
+"form_of": "hold"
+},
+{
+"id": 384,
+"en": "helmet",
+"de": "Helm",
+"ipa": "ˈhelmɪt"
+},
+{
+"id": 385,
+"en": "help out",
+"de": "aushelfen",
+"ipa": "ˌhelpˈaʊt"
+},
+{
+"id": 386,
+"en": "hers",
+"de": "deiner, deine, deins; eurer, eure, eures",
+"ipa": "hɜːz"
+},
+{
+"id": 387,
+"en": "hid",
+"de": "siehe „hide“",
+"ipa": "hɪd",
+"form_of": "hide"
+},
+{
+"id": 388,
+"en": "hidden",
+"de": "siehe „hide”",
+"ipa": "ˈhɪdn",
+"form_of": "hide"
+},
+{
+"id": 389,
+"en": "high street",
+"de": "Hauptstraße",
+"ipa": "ˈhaɪ striːt"
+},
+{
+"id": 390,
+"en": "hike",
+"de": "wandern",
+"ipa": "haɪk"
+},
+{
+"id": 391,
+"en": "hill",
+"de": "Hügel",
+"ipa": "hɪl"
+},
+{
+"id": 392,
+"en": "his",
+"de": "deiner, deine, deins; eurer, eure, eures",
+"ipa": "hɪz"
+},
+{
+"id": 393,
+"en": "historic",
+"de": "historisch (geschichtlich bedeutsam)",
+"ipa": "hɪˈstɒrɪk"
+},
+{
+"id": 394,
+"en": "historical",
+"de": "historisch, geschichtlich",
+"ipa": "hɪˈstɒrɪkl"
+},
+{
+"id": 395,
+"en": "hit",
+"de": "treffen",
+"ipa": "hɪt"
+},
+{
+"id": 396,
+"en": "hold sth up",
+"de": "etwas hochhalten"
+},
+{
+"id": 397,
+"en": "hold sth. out",
+"de": "etwas ausstrecken",
+"ipa": "ˌhəʊldˈaʊt"
+},
+{
+"id": 398,
+"en": "hold sth. steady",
+"de": "etwas ruhig halten",
+"ipa": "ˈstedi"
+},
+{
+"id": 399,
+"en": "holiday home",
+"de": "Ferienwohnung"
+},
+{
+"id": 400,
+"en": "home",
+"de": "Heim (auch Kinderheim)",
+"ipa": "həʊm"
+},
+{
+"id": 401,
+"en": "home-made",
+"de": "hausgemacht, selbst gemacht",
+"ipa": "ˌhəʊm ˈmeɪd"
+},
+{
+"id": 402,
+"en": "hospital",
+"de": "Krankenhaus",
+"ipa": "ˈhɒspɪtl"
+},
+{
+"id": 403,
+"en": "hot",
+"de": "scharf (gewürzt)",
+"ipa": "hɒt"
+},
+{
+"id": 404,
+"en": "hotel",
+"de": "Hotel",
+"ipa": "həʊˈtel"
+},
+{
+"id": 405,
+"en": "houseboat",
+"de": "Hausboot",
+"ipa": "ˈhaʊsbəʊt"
+},
+{
+"id": 406,
+"en": "how to do sth.",
+"de": "wie man etwas macht / machen kann / machen soll"
+},
+{
+"id": 407,
+"en": "How's life?",
+"de": "Wie geht’s?; Was macht das Leben?"
+},
+{
+"id": 408,
+"en": "hug sb.",
+"de": "jn. umarmen",
+"ipa": "hʌɡ"
+},
+{
+"id": 409,
+"en": "hundred(s)",
+"de": "] hundert, Hundert",
+"ipa": "[ˈhʌndrəd / ˈhʌndrədz"
+},
+{
+"id": 410,
+"en": "hung",
+"de": "siehe „hang“",
+"ipa": "hʌŋ",
+"form_of": "hang"
+},
+{
+"id": 411,
+"en": "hunt",
+"de": "Jagd",
+"ipa": "hʌnt"
+},
+{
+"id": 412,
+"en": "Hurray!",
+"de": "Hurra!",
+"ipa": "huˈreɪ"
+},
+{
+"id": 413,
+"en": "hurry after sb.",
+"de": "jm. hinterhereilen"
+},
+{
+"id": 414,
+"en": "hurt",
+"de": "siehe „hurt“",
+"ipa": "hɜːt",
+"form_of": "hurt"
+},
+{
+"id": 415,
+"en": "hurt",
+"de": "schmerzen, wehtun; verletzen",
+"ipa": "hɜːt"
+},
+{
+"id": 416,
+"en": "hurt",
+"de": "",
+"ipa": "hɜːt",
+"form_of": ""
+},
+{
+"id": 417,
+"en": "husband",
+"de": "Ehemann",
+"ipa": "ˈhʌzbənd"
+},
+{
+"id": 418,
+"en": "I'm afraid …",
+"de": "Leider …",
+"ipa": "əˈfreɪd"
+},
+{
+"id": 419,
+"en": "I've never been here before.",
+"de": "Ich bin noch nie hier gewesen.",
+"ipa": "biːn"
+},
+{
+"id": 420,
+"en": "idiom",
+"de": "Redensart",
+"ipa": "ˈɪdiəm"
+},
+{
+"id": 421,
+"en": "ignore",
+"de": "ignorieren, nicht beachten",
+"ipa": "ɪɡˈnɔː"
+},
+{
+"id": 422,
+"en": "imagine sth.",
+"de": "sich etwas vorstellen",
+"ipa": "ɪˈmædʒɪn"
+},
+{
+"id": 423,
+"en": "immigrant",
+"de": "Einwanderer/Einwanderin",
+"ipa": "ˈɪmɪɡrənt"
+},
+{
+"id": 424,
+"en": "impossible",
+"de": "unmöglich",
+"ipa": "ɪmˈpɒsəbl"
+},
+{
+"id": 425,
+"en": "impression",
+"de": "Eindruck",
+"ipa": "ɪmˈpreʃn"
+},
+{
+"id": 426,
+"en": "in a deep voice",
+"de": "tief",
+"ipa": "diːp"
+},
+{
+"id": 427,
+"en": "in the middle of",
+"de": "mitten in",
+"ipa": "ˈmɪdl"
+},
+{
+"id": 428,
+"en": "indirect",
+"de": "indirekt",
+"ipa": "ˌɪndəˈrekt / ˌɪndaɪˈrekt"
+},
+{
+"id": 429,
+"en": "industry, pl industries",
+"de": "verarbeitende Industrie; Fertigungsindustrie",
+"ipa": "ˈɪndəstri"
+},
+{
+"id": 430,
+"en": "influence",
+"de": "beeinflussen",
+"ipa": "ˈɪnfluəns"
+},
+{
+"id": 431,
+"en": "informal",
+"de": "informell",
+"ipa": "ɪnˈfɔːml"
+},
+{
+"id": 432,
+"en": "instead of",
+"de": "anstelle von, statt",
+"ipa": "ɪnˈstedəv"
+},
+{
+"id": 433,
+"en": "intelligent",
+"de": "intelligent",
+"ipa": "ɪnˈtelɪdʒənt"
+},
+{
+"id": 434,
+"en": "interview",
+"de": "Interview",
+"ipa": "ˈɪntəvjuː"
+},
+{
+"id": 435,
+"en": "interviewer",
+"de": "Interviewer/in",
+"ipa": "ˈɪntəvjuːə"
+},
+{
+"id": 436,
+"en": "introduction",
+"de": "Einleitung, Einführung",
+"ipa": "ˌɪntrəˈdʌkʃn"
+},
+{
+"id": 437,
+"en": "invite sb. (to)",
+"de": "jn. einladen (zu)",
+"ipa": "ɪnˈvaɪt"
+},
+{
+"id": 438,
+"en": "island",
+"de": "Insel",
+"ipa": "ˈaɪlənd"
+},
+{
+"id": 439,
+"en": "isn’t my cup of tea",
+"de": "ist nicht mein Ding",
+"ipa": "ˈɪznt maɪ kʌp ɒv tiː"
+},
+{
+"id": 440,
+"en": "IT skills (pl)",
+"de": "IT-Kenntnisse",
+"ipa": "ˌaɪ ˈtiː skɪlz"
+},
+{
+"id": 441,
+"en": "its",
+"de": "deiner, deine, deins; eurer, eure, eures",
+"ipa": "ɪts"
+},
+{
+"id": 442,
+"en": "jacket",
+"de": "Jacke",
+"ipa": "ˈdʒækɪt"
+},
+{
+"id": 443,
+"en": "jam",
+"de": "Marmelade",
+"ipa": "dʒæm"
+},
+{
+"id": 444,
+"en": "jealous (of)",
+"de": "neidisch (auf); eifersüchtig (auf)",
+"ipa": "ˈdʒeləs"
+},
+{
+"id": 445,
+"en": "jeans (pl)",
+"de": "Jeans",
+"ipa": "dʒiːnz"
+},
+{
+"id": 446,
+"en": "jigsaw (puzzle)",
+"de": "Puzzle",
+"ipa": "ˈdʒɪɡsɔː ˌpʌzl"
+},
+{
+"id": 447,
+"en": "job + do a job",
+"de": "Job, (Arbeits-)Stelle",
+"ipa": "dʒɒb"
+},
+{
+"id": 448,
+"en": "join in (sth.)",
+"de": "(bei etwas) mitmachen",
+"ipa": "dʒɔɪn"
+},
+{
+"id": 449,
+"en": "joke",
+"de": "scherzen",
+"ipa": "dʒəʊk"
+},
+{
+"id": 450,
+"en": "jug",
+"de": "Krug",
+"ipa": "dʒʌɡ"
+},
+{
+"id": 451,
+"en": "jump",
+"de": "springen",
+"ipa": "dʒʌmp"
+},
+{
+"id": 452,
+"en": "just",
+"de": "gerade (eben), soeben",
+"ipa": "dʒʌst"
+},
+{
+"id": 453,
+"en": "Just a moment!",
+"de": "Moment mal!",
+"ipa": "dʒʌst ə ˈməʊmənt!"
+},
+{
+"id": 454,
+"en": "kayak",
+"de": "Kajak fahren",
+"ipa": "ˈkaɪæk"
+},
+{
+"id": 455,
+"en": "keep",
+"de": "behalten",
+"ipa": "kiːp"
+},
+{
+"id": 456,
+"en": "keep calm",
+"de": "(die) Ruhe bewahren, ruhig bleiben"
+},
+{
+"id": 457,
+"en": "kept",
+"de": "siehe „keep“",
+"ipa": "kept",
+"form_of": "keep"
+},
+{
+"id": 458,
+"en": "ketchup",
+"de": "Ketchup",
+"ipa": "ˈketʃəp"
+},
+{
+"id": 459,
+"en": "kill",
+"de": "töten",
+"ipa": "kɪl"
+},
+{
+"id": 460,
+"en": "kind",
+"de": "nett, freundlich, lieb",
+"ipa": "kaɪnd"
+},
+{
+"id": 461,
+"en": "king",
+"de": "König",
+"ipa": "kɪŋ"
+},
+{
+"id": 462,
+"en": "kiss",
+"de": "küssen; sich küssen",
+"ipa": "kɪs"
+},
+{
+"id": 463,
+"en": "knew njuː]",
+"de": "siehe „known“",
+"ipa": "njuː",
+"form_of": "known"
+},
+{
+"id": 464,
+"en": "knife, pl …",
+"de": "Messer",
+"ipa": "naɪf"
+},
+{
+"id": 465,
+"en": "knock (on sth.)",
+"de": "(an)klopfen (an etwas)",
+"ipa": "nɒk"
+},
+{
+"id": 466,
+"en": "lady",
+"de": "Dame",
+"ipa": "ˈleɪdi"
+},
+{
+"id": 467,
+"en": "lake",
+"de": "(Binnen-)See",
+"ipa": "leɪk"
+},
+{
+"id": 468,
+"en": "lamb",
+"de": "Lamm, Lammfleisch",
+"ipa": "læm"
+},
+{
+"id": 469,
+"en": "lamp",
+"de": "Laterne",
+"ipa": "læmp"
+},
+{
+"id": 470,
+"en": "last: at last",
+"de": "endlich, schließlich",
+"ipa": "ət ˈlɑːst"
+},
+{
+"id": 471,
+"en": "last: the last lesson",
+"de": "die letzte Stunde",
+"ipa": "lɑːst"
+},
+{
+"id": 472,
+"en": "laundry",
+"de": "(schmutzige) Wäsche",
+"ipa": "ˈlɔːndrɪ"
+},
+{
+"id": 473,
+"en": "lay",
+"de": "siehe „lie” liegen",
+"ipa": "leɪ"
+},
+{
+"id": 474,
+"en": "layout",
+"de": "Layout, Gestaltung",
+"ipa": "ˈleɪaʊt"
+},
+{
+"id": 475,
+"en": "lazy",
+"de": "faul",
+"ipa": "ˈleɪzi"
+},
+{
+"id": 476,
+"en": "lead",
+"de": "führen, leiten",
+"ipa": "liːd"
+},
+{
+"id": 477,
+"en": "leader",
+"de": "Leiter/in",
+"ipa": "ˈliːdə"
+},
+{
+"id": 478,
+"en": "led",
+"de": "siehe „lead“",
+"ipa": "led",
+"form_of": "lead"
+},
+{
+"id": 479,
+"en": "left",
+"de": "siehe „leave”",
+"ipa": "left",
+"form_of": "leave"
+},
+{
+"id": 480,
+"en": "left",
+"de": "",
+"form_of": ""
+},
+{
+"id": 481,
+"en": "left: be left",
+"de": "übrig sein",
+"ipa": "left"
+},
+{
+"id": 482,
+"en": "leg",
+"de": "Bein",
+"ipa": "leɡ"
+},
+{
+"id": 483,
+"en": "legend",
+"de": "Legende, Sage",
+"ipa": "ˈledʒənd"
+},
+{
+"id": 484,
+"en": "lentil",
+"de": "Linse (Gemüse)",
+"ipa": "ˈlentl"
+},
+{
+"id": 485,
+"en": "let",
+"de": "siehe „let“",
+"ipa": "let",
+"form_of": "let"
+},
+{
+"id": 486,
+"en": "lick",
+"de": "lecken",
+"ipa": "lɪk"
+},
+{
+"id": 487,
+"en": "lid",
+"de": "Deckel",
+"ipa": "lɪd"
+},
+{
+"id": 488,
+"en": "lie",
+"de": "liegen",
+"ipa": "laɪ"
+},
+{
+"id": 489,
+"en": "lie",
+"de": "Lüge",
+"ipa": "laɪ"
+},
+{
+"id": 490,
+"en": "lie",
+"de": "lügen",
+"ipa": "laɪ"
+},
+{
+"id": 491,
+"en": "lie, lay, lain",
+"de": "liegen",
+"ipa": "laɪ"
+},
+{
+"id": 492,
+"en": "lifeboat",
+"de": "Rettungsboot",
+"ipa": "ˈlaɪfbəʊt"
+},
+{
+"id": 493,
+"en": "light",
+"de": "Leuchte",
+"ipa": "laɪt"
+},
+{
+"id": 494,
+"en": "light up, lit",
+"de": "aufleuchten",
+"ipa": "ˌlaɪtˈʌp"
+},
+{
+"id": 495,
+"en": "link",
+"de": "Link, Verknüpfung, Verbindung",
+"ipa": "lɪŋk"
+},
+{
+"id": 496,
+"en": "lion",
+"de": "Löwe",
+"ipa": "ˈlaɪən"
+},
+{
+"id": 497,
+"en": "listen out for sth.",
+"de": "auf etwas achten",
+"ipa": "ˌlɪsnˈaʊt"
+},
+{
+"id": 498,
+"en": "lit up",
+"de": "siehe „light”",
+"ipa": "lɪt",
+"form_of": "light"
+},
+{
+"id": 499,
+"en": "lock",
+"de": "Schloss (Vorrichtung um etwas zu verschließen)",
+"ipa": "lɒk"
+},
+{
+"id": 500,
+"en": "log in (to a website)",
+"de": "sich auf einer Website anmelden",
+"ipa": "lɒɡ"
+},
+{
+"id": 501,
+"en": "log out (of a website)",
+"de": "sich von einer Website abmelden",
+"ipa": "lɒɡ"
+},
+{
+"id": 502,
+"en": "logo",
+"de": "Logo",
+"ipa": "ˈləʊɡəʊ"
+},
+{
+"id": 503,
+"en": "lonely",
+"de": "einsam",
+"ipa": "ˈləʊnli"
+},
+{
+"id": 504,
+"en": "long ago",
+"de": "vor langer Zeit"
+},
+{
+"id": 505,
+"en": "lost",
+"de": "siehe „lose“",
+"ipa": "lɒst",
+"form_of": "lose"
+},
+{
+"id": 506,
+"en": "lost",
+"de": "verloren, vermisst",
+"ipa": "lɒst"
+},
+{
+"id": 507,
+"en": "lost",
+"de": "",
+"ipa": "lɒst",
+"form_of": ""
+},
+{
+"id": 508,
+"en": "Love, …",
+"de": "Liebe Grüße, …",
+"ipa": "lʌv"
+},
+{
+"id": 509,
+"en": "lovely",
+"de": "schön, entzückend",
+"ipa": "ˈlʌvli"
+},
+{
+"id": 510,
+"en": "lover",
+"de": "Liebhaber/in",
+"ipa": "ˈlʌvə"
+},
+{
+"id": 511,
+"en": "low",
+"de": "niedrig",
+"ipa": "ləʊ"
+},
+{
+"id": 512,
+"en": "made",
+"de": "siehe „make“",
+"ipa": "meɪd",
+"form_of": "make"
+},
+{
+"id": 513,
+"en": "made",
+"de": "",
+"ipa": "meɪd",
+"form_of": ""
+},
+{
+"id": 514,
+"en": "magazine",
+"de": "Zeitschrift",
+"ipa": "ˌmæɡəˈziːn"
+},
+{
+"id": 515,
+"en": "main course",
+"de": "Hauptgericht",
+"ipa": "ˌmeɪn ˈkɔːs"
+},
+{
+"id": 516,
+"en": "make a comment",
+"de": "einen Kommentar abgeben",
+"ipa": "ˈkɒment"
+},
+{
+"id": 517,
+"en": "make a mistake",
+"de": "einen Fehler machen",
+"ipa": "mɪˈsteɪk"
+},
+{
+"id": 518,
+"en": "make eye contact",
+"de": "Blickkontakt herstellen",
+"ipa": "ˈkɒntækt"
+},
+{
+"id": 519,
+"en": "make money",
+"de": "Geld verdienen"
+},
+{
+"id": 520,
+"en": "make notes (pl)",
+"de": "(sich) Notizen machen (über/zu etwas) (zur Vorbereitung)",
+"ipa": "nəʊts"
+},
+{
+"id": 521,
+"en": "make tea",
+"de": "Tee kochen"
+},
+{
+"id": 522,
+"en": "make the most of sth.",
+"de": "das Beste aus etwas machen",
+"ipa": "meɪk ðə məʊst ɒv sth."
+},
+{
+"id": 523,
+"en": "manager",
+"de": "Manager/in",
+"ipa": "ˈmænɪdʒə"
+},
+{
+"id": 524,
+"en": "march",
+"de": "marschieren",
+"ipa": "mɑːtʃ"
+},
+{
+"id": 525,
+"en": "march on",
+"de": "weiter …",
+"ipa": "mɑːtʃ"
+},
+{
+"id": 526,
+"en": "marcher",
+"de": "Demonstrant/in",
+"ipa": "mɑːtʃə"
+},
+{
+"id": 527,
+"en": "mark",
+"de": "Markierung",
+"ipa": "mɑːk"
+},
+{
+"id": 528,
+"en": "marmalade",
+"de": "Orangenmarmelade",
+"ipa": "ˈmɑːməleɪd"
+},
+{
+"id": 529,
+"en": "marry sb.",
+"de": "jn. heiraten",
+"ipa": "ˈmæri"
+},
+{
+"id": 530,
+"en": "mashed potatoes (pl)",
+"de": "Kartoffelbrei",
+"ipa": "mæʃt"
+},
+{
+"id": 531,
+"en": "mask",
+"de": "Maske",
+"ipa": "mɑːsk"
+},
+{
+"id": 532,
+"en": "mate",
+"de": "Kumpel, Freund/in",
+"ipa": "meɪt"
+},
+{
+"id": 533,
+"en": "matter",
+"de": "von Bedeutung sein, wichtig sein",
+"ipa": "ˈmætə"
+},
+{
+"id": 534,
+"en": "may",
+"de": "dürfen",
+"ipa": "meɪ"
+},
+{
+"id": 535,
+"en": "mayonnaise",
+"de": "Mayonnaise",
+"ipa": "ˌmeɪəˈneɪz"
+},
+{
+"id": 536,
+"en": "mean",
+"de": "bedeuten",
+"ipa": "miːn"
+},
+{
+"id": 537,
+"en": "meant",
+"de": "siehe „mean“",
+"ipa": "ment",
+"form_of": "mean"
+},
+{
+"id": 538,
+"en": "meanwhile",
+"de": "in der Zwischenzeit",
+"ipa": "ˈmiːnwaɪl"
+},
+{
+"id": 539,
+"en": "meat",
+"de": "Fleisch",
+"ipa": "miːt"
+},
+{
+"id": 540,
+"en": "mediate",
+"de": "vermitteln (auch sprachlich)",
+"ipa": "ˈmiːdieɪt"
+},
+{
+"id": 541,
+"en": "memory",
+"de": "(Computer) Speicher",
+"ipa": "ˈmeməri"
+},
+{
+"id": 542,
+"en": "memory card",
+"de": "(Computer) Speicherkarte"
+},
+{
+"id": 543,
+"en": "menu",
+"de": "Speisekarte",
+"ipa": "ˈmenjuː"
+},
+{
+"id": 544,
+"en": "merry",
+"de": "fröhlich",
+"ipa": "ˈmeri"
+},
+{
+"id": 545,
+"en": "met",
+"de": "siehe „meet“",
+"ipa": "met",
+"form_of": "meet"
+},
+{
+"id": 546,
+"en": "met",
+"de": "siehe „meet”",
+"ipa": "met",
+"form_of": "meet"
+},
+{
+"id": 547,
+"en": "metal",
+"de": "Metall; Metall-",
+"ipa": "ˈmetl"
+},
+{
+"id": 548,
+"en": "million",
+"de": "Million",
+"ipa": "ˈmɪljən"
+},
+{
+"id": 549,
+"en": "mince",
+"de": "Hackfleisch",
+"ipa": "mɪns"
+},
+{
+"id": 550,
+"en": "mine: better than mine",
+"de": "meiner, meine, meins",
+"ipa": "maɪn"
+},
+{
+"id": 551,
+"en": "mint",
+"de": "Minze",
+"ipa": "mɪnt"
+},
+{
+"id": 552,
+"en": "minute: a ten-minute walk",
+"de": "ein zehnminütiger Spaziergang",
+"ipa": "ˌtenˈmɪnɪt"
+},
+{
+"id": 553,
+"en": "mirror",
+"de": "Spiegel",
+"ipa": "ˈmɪrə"
+},
+{
+"id": 554,
+"en": "miss sb./sth.",
+"de": "jn. vermissen",
+"ipa": "mɪs"
+},
+{
+"id": 555,
+"en": "miss the bus",
+"de": "verpassen",
+"ipa": "mɪs"
+},
+{
+"id": 556,
+"en": "miss: be missing",
+"de": "fehlen",
+"ipa": "ˈmɪsɪŋ"
+},
+{
+"id": 557,
+"en": "mistake",
+"de": "Fehler",
+"ipa": "mɪˈsteɪk"
+},
+{
+"id": 558,
+"en": "mixture",
+"de": "Mischung",
+"ipa": "ˈmɪkstʃə"
+},
+{
+"id": 559,
+"en": "moment",
+"de": "Moment",
+"ipa": "ˈməʊmənt"
+},
+{
+"id": 560,
+"en": "monster",
+"de": "Monster",
+"ipa": "ˈmɒnstə"
+},
+{
+"id": 561,
+"en": "moon",
+"de": "Mond",
+"ipa": "muːn"
+},
+{
+"id": 562,
+"en": "moped",
+"de": "Moped",
+"ipa": "ˈməʊped"
+},
+{
+"id": 563,
+"en": "more carefully",
+"de": "vorsichtiger"
+},
+{
+"id": 564,
+"en": "more expensive (than)",
+"de": "teurer (als)"
+},
+{
+"id": 565,
+"en": "mostly",
+"de": "hauptsächlich, meistens",
+"ipa": "ˈməʊstli"
+},
+{
+"id": 566,
+"en": "motto",
+"de": "Motto",
+"ipa": "ˈmɒtəʊ"
+},
+{
+"id": 567,
+"en": "mountain",
+"de": "Berg",
+"ipa": "ˈmaʊntən"
+},
+{
+"id": 568,
+"en": "mouse, pl mice",
+"de": "Maus",
+"ipa": "maʊs"
+},
+{
+"id": 569,
+"en": "move (to)",
+"de": "umziehen (nach)",
+"ipa": "muːv"
+},
+{
+"id": 570,
+"en": "much shorter",
+"de": "viel kürzer"
+},
+{
+"id": 571,
+"en": "multiple-choice task",
+"de": "Multiple-Choice-Aufgabe",
+"ipa": "ˌmʌltɪpl ˈtʃɔɪs"
+},
+{
+"id": 572,
+"en": "museum",
+"de": "Museum",
+"ipa": "mjuˈziːəm"
+},
+{
+"id": 573,
+"en": "mushroom",
+"de": "Pilz",
+"ipa": "ˈmʌʃruːm"
+},
+{
+"id": 574,
+"en": "must",
+"de": "müssen",
+"ipa": "mʌst"
+},
+{
+"id": 575,
+"en": "mustard",
+"de": "Senf",
+"ipa": "ˈmʌstəd"
+},
+{
+"id": 576,
+"en": "mustn't: You mustn't tell Alice.",
+"de": "Du darfst Alice nicht erzählen.",
+"ipa": "ˈmʌsnt"
+},
+{
+"id": 577,
+"en": "mystery",
+"de": "Rätsel",
+"ipa": "ˈmɪstri"
+},
+{
+"id": 578,
+"en": "narrative",
+"de": "Erzähltext",
+"ipa": "ˈnærətɪv"
+},
+{
+"id": 579,
+"en": "national",
+"de": "national; National-",
+"ipa": "ˈnæʃnəl"
+},
+{
+"id": 580,
+"en": "nature reserve",
+"de": "Naturschutzgebiet",
+"ipa": "ˈneɪtʃə rɪzɜːv"
+},
+{
+"id": 581,
+"en": "naughty",
+"de": "frech, ungezogen",
+"ipa": "ˈnɔːti"
+},
+{
+"id": 582,
+"en": "needn't: You needn't do it.",
+"de": "Du musst es nicht tun.",
+"ipa": "ˈniːdnt"
+},
+{
+"id": 583,
+"en": "Never mind.",
+"de": "Egal.",
+"ipa": "ˈnevə maɪnd."
+},
+{
+"id": 584,
+"en": "news",
+"de": "Neuigkeiten, ​Nachrichten",
+"ipa": "njuːz"
+},
+{
+"id": 585,
+"en": "newspaper",
+"de": "Zeitung; (kurz auch: paper)",
+"ipa": "ˈnjuːzpeɪpə"
+},
+{
+"id": 586,
+"en": "nice and …",
+"de": "schön …",
+"ipa": "naɪs ænd …"
+},
+{
+"id": 587,
+"en": "no one",
+"de": "niemand",
+"ipa": "ˈnəʊ wʌn"
+},
+{
+"id": 588,
+"en": "nobody",
+"de": "niemand",
+"ipa": "ˈnəʊbədi"
+},
+{
+"id": 589,
+"en": "none (of)",
+"de": "keine(r, s) (von …)",
+"ipa": "nʌn"
+},
+{
+"id": 590,
+"en": "normal",
+"de": "normal",
+"ipa": "ˈnɔːməl"
+},
+{
+"id": 591,
+"en": "not … anywhere",
+"de": "nirgendwo; nirgendwohin",
+"ipa": "ˈeniweə"
+},
+{
+"id": 592,
+"en": "not any more",
+"de": "nicht mehr"
+},
+{
+"id": 593,
+"en": "not anybody",
+"de": "niemand",
+"ipa": "ˈenibɒdi"
+},
+{
+"id": 594,
+"en": "nothing",
+"de": "(gar) nichts",
+"ipa": "ˈnʌθɪŋ"
+},
+{
+"id": 595,
+"en": "off",
+"de": "von … herunter",
+"ipa": "ɒf"
+},
+{
+"id": 596,
+"en": "off: drive off",
+"de": "wegfahren",
+"ipa": "ɒf"
+},
+{
+"id": 597,
+"en": "offer",
+"de": "anbieten",
+"ipa": "ˈɒfə"
+},
+{
+"id": 598,
+"en": "old people's home",
+"de": "Altersheim, Seniorenheim",
+"ipa": "ˌəʊld ˈpiːplz həʊm"
+},
+{
+"id": 599,
+"en": "old town",
+"de": "Altstadt",
+"ipa": "ˈəʊld taʊn"
+},
+{
+"id": 600,
+"en": "on foot",
+"de": "zu Fuß"
+},
+{
+"id": 601,
+"en": "on the radio/TV",
+"de": "im Radio/Fernsehen"
+},
+{
+"id": 602,
+"en": "on top",
+"de": "oben drauf"
+},
+{
+"id": 603,
+"en": "once",
+"de": "einmal",
+"ipa": "wʌns"
+},
+{
+"id": 604,
+"en": "once",
+"de": "einst, früher einmal",
+"ipa": "wʌns"
+},
+{
+"id": 605,
+"en": "once again",
+"de": "nochmals"
+},
+{
+"id": 606,
+"en": "one by one",
+"de": "eine/r nach dem anderen"
+},
+{
+"id": 607,
+"en": "one: a nice one",
+"de": "ein nette(r, s)"
+},
+{
+"id": 608,
+"en": "ones: What about these ones?",
+"de": "Wie wäre es mit diesen?"
+},
+{
+"id": 609,
+"en": "opening times",
+"de": "Öffnungszeiten"
+},
+{
+"id": 610,
+"en": "option",
+"de": "Option, (Wahl-)Möglichkeit",
+"ipa": "ˈɒpʃn"
+},
+{
+"id": 611,
+"en": "order",
+"de": "bestellen",
+"ipa": "ˈɔːdə"
+},
+{
+"id": 612,
+"en": "organize",
+"de": "organisieren; ordnen",
+"ipa": "ˈɔːɡənaɪz"
+},
+{
+"id": 613,
+"en": "ours",
+"de": "unsere(r,s)",
+"ipa": "ɑːz / ˈaʊəz"
+},
+{
+"id": 614,
+"en": "outfit",
+"de": "die Ausstattung, die Kleidung",
+"ipa": "ˈaʊtfɪt"
+},
+{
+"id": 615,
+"en": "outline",
+"de": "Umriss",
+"ipa": "ˈaʊtlaɪn"
+},
+{
+"id": 616,
+"en": "oven",
+"de": "Backofen",
+"ipa": "ˈʌvn"
+},
+{
+"id": 617,
+"en": "over",
+"de": "über",
+"ipa": "ˈəʊvə"
+},
+{
+"id": 618,
+"en": "owl",
+"de": "Eule",
+"ipa": "aʊl"
+},
+{
+"id": 619,
+"en": "own: on my/your/their/... Own",
+"de": "allein",
+"ipa": "əʊn"
+},
+{
+"id": 620,
+"en": "owner",
+"de": "Besitzer/in, Eigentümer/in",
+"ipa": "ˈəʊnə"
+},
+{
+"id": 621,
+"en": "paid",
+"de": "siehe „pay“",
+"ipa": "peɪd",
+"form_of": "pay"
+},
+{
+"id": 622,
+"en": "paint",
+"de": "(an)streichen; (an)malen",
+"ipa": "peɪnt"
+},
+{
+"id": 623,
+"en": "paint",
+"de": "Farbe, Lack",
+"ipa": "peɪnt"
+},
+{
+"id": 624,
+"en": "painting",
+"de": "Gemälde, Malerei",
+"ipa": "ˈpeɪntɪŋ"
+},
+{
+"id": 625,
+"en": "pair: a pair (of)",
+"de": "Paar",
+"ipa": "peə"
+},
+{
+"id": 626,
+"en": "parade",
+"de": "Parade, Umzug",
+"ipa": "pəˈreɪd"
+},
+{
+"id": 627,
+"en": "paradise",
+"de": "Paradies",
+"ipa": "ˈpærədaɪs"
+},
+{
+"id": 628,
+"en": "paragraph",
+"de": "Absatz (in einem Text)",
+"ipa": "ˈpærəɡrɑːf"
+},
+{
+"id": 629,
+"en": "past",
+"de": "Vergangenheit",
+"ipa": "pɑːst"
+},
+{
+"id": 630,
+"en": "past: walk past",
+"de": "vorbei (an), vorüber (an)",
+"ipa": "pɑːst"
+},
+{
+"id": 631,
+"en": "paste",
+"de": "(an)kleben; (Computer) einfügen",
+"ipa": "peɪst"
+},
+{
+"id": 632,
+"en": "path",
+"de": "Pfad, Weg",
+"ipa": "pɑːθ"
+},
+{
+"id": 633,
+"en": "pay for sth., paid",
+"de": "etwas bezahlen",
+"ipa": "peɪ"
+},
+{
+"id": 634,
+"en": "pea",
+"de": "Erbse",
+"ipa": "piː"
+},
+{
+"id": 635,
+"en": "peace",
+"de": "Friede, Frieden",
+"ipa": "piːs"
+},
+{
+"id": 636,
+"en": "peer",
+"de": "Gleichaltrige(r)",
+"ipa": "pɪə"
+},
+{
+"id": 637,
+"en": "peer pressure",
+"de": "Gruppenzwang, -druck",
+"ipa": "pɪə ˈpreʃə"
+},
+{
+"id": 638,
+"en": "pence, p",
+"de": "Pence (Plural von „penny“)",
+"ipa": "pens"
+},
+{
+"id": 639,
+"en": "penny",
+"de": "Penny",
+"ipa": "ˈpeni"
+},
+{
+"id": 640,
+"en": "perfect",
+"de": "perfekt, ideal",
+"ipa": "ˈpɜːfɪkt"
+},
+{
+"id": 641,
+"en": "permission",
+"de": "Erlaubnis",
+"ipa": "pəˈmɪʃn"
+},
+{
+"id": 642,
+"en": "person",
+"de": "Person",
+"ipa": "ˈpɜːsn"
+},
+{
+"id": 643,
+"en": "personal",
+"de": "persönlich",
+"ipa": "ˈpɜːsənl"
+},
+{
+"id": 644,
+"en": "pet food",
+"de": "Haustiernahrung, Haustierfutter",
+"ipa": "ˈpet fuːd"
+},
+{
+"id": 645,
+"en": "pet shop",
+"de": "Tierhandlung, Zoohandlung",
+"ipa": "ˈpet ʃɒp"
+},
+{
+"id": 646,
+"en": "pharmacy",
+"de": "Apotheke",
+"ipa": "ˈfɑːməsi"
+},
+{
+"id": 647,
+"en": "Phew",
+"de": "Puh! Uff!",
+"ipa": "fjuː"
+},
+{
+"id": 648,
+"en": "phonetic",
+"de": "phonetisch",
+"ipa": "fəˈnetɪk"
+},
+{
+"id": 649,
+"en": "phonetic symbol",
+"de": "Lautschrift",
+"ipa": "fəˌnetɪk ˈsɪmbl"
+},
+{
+"id": 650,
+"en": "photograph",
+"de": "Fotografie",
+"ipa": "ˈfəʊtəɡrɑːf"
+},
+{
+"id": 651,
+"en": "photographer",
+"de": "Fotograf/in",
+"ipa": "fəˈtɒɡrəfə"
+},
+{
+"id": 652,
+"en": "piece of advice",
+"de": "Ratschlag"
+},
+{
+"id": 653,
+"en": "pirate",
+"de": "Pirat/in",
+"ipa": "ˈpaɪrət"
+},
+{
+"id": 654,
+"en": "pity: It's a pity.",
+"de": "Es ist schade.",
+"ipa": "ˈpɪti"
+},
+{
+"id": 655,
+"en": "plane",
+"de": "Flugzeug",
+"ipa": "pleɪn"
+},
+{
+"id": 656,
+"en": "planet",
+"de": "Planet",
+"ipa": "ˈplænɪt"
+},
+{
+"id": 657,
+"en": "plant",
+"de": "pflanzen",
+"ipa": "plɑːnt"
+},
+{
+"id": 658,
+"en": "play sth.",
+"de": "etwas abspielen, vorspielen"
+},
+{
+"id": 659,
+"en": "point",
+"de": "Punkt",
+"ipa": "pɔɪnt"
+},
+{
+"id": 660,
+"en": "point sth. out",
+"de": "(jn.) auf etwas hinweisen",
+"ipa": "ˌpɔɪntˈaʊt"
+},
+{
+"id": 661,
+"en": "pond",
+"de": "Teich",
+"ipa": "pɒnd"
+},
+{
+"id": 662,
+"en": "pony, pl. ponies",
+"de": "Pony",
+"ipa": "ˈpəʊni"
+},
+{
+"id": 663,
+"en": "Poor you",
+"de": "Du Arme(r)"
+},
+{
+"id": 664,
+"en": "popular",
+"de": "populär, beliebt",
+"ipa": "ˈpɒpjələ"
+},
+{
+"id": 665,
+"en": "pork",
+"de": "Schweinefleisch",
+"ipa": "pɔːk"
+},
+{
+"id": 666,
+"en": "porridge",
+"de": "Haferbrei",
+"ipa": "ˈpɒrɪdʒ"
+},
+{
+"id": 667,
+"en": "possible",
+"de": "möglich",
+"ipa": "ˈpɒsəbl"
+},
+{
+"id": 668,
+"en": "pot",
+"de": "Gefäß; Topf",
+"ipa": "pɒt"
+},
+{
+"id": 669,
+"en": "potato, pl potatoes",
+"de": "Kartoffel",
+"ipa": "pəˈteɪtəʊ"
+},
+{
+"id": 670,
+"en": "power",
+"de": "Energie, Strom; Kraft, Stärke; Macht",
+"ipa": "ˈpaʊə"
+},
+{
+"id": 671,
+"en": "powerful",
+"de": "mächtig",
+"ipa": "ˈpaʊəfl"
+},
+{
+"id": 672,
+"en": "prepare sth.",
+"de": "etwas vorbereiten",
+"ipa": "prɪˈpeə"
+},
+{
+"id": 673,
+"en": "present",
+"de": "Gegenwart",
+"ipa": "pɑːst"
+},
+{
+"id": 674,
+"en": "president",
+"de": "Präsident/in",
+"ipa": "ˈprezɪdənt"
+},
+{
+"id": 675,
+"en": "press (the button)",
+"de": "drücken",
+"ipa": "pres"
+},
+{
+"id": 676,
+"en": "pretty",
+"de": "hübsch",
+"ipa": "ˈprɪti"
+},
+{
+"id": 677,
+"en": "pride (in sth.)",
+"de": "Stolz (auf etwas)",
+"ipa": "praɪd"
+},
+{
+"id": 678,
+"en": "prime minister",
+"de": "Premierminister/in",
+"ipa": "ˌpraɪm ˈmɪnɪstə"
+},
+{
+"id": 679,
+"en": "prince",
+"de": "Prinz",
+"ipa": "prɪns"
+},
+{
+"id": 680,
+"en": "princess",
+"de": "Prinzessin",
+"ipa": "ˌprɪnˈses / ˈprɪnses"
+},
+{
+"id": 681,
+"en": "program",
+"de": "(Computer-)Programm",
+"ipa": "ˈprəʊɡræm"
+},
+{
+"id": 682,
+"en": "promise",
+"de": "versprechen",
+"ipa": "ˈprɒmɪs"
+},
+{
+"id": 683,
+"en": "Protestant",
+"de": "Protestant/in",
+"ipa": "ˈprɒtɪstənt"
+},
+{
+"id": 684,
+"en": "proud (of)",
+"de": "stolz (auf)",
+"ipa": "praʊd"
+},
+{
+"id": 685,
+"en": "pull sth. up",
+"de": "etwas herausreißen",
+"ipa": "ˌpʊlˈʌp"
+},
+{
+"id": 686,
+"en": "pullover",
+"de": "Pullover",
+"ipa": "ˈpʊləʊvə"
+},
+{
+"id": 687,
+"en": "put",
+"de": "siehe „put“",
+"ipa": "pʊt",
+"form_of": "put"
+},
+{
+"id": 688,
+"en": "put",
+"de": "",
+"form_of": ""
+},
+{
+"id": 689,
+"en": "put sth. on",
+"de": "etwas anziehen (Kleidung); etwas aufsetzen (Hut, Helm)",
+"ipa": "ˌpʊtˈɒn"
+},
+{
+"id": 690,
+"en": "queen",
+"de": "Königin",
+"ipa": "kwiːn"
+},
+{
+"id": 691,
+"en": "queue",
+"de": "Schlange, Reihe (wartender Menschen)",
+"ipa": "kjuː"
+},
+{
+"id": 692,
+"en": "queue",
+"de": "Schlange stehen, sich anstellen",
+"ipa": "kjuː"
+},
+{
+"id": 693,
+"en": "queue up",
+"de": "sich anstellen",
+"ipa": "kjuː"
+},
+{
+"id": 694,
+"en": "radio",
+"de": "Radio",
+"ipa": "ˈreɪdiəʊ"
+},
+{
+"id": 695,
+"en": "ran",
+"de": "siehe „run“",
+"ipa": "ræn",
+"form_of": "run"
+},
+{
+"id": 696,
+"en": "rang",
+"de": "siehe „ring“",
+"ipa": "ræŋ",
+"form_of": "ring"
+},
+{
+"id": 697,
+"en": "reach",
+"de": "erreichen",
+"ipa": "riːtʃ"
+},
+{
+"id": 698,
+"en": "read e]",
+"de": "siehe „read“",
+"ipa": "red",
+"form_of": "read"
+},
+{
+"id": 699,
+"en": "rebellion",
+"de": "Aufstand",
+"ipa": "rɪˈbeljən"
+},
+{
+"id": 700,
+"en": "reception desk",
+"de": "Rezeption, Empfang",
+"ipa": "rɪˈsepʃn desk"
+},
+{
+"id": 701,
+"en": "recognize",
+"de": "erkennen",
+"ipa": "ˈrekəɡnaɪz"
+},
+{
+"id": 702,
+"en": "recommend sth. (to sb.)",
+"de": "(jm.) etwas empfehlen",
+"ipa": "ˌrekəˈmend"
+},
+{
+"id": 703,
+"en": "recording",
+"de": "Tonaufnahme",
+"ipa": "rɪˈkɔːdɪŋ"
+},
+{
+"id": 704,
+"en": "region",
+"de": "Region",
+"ipa": "ˈriːdʒən"
+},
+{
+"id": 705,
+"en": "regional",
+"de": "regional",
+"ipa": "ˈriːdʒənl"
+},
+{
+"id": 706,
+"en": "relevant (to sth.)",
+"de": "relevant, wichtig (für etwas)",
+"ipa": "ˈreləvənt"
+},
+{
+"id": 707,
+"en": "remember sb.",
+"de": "jemandes gedenken",
+"ipa": "rɪˈmembə"
+},
+{
+"id": 708,
+"en": "rent",
+"de": "mieten",
+"ipa": "rent"
+},
+{
+"id": 709,
+"en": "reply (to)",
+"de": "antworten (auf); erwidern, entgegnen",
+"ipa": "rɪˈplaɪ"
+},
+{
+"id": 710,
+"en": "report",
+"de": "Bericht, Reportage",
+"ipa": "rɪˈpɔːt"
+},
+{
+"id": 711,
+"en": "report on sth.",
+"de": "über etwas berichten",
+"ipa": "rɪˈpɔːt"
+},
+{
+"id": 712,
+"en": "reporter",
+"de": "Reporter/in",
+"ipa": "rɪˈpɔːtə"
+},
+{
+"id": 713,
+"en": "research",
+"de": "recherchieren",
+"ipa": "rɪˈsɜːtʃ"
+},
+{
+"id": 714,
+"en": "resident",
+"de": "Bewohner/in, Anwohner/in",
+"ipa": "ˈrezɪdənt"
+},
+{
+"id": 715,
+"en": "rest",
+"de": "Rest",
+"ipa": "rest"
+},
+{
+"id": 716,
+"en": "restart",
+"de": "neu starten",
+"ipa": "ˌriːˈstɑːt"
+},
+{
+"id": 717,
+"en": "restaurant",
+"de": "Restaurant",
+"ipa": "ˈrestrɒnt"
+},
+{
+"id": 718,
+"en": "rich",
+"de": "reich",
+"ipa": "rɪtʃ"
+},
+{
+"id": 719,
+"en": "ride a bike",
+"de": "Rad fahren",
+"ipa": "raɪd"
+},
+{
+"id": 720,
+"en": "right after",
+"de": "gleich nach"
+},
+{
+"id": 721,
+"en": "right by the sea",
+"de": "direkt am Meer"
+},
+{
+"id": 722,
+"en": "right now",
+"de": "jetzt gerade"
+},
+{
+"id": 723,
+"en": "right-click",
+"de": "mit der rechten Maustaste anklicken"
+},
+{
+"id": 724,
+"en": "ring",
+"de": "Ring",
+"ipa": "rɪŋ"
+},
+{
+"id": 725,
+"en": "river",
+"de": "Fluss",
+"ipa": "ˈrɪvə"
+},
+{
+"id": 726,
+"en": "roast",
+"de": "Braten",
+"ipa": "rəʊst"
+},
+{
+"id": 727,
+"en": "roast beef",
+"de": "Rinderbraten",
+"ipa": "ˌrəʊst ˈbiːf"
+},
+{
+"id": 728,
+"en": "roast potatoes (pl)",
+"de": "im Backofen in Fett gebackene Kartoffeln",
+"ipa": "ˌrəʊst pəˈteɪtəʊz"
+},
+{
+"id": 729,
+"en": "robber",
+"de": "Räuber/in",
+"ipa": "ˈrɒbə"
+},
+{
+"id": 730,
+"en": "robin",
+"de": "Rotkehlchen",
+"ipa": "ˈrɒbɪn"
+},
+{
+"id": 731,
+"en": "rode",
+"de": "siehe „ride“ VERB",
+"ipa": "rəʊd"
+},
+{
+"id": 732,
+"en": "roof",
+"de": "Dach",
+"ipa": "ruːf"
+},
+{
+"id": 733,
+"en": "rose",
+"de": "Rose",
+"ipa": "rəʊz"
+},
+{
+"id": 734,
+"en": "round",
+"de": "Runde",
+"ipa": "raʊnd"
+},
+{
+"id": 735,
+"en": "royal",
+"de": "königlich",
+"ipa": "ˈrɔɪəl"
+},
+{
+"id": 736,
+"en": "rub",
+"de": "reiben",
+"ipa": "rʌb"
+},
+{
+"id": 737,
+"en": "rub your eyes",
+"de": "sich die Augen reiben",
+"ipa": "rʌb"
+},
+{
+"id": 738,
+"en": "rubber",
+"de": "Gummi",
+"ipa": "ˈrʌbə"
+},
+{
+"id": 739,
+"en": "rubbish",
+"de": "Müll",
+"ipa": "ˈrʌbɪʃ"
+},
+{
+"id": 740,
+"en": "rucksack",
+"de": "Rucksack",
+"ipa": "ˈrʌksæk"
+},
+{
+"id": 741,
+"en": "rule",
+"de": "herrschen, beherrschen",
+"ipa": "ruːl"
+},
+{
+"id": 742,
+"en": "safe",
+"de": "sicher, in Sicherheit",
+"ipa": "seɪf"
+},
+{
+"id": 743,
+"en": "said",
+"de": "siehe „say“",
+"ipa": "sed",
+"form_of": "say"
+},
+{
+"id": 744,
+"en": "salad cream (no pl)",
+"de": "Salatcreme",
+"ipa": "ˈsæləd kriːm"
+},
+{
+"id": 745,
+"en": "salty",
+"de": "salzig",
+"ipa": "ˈsɔːlti"
+},
+{
+"id": 746,
+"en": "sandcastle",
+"de": "Sandburg",
+"ipa": "ˈsændkɑːsl"
+},
+{
+"id": 747,
+"en": "sang",
+"de": "siehe „sing“",
+"ipa": "sæŋ",
+"form_of": "sing"
+},
+{
+"id": 748,
+"en": "sat",
+"de": "siehe „sit“",
+"ipa": "sæt",
+"form_of": "sit"
+},
+{
+"id": 749,
+"en": "sat",
+"de": "siehe „sit”",
+"ipa": "sæt",
+"form_of": "sit"
+},
+{
+"id": 750,
+"en": "sauce",
+"de": "Soße",
+"ipa": "sɔːs"
+},
+{
+"id": 751,
+"en": "save time",
+"de": "sparen",
+"ipa": "seɪv"
+},
+{
+"id": 752,
+"en": "saw",
+"de": "siehe „see“",
+"ipa": "sɔː",
+"form_of": "see"
+},
+{
+"id": 753,
+"en": "scan (a text)",
+"de": "einen Text schnell nach bestimmten Wörtern/Informationen absuchen",
+"ipa": "skæn"
+},
+{
+"id": 754,
+"en": "scare",
+"de": "jn. erschrecken; jm. Angst machen",
+"ipa": "skeə"
+},
+{
+"id": 755,
+"en": "scariest",
+"de": "der/die/das gruseligste …; am gruseligsten",
+"ipa": "ˈskeərɪɪst"
+},
+{
+"id": 756,
+"en": "scooter",
+"de": "Motorroller",
+"ipa": "ˈskuːtə"
+},
+{
+"id": 757,
+"en": "scream",
+"de": "schreien",
+"ipa": "skriːm"
+},
+{
+"id": 758,
+"en": "screen",
+"de": "Bildschirm",
+"ipa": "skriːn"
+},
+{
+"id": 759,
+"en": "seaside",
+"de": "Meeresküste, Strand",
+"ipa": "ˈsiːsaɪd"
+},
+{
+"id": 760,
+"en": "second",
+"de": "Sekunde",
+"ipa": "ˈsekənd"
+},
+{
+"id": 761,
+"en": "second-hand",
+"de": "gebraucht, aus zweiter Hand",
+"ipa": "ˌsekənd ˈhænd"
+},
+{
+"id": 762,
+"en": "secondary school",
+"de": "weiterführende Schule",
+"ipa": "ˈsekəndri"
+},
+{
+"id": 763,
+"en": "Secondly, …",
+"de": "Zweitens …",
+"ipa": "ˈsekəndli"
+},
+{
+"id": 764,
+"en": "seen",
+"de": "siehe „see”",
+"ipa": "siːn",
+"form_of": "see"
+},
+{
+"id": 765,
+"en": "send sth. to sb.",
+"de": "jm. etwas schicken, senden",
+"ipa": "send"
+},
+{
+"id": 766,
+"en": "sent",
+"de": "siehe „send”",
+"ipa": "sent",
+"form_of": "send"
+},
+{
+"id": 767,
+"en": "serve",
+"de": "servieren, bedienen",
+"ipa": "sɜːv"
+},
+{
+"id": 768,
+"en": "service",
+"de": "Dienst",
+"ipa": "ˈsɜːvɪs"
+},
+{
+"id": 769,
+"en": "set the table, set",
+"de": "den Tisch decken"
+},
+{
+"id": 770,
+"en": "several",
+"de": "mehrere, verschiedene",
+"ipa": "ˈsevrəl"
+},
+{
+"id": 771,
+"en": "share sth. out",
+"de": "etwas verteilen",
+"ipa": "ʃeə"
+},
+{
+"id": 772,
+"en": "sharp",
+"de": "scharf",
+"ipa": "ʃɑːp"
+},
+{
+"id": 773,
+"en": "sheep, pl sheep",
+"de": "Schaf",
+"ipa": "ʃiːp"
+},
+{
+"id": 774,
+"en": "sheet",
+"de": "Bettlaken",
+"ipa": "ʃiːt"
+},
+{
+"id": 775,
+"en": "shine",
+"de": "scheinen (Sonne)",
+"ipa": "ʃaɪn"
+},
+{
+"id": 776,
+"en": "shiny",
+"de": "glänzend",
+"ipa": "ˈʃaɪni"
+},
+{
+"id": 777,
+"en": "shirt",
+"de": "Hemd, Trikot",
+"ipa": "ʃɜːt"
+},
+{
+"id": 778,
+"en": "shoe",
+"de": "Schuh",
+"ipa": "ʃuː"
+},
+{
+"id": 779,
+"en": "shone",
+"de": "siehe „shine“",
+"ipa": "ʃɒn",
+"form_of": "shine"
+},
+{
+"id": 780,
+"en": "shop assistant",
+"de": "Verkäufer/in",
+"ipa": "ˈʃɒp əsɪstənt"
+},
+{
+"id": 781,
+"en": "shopping centre",
+"de": "Einkaufszentrum",
+"ipa": "ˈʃɒpɪŋ sentə"
+},
+{
+"id": 782,
+"en": "shorts (pl)",
+"de": "Shorts, kurze Hose",
+"ipa": "ʃɔːts"
+},
+{
+"id": 783,
+"en": "shot",
+"de": "Aufnahme, Foto; (Film) Einstellung, Szene",
+"ipa": "ʃɒt"
+},
+{
+"id": 784,
+"en": "should: you should …",
+"de": "Du solltest … / Ihr solltet … / Sie sollten …",
+"ipa": "ʃʊd ʃəd"
+},
+{
+"id": 785,
+"en": "shout at sb.",
+"de": "jn. anschreien",
+"ipa": "ʃaʊt"
+},
+{
+"id": 786,
+"en": "sick",
+"de": "krank",
+"ipa": "sɪk"
+},
+{
+"id": 787,
+"en": "side",
+"de": "Seite",
+"ipa": "saɪd"
+},
+{
+"id": 788,
+"en": "sidekick (infml)",
+"de": "Begleiter/in, der Kumpan",
+"ipa": "ˈsaɪdkɪk"
+},
+{
+"id": 789,
+"en": "sign up",
+"de": "sich eintragen",
+"ipa": "ˌsaɪnˈʌp"
+},
+{
+"id": 790,
+"en": "signal",
+"de": "Signal",
+"ipa": "ˈsɪɡnəl"
+},
+{
+"id": 791,
+"en": "silent: be silent",
+"de": "schweigen",
+"ipa": "ˈsaɪlənt"
+},
+{
+"id": 792,
+"en": "Silly me.",
+"de": "Wie dumm von mir."
+},
+{
+"id": 793,
+"en": "skim (a text)",
+"de": "einen Text überfliegen (um den Inhalt grob zu erfassen)",
+"ipa": "skɪm"
+},
+{
+"id": 794,
+"en": "skirt",
+"de": "Rock",
+"ipa": "skɜːt"
+},
+{
+"id": 795,
+"en": "slept",
+"de": "siehe „sleep“",
+"ipa": "slept",
+"form_of": "sleep"
+},
+{
+"id": 796,
+"en": "slowcoach (infml)",
+"de": "Trödler/in",
+"ipa": "ˈsləʊkəʊtʃ"
+},
+{
+"id": 797,
+"en": "so far",
+"de": "bis jetzt; bis hierher"
+},
+{
+"id": 798,
+"en": "so that / so",
+"de": "sodass, damit"
+},
+{
+"id": 799,
+"en": "sock",
+"de": "Socke",
+"ipa": "sɒk"
+},
+{
+"id": 800,
+"en": "software",
+"de": "Software",
+"ipa": "ˈsɒftweə"
+},
+{
+"id": 801,
+"en": "sold",
+"de": "siehe „sell“",
+"ipa": "səʊld",
+"form_of": "sell"
+},
+{
+"id": 802,
+"en": "soldier",
+"de": "Soldat/in",
+"ipa": "ˈsəʊldʒə"
+},
+{
+"id": 803,
+"en": "solve",
+"de": "lösen",
+"ipa": "sɒlv"
+},
+{
+"id": 804,
+"en": "someone else",
+"de": "jemand anders"
+},
+{
+"id": 805,
+"en": "something nice to eat",
+"de": "etwas Schönes zu essen"
+},
+{
+"id": 806,
+"en": "somewhere",
+"de": "irgendwo, irgendwohin",
+"ipa": "ˈsʌmweə"
+},
+{
+"id": 807,
+"en": "sound: I don’t like the sound of this.",
+"de": "Ich mag diesen Klang nicht."
+},
+{
+"id": 808,
+"en": "soup",
+"de": "Suppe",
+"ipa": "suːp"
+},
+{
+"id": 809,
+"en": "source",
+"de": "Quelle",
+"ipa": "sɔːs"
+},
+{
+"id": 810,
+"en": "space",
+"de": "Platz, Raum",
+"ipa": "speɪs"
+},
+{
+"id": 811,
+"en": "spaceship",
+"de": "Raumschiff",
+"ipa": "ˈspeɪsʃɪp"
+},
+{
+"id": 812,
+"en": "speaker",
+"de": "Lautsprecher",
+"ipa": "ˈspiːkə"
+},
+{
+"id": 813,
+"en": "spear",
+"de": "Speer",
+"ipa": "spɪə"
+},
+{
+"id": 814,
+"en": "special",
+"de": "besonders",
+"ipa": "ˈspeʃl"
+},
+{
+"id": 815,
+"en": "specific",
+"de": "bestimmte(r, s)",
+"ipa": "spəˈsɪfɪk"
+},
+{
+"id": 816,
+"en": "speech",
+"de": "(offizielle) Rede",
+"ipa": "spiːtʃ"
+},
+{
+"id": 817,
+"en": "spend time, spent",
+"de": "Zeit verbringen",
+"ipa": "spend"
+},
+{
+"id": 818,
+"en": "spend time/money (on), spent",
+"de": "Zeit verbringen (mit); Geld ausgeben (für)",
+"ipa": "spend"
+},
+{
+"id": 819,
+"en": "spent",
+"de": "siehe „spend”",
+"ipa": "spent",
+"form_of": "spend"
+},
+{
+"id": 820,
+"en": "spoke",
+"de": "siehe „speak“",
+"ipa": "spəʊk",
+"form_of": "speak"
+},
+{
+"id": 821,
+"en": "sports shop",
+"de": "Sportgeschäft",
+"ipa": "spɔːts ʃɒp"
+},
+{
+"id": 822,
+"en": "spray",
+"de": "(be)sprühen, sprayen",
+"ipa": "spreɪ"
+},
+{
+"id": 823,
+"en": "square",
+"de": "Feld (beim Schach usw.)",
+"ipa": "skweə"
+},
+{
+"id": 824,
+"en": "star",
+"de": "Stern",
+"ipa": "stɑː"
+},
+{
+"id": 825,
+"en": "start",
+"de": "Anfang",
+"ipa": "stɑːt"
+},
+{
+"id": 826,
+"en": "starter",
+"de": "Vorspeise",
+"ipa": "ˈstɑːtə"
+},
+{
+"id": 827,
+"en": "station",
+"de": "Bahnhof",
+"ipa": "ˈsteɪʃn"
+},
+{
+"id": 828,
+"en": "statue",
+"de": "Statue",
+"ipa": "ˈstætʃuː"
+},
+{
+"id": 829,
+"en": "stay (at/with)",
+"de": "(vorübergehend) wohnen,übernachten (in/bei)",
+"ipa": "steɪ"
+},
+{
+"id": 830,
+"en": "steady",
+"de": "ruhig",
+"ipa": "ˈstedi"
+},
+{
+"id": 831,
+"en": "stew",
+"de": "Eintopf",
+"ipa": "stjuː"
+},
+{
+"id": 832,
+"en": "sticky",
+"de": "klebrig",
+"ipa": "ˈstɪki"
+},
+{
+"id": 833,
+"en": "still",
+"de": "Standbild",
+"ipa": "stɪl"
+},
+{
+"id": 834,
+"en": "stood",
+"de": "siehe „stand“",
+"ipa": "stʊd",
+"form_of": "stand"
+},
+{
+"id": 835,
+"en": "stop sb.",
+"de": "jn. aufhalten"
+},
+{
+"id": 836,
+"en": "straight on",
+"de": "geradeaus weiter",
+"ipa": "streɪtˈɒn"
+},
+{
+"id": 837,
+"en": "stream sth.",
+"de": "etwas streamen",
+"ipa": "striːm"
+},
+{
+"id": 838,
+"en": "stress",
+"de": "betonen",
+"ipa": "stres"
+},
+{
+"id": 839,
+"en": "stress",
+"de": "Betonung",
+"ipa": "stres"
+},
+{
+"id": 840,
+"en": "stretch sth. out",
+"de": "etwas ausstrecken",
+"ipa": "stretʃ"
+},
+{
+"id": 841,
+"en": "strong",
+"de": "stark, kräftig",
+"ipa": "strɒŋ"
+},
+{
+"id": 842,
+"en": "structure",
+"de": "Struktur, Gliederung",
+"ipa": "ˈstrʌktʃə"
+},
+{
+"id": 843,
+"en": "study poster",
+"de": "Lernposter",
+"ipa": "ˈstʌdi pəʊstə"
+},
+{
+"id": 844,
+"en": "style",
+"de": "Stil",
+"ipa": "staɪl"
+},
+{
+"id": 845,
+"en": "sub-heading",
+"de": "Zwischenüberschrift",
+"ipa": "ˈsʌbˌhedɪŋ"
+},
+{
+"id": 846,
+"en": "such a",
+"de": "so ein/e …; solch ein/e …",
+"ipa": "sʌtʃ"
+},
+{
+"id": 847,
+"en": "suit",
+"de": "Anzug",
+"ipa": "suːt"
+},
+{
+"id": 848,
+"en": "summary",
+"de": "Zusammenfassung",
+"ipa": "ˈsʌməri"
+},
+{
+"id": 849,
+"en": "summer camp",
+"de": "Ferienlager"
+},
+{
+"id": 850,
+"en": "sung",
+"de": "siehe „sing”",
+"ipa": "sʌŋ",
+"form_of": "sing"
+},
+{
+"id": 851,
+"en": "support",
+"de": "unterstützen",
+"ipa": "səˈpɔːt"
+},
+{
+"id": 852,
+"en": "surf",
+"de": "surfen",
+"ipa": "sɜːf"
+},
+{
+"id": 853,
+"en": "surprise",
+"de": "Überraschung",
+"ipa": "səˈpraɪz"
+},
+{
+"id": 854,
+"en": "surprise",
+"de": "überraschen",
+"ipa": "səˈpraɪz"
+},
+{
+"id": 855,
+"en": "surprised",
+"de": "überrascht",
+"ipa": "səˈpraɪzd"
+},
+{
+"id": 856,
+"en": "swam",
+"de": "siehe „swim“",
+"ipa": "swæm",
+"form_of": "swim"
+},
+{
+"id": 857,
+"en": "swan",
+"de": "Schwan",
+"ipa": "swɒn"
+},
+{
+"id": 858,
+"en": "swap",
+"de": "tauschen",
+"ipa": "swɒp"
+},
+{
+"id": 859,
+"en": "sweet",
+"de": "süß",
+"ipa": "swiːt"
+},
+{
+"id": 860,
+"en": "sweet shop",
+"de": "Süßwarenladen",
+"ipa": "ˈswiːt ʃɒp"
+},
+{
+"id": 861,
+"en": "sword",
+"de": "Schwert",
+"ipa": "sɔːd"
+},
+{
+"id": 862,
+"en": "swung",
+"de": "siehe „swing“",
+"ipa": "swʌŋ",
+"form_of": "swing"
+},
+{
+"id": 863,
+"en": "syllable",
+"de": "Silbe",
+"ipa": "ˈsɪləbl"
+},
+{
+"id": 864,
+"en": "symbol",
+"de": "Symbol",
+"ipa": "ˈsɪmbl"
+},
+{
+"id": 865,
+"en": "system",
+"de": "System",
+"ipa": "ˈsɪstəm"
+},
+{
+"id": 866,
+"en": "T-shirt",
+"de": "T-Shirt",
+"ipa": "ˈtiːʃɜːt"
+},
+{
+"id": 867,
+"en": "table (Tabelle)",
+"de": "Tabelle",
+"ipa": "ˈteɪbl"
+},
+{
+"id": 868,
+"en": "take notes (pl)",
+"de": "(sich) Notizen machen (beim Lesen oder Zuhören)",
+"ipa": "nəʊts"
+},
+{
+"id": 869,
+"en": "take place",
+"de": "stattfinden",
+"ipa": "teɪk ˈpleɪs"
+},
+{
+"id": 870,
+"en": "take, took",
+"de": "dauern",
+"ipa": "teɪk"
+},
+{
+"id": 871,
+"en": "takeaway",
+"de": "Essen zum Mitnehmen; Restaurant/Imbissgeschäft, das auch Essen zum Mitnehmen verkauft",
+"ipa": "ˈteɪkəweɪ"
+},
+{
+"id": 872,
+"en": "tap",
+"de": "tippen, (vorsichtig) klopfen",
+"ipa": "tæp"
+},
+{
+"id": 873,
+"en": "tasty",
+"de": "lecker",
+"ipa": "ˈteɪsti"
+},
+{
+"id": 874,
+"en": "taught",
+"de": "siehe „teach“",
+"ipa": "tɔːt",
+"form_of": "teach"
+},
+{
+"id": 875,
+"en": "tea",
+"de": "Tee"
+},
+{
+"id": 876,
+"en": "technical",
+"de": "technisch",
+"ipa": "ˈteknɪkl"
+},
+{
+"id": 877,
+"en": "teddy bear",
+"de": "Teddybär",
+"ipa": "ˈtedi beə"
+},
+{
+"id": 878,
+"en": "teen",
+"de": "jugendlich"
+},
+{
+"id": 879,
+"en": "tell sb. the way (to …)",
+"de": "jm. den Weg (nach/zu …) beschreiben"
+},
+{
+"id": 880,
+"en": "tell the truth",
+"de": "die Wahrheit sagen"
+},
+{
+"id": 881,
+"en": "that: I hope that you're free.",
+"de": "Ich hoffe, dass du Zeit hast.",
+"ipa": "ðæt, ðət"
+},
+{
+"id": 882,
+"en": "theirs",
+"de": "ihre(r, s)",
+"ipa": "ðeəz"
+},
+{
+"id": 883,
+"en": "theme",
+"de": "Thema",
+"ipa": "θiːm"
+},
+{
+"id": 884,
+"en": "theme park",
+"de": "auf ein bestimmtes Thema ausgerichteter Freizeitpark",
+"ipa": "ˈθiːm pɑːk"
+},
+{
+"id": 885,
+"en": "thick",
+"de": "dick",
+"ipa": "θɪk"
+},
+{
+"id": 886,
+"en": "thief, pl thieves",
+"de": "Dieb/in",
+"ipa": "θiːf, θiːvz"
+},
+{
+"id": 887,
+"en": "think",
+"de": "überlegen, nachdenken",
+"ipa": "θɪŋk"
+},
+{
+"id": 888,
+"en": "thought",
+"de": "siehe „think“",
+"ipa": "θɔːt",
+"form_of": "think"
+},
+{
+"id": 889,
+"en": "thousand",
+"de": "tausend, Tausend",
+"ipa": "ˈθaʊznd"
+},
+{
+"id": 890,
+"en": "threw",
+"de": "siehe „throw“",
+"ipa": "θruː",
+"form_of": "throw"
+},
+{
+"id": 891,
+"en": "throne",
+"de": "Thron",
+"ipa": "θrəʊn"
+},
+{
+"id": 892,
+"en": "through",
+"de": "durch",
+"ipa": "θruː"
+},
+{
+"id": 893,
+"en": "throw",
+"de": "werfen",
+"ipa": "θrəʊ"
+},
+{
+"id": 894,
+"en": "throw sth. away",
+"de": "etwas wegwerfen"
+},
+{
+"id": 895,
+"en": "ticket",
+"de": "Eintrittskarte",
+"ipa": "ˈtɪkɪt"
+},
+{
+"id": 896,
+"en": "ticket",
+"de": "Fahrkarte",
+"ipa": "ˈtɪkɪt"
+},
+{
+"id": 897,
+"en": "tights (pl)",
+"de": "Strumpfhose",
+"ipa": "taɪts"
+},
+{
+"id": 898,
+"en": "Time for bed.",
+"de": "Zeit zum Schlafen."
+},
+{
+"id": 899,
+"en": "timetable",
+"de": "Fahrplan",
+"ipa": "ˈtaɪmteɪbl"
+},
+{
+"id": 900,
+"en": "told",
+"de": "siehe „tell“",
+"ipa": "təʊld",
+"form_of": "tell"
+},
+{
+"id": 901,
+"en": "too",
+"de": "zu",
+"ipa": "tuː"
+},
+{
+"id": 902,
+"en": "took",
+"de": "siehe „take“",
+"ipa": "tʊk",
+"form_of": "take"
+},
+{
+"id": 903,
+"en": "toolbox",
+"de": "Werkzeugkasten"
+},
+{
+"id": 904,
+"en": "top",
+"de": "Top, Oberteil",
+"ipa": "tɒp"
+},
+{
+"id": 905,
+"en": "top",
+"de": "oberste(r, s)",
+"ipa": "tɒp"
+},
+{
+"id": 906,
+"en": "torch",
+"de": "Taschenlampe",
+"ipa": "tɔːtʃ"
+},
+{
+"id": 907,
+"en": "tore",
+"de": "siehe „tear“",
+"ipa": "tɔː",
+"form_of": "tear"
+},
+{
+"id": 908,
+"en": "touch",
+"de": "berühren",
+"ipa": "tʌtʃ"
+},
+{
+"id": 909,
+"en": "tour: go on a tour",
+"de": "einen Rundgang/eine Rundfahrt/eine Reise mitmachen"
+},
+{
+"id": 910,
+"en": "tourist",
+"de": "Tourist/in",
+"ipa": "ˈtʊərɪst"
+},
+{
+"id": 911,
+"en": "tourist information office",
+"de": "Fremdenverkehrsamt",
+"ipa": "ˌtʊərɪst ˌɪnfəˈmeɪʃn ɒfɪs"
+},
+{
+"id": 912,
+"en": "tower",
+"de": "Turm",
+"ipa": "ˈtaʊə"
+},
+{
+"id": 913,
+"en": "town hall",
+"de": "Rathaus",
+"ipa": "ˌtaʊn ˈhɔːl"
+},
+{
+"id": 914,
+"en": "town walls (pl)",
+"de": "Stadtmauer"
+},
+{
+"id": 915,
+"en": "traditional",
+"de": "traditionell",
+"ipa": "trəˈdɪʃənl"
+},
+{
+"id": 916,
+"en": "trail",
+"de": "Wanderweg, Pfad",
+"ipa": "treɪl"
+},
+{
+"id": 917,
+"en": "trainer",
+"de": "Turnschuh",
+"ipa": "ˈtreɪnə"
+},
+{
+"id": 918,
+"en": "tram",
+"de": "Tram, Straßenbahn",
+"ipa": "træm"
+},
+{
+"id": 919,
+"en": "treasure",
+"de": "Schatz",
+"ipa": "ˈtreʒə"
+},
+{
+"id": 920,
+"en": "treasure hunt",
+"de": "Schatzsuche"
+},
+{
+"id": 921,
+"en": "trick: play a trick on sb.",
+"de": "jm. einen Streich spielen",
+"ipa": "trɪk"
+},
+{
+"id": 922,
+"en": "tried",
+"de": "",
+"ipa": "traɪd",
+"form_of": ""
+},
+{
+"id": 923,
+"en": "trip",
+"de": "Ausflug; Reise",
+"ipa": "trɪp"
+},
+{
+"id": 924,
+"en": "trousers (pl)",
+"de": "Hose",
+"ipa": "ˈtraʊzəz"
+},
+{
+"id": 925,
+"en": "try sth. on",
+"de": "etwas anprobieren"
+},
+{
+"id": 926,
+"en": "tunnel",
+"de": "Tunnel",
+"ipa": "ˈtʌnl"
+},
+{
+"id": 927,
+"en": "turkey",
+"de": "Pute, Truthahn",
+"ipa": "ˈtɜːki"
+},
+{
+"id": 928,
+"en": "turn (wheels)",
+"de": "(sich) drehen",
+"ipa": "tɜːn"
+},
+{
+"id": 929,
+"en": "turn dark / black/ orange",
+"de": "dunkel/schwarz/orange werden",
+"ipa": "tɜːn"
+},
+{
+"id": 930,
+"en": "turn right/left",
+"de": "(nach) rechts/links abbiegen"
+},
+{
+"id": 931,
+"en": "turn sth. down",
+"de": "etwas leiser stellen",
+"ipa": "tɜːn sth. daʊn"
+},
+{
+"id": 932,
+"en": "turn sth. up",
+"de": "etwas lauter stellen",
+"ipa": "tɜːn sth. ʌp"
+},
+{
+"id": 933,
+"en": "tutorial",
+"de": "die Anleitung, das Lernprogramm",
+"ipa": "tjuːˈtɔːriəl"
+},
+{
+"id": 934,
+"en": "twice",
+"de": "zweimal",
+"ipa": "twaɪs"
+},
+{
+"id": 935,
+"en": "ugly",
+"de": "hässlich",
+"ipa": "ˈʌɡli"
+},
+{
+"id": 936,
+"en": "UK (United Kingdom)",
+"de": "das Vereinigte Königreich",
+"ipa": "ˌjuː keɪ"
+},
+{
+"id": 937,
+"en": "undelete",
+"de": "wiederherstellen, rückgängig machen",
+"ipa": "ˌʌndɪˈliːt"
+},
+{
+"id": 938,
+"en": "underline",
+"de": "unterstreichen",
+"ipa": "ˌʌndəˈlaɪn"
+},
+{
+"id": 939,
+"en": "understood",
+"de": "siehe „understand“",
+"ipa": "ˌʌndəˈstʊd",
+"form_of": "understand"
+},
+{
+"id": 940,
+"en": "unfair",
+"de": "unfair, unɡerecht",
+"ipa": "ʌnˈfeə"
+},
+{
+"id": 941,
+"en": "unhealthy",
+"de": "ungesund",
+"ipa": "ʌnˈhelθi"
+},
+{
+"id": 942,
+"en": "up and down",
+"de": "auf und ab; rauf und runter",
+"ipa": "ˌʌpən ˈdaʊn"
+},
+{
+"id": 943,
+"en": "update",
+"de": "Aktualisierung",
+"ipa": "ˈʌpdeɪt"
+},
+{
+"id": 944,
+"en": "upload",
+"de": "hochladen",
+"ipa": "ˌʌpˈləʊd"
+},
+{
+"id": 945,
+"en": "upset",
+"de": "aufgebracht, gekränkt, mitgenommen",
+"ipa": "ˌʌpˈset"
+},
+{
+"id": 946,
+"en": "URL",
+"de": "URL (uniform resource locator), Internetadresse",
+"ipa": "ˌjuː ɑːr ˈel"
+},
+{
+"id": 947,
+"en": "vacuum",
+"de": "staubsaugen",
+"ipa": "ˈvækjuːm"
+},
+{
+"id": 948,
+"en": "valley",
+"de": "Tal",
+"ipa": "ˈvæli"
+},
+{
+"id": 949,
+"en": "vampire",
+"de": "Vampir",
+"ipa": "ˈvæmpaɪə"
+},
+{
+"id": 950,
+"en": "vegan",
+"de": "vegan; Veganer/in",
+"ipa": "ˈviːɡən"
+},
+{
+"id": 951,
+"en": "vegetarian",
+"de": "vegetarisch",
+"ipa": "ˌvedʒəˈteəriən"
+},
+{
+"id": 952,
+"en": "vegetarian",
+"de": "Vegetarier/in",
+"ipa": "ˌvedʒəˈteəriən"
+},
+{
+"id": 953,
+"en": "veggie (infml)",
+"de": "Gemüse-",
+"ipa": "ˈvedʒi"
+},
+{
+"id": 954,
+"en": "village",
+"de": "Dorf",
+"ipa": "ˈvɪlɪdʒ"
+},
+{
+"id": 955,
+"en": "villain",
+"de": "Schurke, Schurkin",
+"ipa": "ˈvɪlən"
+},
+{
+"id": 956,
+"en": "vinegar",
+"de": "Essig",
+"ipa": "ˈvɪnɪɡə"
+},
+{
+"id": 957,
+"en": "violence",
+"de": "Gewalt",
+"ipa": "ˈvaɪələns"
+},
+{
+"id": 958,
+"en": "visit to",
+"de": "Besuch",
+"ipa": "ˈvɪzɪt"
+},
+{
+"id": 959,
+"en": "vote",
+"de": "(Wahl-)Stimme",
+"ipa": "vəʊt"
+},
+{
+"id": 960,
+"en": "vote (for sb./sth.)",
+"de": "(für jn./etwas) stimmen; wählen, zur Wahl gehen",
+"ipa": "vəʊt"
+},
+{
+"id": 961,
+"en": "waitress",
+"de": "Kellnerin",
+"ipa": "ˈweɪtrəs"
+},
+{
+"id": 962,
+"en": "war",
+"de": "Krieg",
+"ipa": "wɔː"
+},
+{
+"id": 963,
+"en": "warmly",
+"de": "herzlich, warmherzlich",
+"ipa": "ˈwɔːmli"
+},
+{
+"id": 964,
+"en": "warrior",
+"de": "Krieger/in",
+"ipa": "ˈwɒriə"
+},
+{
+"id": 965,
+"en": "was (1. & 3. Person)",
+"de": "siehe „be“",
+"ipa": "wɒz",
+"form_of": "be"
+},
+{
+"id": 966,
+"en": "wash: big wash",
+"de": "große Wäsche",
+"ipa": "wɒʃ"
+},
+{
+"id": 967,
+"en": "washing machine",
+"de": "Waschmaschine",
+"ipa": "ˈwɒʃɪŋ məʃiːn"
+},
+{
+"id": 968,
+"en": "wasn't",
+"de": "war nicht",
+"ipa": "ˈwɒznt"
+},
+{
+"id": 969,
+"en": "wave",
+"de": "winken",
+"ipa": "weɪv"
+},
+{
+"id": 970,
+"en": "we've walked",
+"de": "",
+"ipa": "wiːv wɔːkt",
+"form_of": ""
+},
+{
+"id": 971,
+"en": "We’ve only walked",
+"de": "",
+"ipa": "wiːv ˈəʊnli wɔːkt",
+"form_of": ""
+},
+{
+"id": 972,
+"en": "weapon",
+"de": "Waffe",
+"ipa": "ˈwepən"
+},
+{
+"id": 973,
+"en": "weed",
+"de": "Unkraut",
+"ipa": "wiːd"
+},
+{
+"id": 974,
+"en": "weed",
+"de": "jäten",
+"ipa": "wiːd"
+},
+{
+"id": 975,
+"en": "welcome sb. (to)",
+"de": "jn. begrüßen (in), jn. willkommen heißen (in)",
+"ipa": "ˈwelkəm"
+},
+{
+"id": 976,
+"en": "well",
+"de": "gut",
+"ipa": "wel"
+},
+{
+"id": 977,
+"en": "went",
+"de": "siehe „go“",
+"ipa": "went",
+"form_of": "go"
+},
+{
+"id": 978,
+"en": "were (1. & 2. Person)",
+"de": "siehe „be“",
+"ipa": "wɜː, wə",
+"form_of": "be"
+},
+{
+"id": 979,
+"en": "What …?",
+"de": "Welche ...? / Welche Art von ...?",
+"ipa": "wɒt …?"
+},
+{
+"id": 980,
+"en": "What next?",
+"de": "Was nun?"
+},
+{
+"id": 981,
+"en": "wheel",
+"de": "Rad",
+"ipa": "wiːl"
+},
+{
+"id": 982,
+"en": "when",
+"de": "als",
+"ipa": "wen"
+},
+{
+"id": 983,
+"en": "who else",
+"de": "wer (sonst) noch"
+},
+{
+"id": 984,
+"en": "whole",
+"de": "ganze(r, s), gesamte(r, s)",
+"ipa": "həʊl"
+},
+{
+"id": 985,
+"en": "wife, wives",
+"de": "Ehefrau",
+"ipa": "waɪf, waɪvz"
+},
+{
+"id": 986,
+"en": "wild",
+"de": "wild",
+"ipa": "waɪld"
+},
+{
+"id": 987,
+"en": "wind",
+"de": "Wind",
+"ipa": "wɪn"
+},
+{
+"id": 988,
+"en": "wish",
+"de": "wünschen",
+"ipa": "wɪʃ"
+},
+{
+"id": 989,
+"en": "wish sb. luck",
+"de": "jm. Glück wünschen",
+"ipa": "wɪʃ"
+},
+{
+"id": 990,
+"en": "wish: Best wishes (pl)",
+"de": "Viele/Herzliche Grüße",
+"ipa": "wɪʃ"
+},
+{
+"id": 991,
+"en": "wizard",
+"de": "Zauberer",
+"ipa": "ˈwɪzəd"
+},
+{
+"id": 992,
+"en": "won",
+"de": "siehe „win“",
+"ipa": "wʌn",
+"form_of": "win"
+},
+{
+"id": 993,
+"en": "wonder",
+"de": "sich fragen",
+"ipa": "ˈwʌndə"
+},
+{
+"id": 994,
+"en": "wonderful",
+"de": "wunderbar",
+"ipa": "ˈwʌndəfl"
+},
+{
+"id": 995,
+"en": "wooden",
+"de": "hölzern; Holz-",
+"ipa": "ˈwʊdn"
+},
+{
+"id": 996,
+"en": "wore",
+"de": "siehe „wear“",
+"ipa": "wɔː",
+"form_of": "wear"
+},
+{
+"id": 997,
+"en": "work",
+"de": "funktionieren",
+"ipa": "wɜːk"
+},
+{
+"id": 998,
+"en": "work sth. out",
+"de": "etwas herausbekommen, herausarbeiten",
+"ipa": "wɜːk sth. aʊt"
+},
+{
+"id": 999,
+"en": "worker",
+"de": "(Mit)Arbeiter/in",
+"ipa": "ˈwɜːkə"
+},
+{
+"id": 1000,
+"en": "workshop",
+"de": "Lehrgang, Workshop",
+"ipa": "ˈwɜːkʃɒp"
+},
+{
+"id": 1001,
+"en": "worry: No worries!",
+"de": "Kein Problem!"
+},
+{
+"id": 1002,
+"en": "worse",
+"de": "schlechter, schlimmer",
+"ipa": "wɜːs"
+},
+{
+"id": 1003,
+"en": "worst",
+"de": "der/die/das schlechteste/schlimmste …",
+"ipa": "wɜːst"
+},
+{
+"id": 1004,
+"en": "wrong: What’s wrong?",
+"de": "Was ist los?"
+},
+{
+"id": 1005,
+"en": "yawn",
+"de": "gähnen",
+"ipa": "jɔːn"
+},
+{
+"id": 1006,
+"en": "Yes, we can.",
+"de": "doch",
+"ipa": "jes, wiː kæn."
+},
+{
+"id": 1007,
+"en": "yours",
+"de": "deiner, deine, deins; eurer, eure, eures",
+"ipa": "jɔːz"
+},
+{
+"id": 1008,
+"en": "yummy (infml)",
+"de": "lecker",
+"ipa": "ˈjʌmi"
+},
+{
+"id": 1009,
+"en": "zigzag: in a zigzag",
+"de": "im Zickzack",
+"ipa": "ˈzɪɡzæɡ"
+},
+{
+"id": 1010,
+"en": "zoo",
+"de": "Zoo",
+"ipa": "zuː"
+}
+]

@@ -1,0 +1,3684 @@
+[
+{
+"id": 2000,
+"en": "four",
+"de": "vier",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2001,
+"en": "black",
+"de": "schwarz",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2002,
+"en": "What",
+"de": "was",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2003,
+"en": "Welcome to Plymouth.",
+"de": "Willkommen in Plymouth.",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2004,
+"en": "ten",
+"de": "zehn",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2005,
+"en": "orange",
+"de": "orange (Farbe); Orange",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2006,
+"en": "snake",
+"de": "Schlange",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2007,
+"en": "sea",
+"de": "Meer",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2008,
+"en": "Here we go.",
+"de": "Los geht’s.",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2009,
+"en": "fourteen",
+"de": "vierzehn",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2010,
+"en": "red",
+"de": "rot",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2011,
+"en": "dog",
+"de": "Hund",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2012,
+"en": "boat",
+"de": "Boot",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2013,
+"en": "Follow me.",
+"de": "Folge mir.",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2014,
+"en": "two",
+"de": "zwei",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2015,
+"en": "yellow",
+"de": "gelb",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2016,
+"en": "What’s",
+"de": "Was ist …?",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2017,
+"en": "cat",
+"de": "Katze",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2018,
+"en": "hill(s)",
+"de": "Hügel",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2019,
+"en": "my favourite animal",
+"de": "mein Lieblingstier",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2020,
+"en": "eight",
+"de": "acht",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2021,
+"en": "brown",
+"de": "braun",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2022,
+"en": "there is, there are",
+"de": "es gibt",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2023,
+"en": "twelve",
+"de": "zwölf",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2024,
+"en": "blue",
+"de": "blau",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2025,
+"en": "Where",
+"de": "wo",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2026,
+"en": "rabbit",
+"de": "Kaninchen",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2027,
+"en": "near",
+"de": "nahe, in der Nähe von",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2028,
+"en": "pool",
+"de": "Schwimmbecken",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2029,
+"en": "Let me show you …",
+"de": "Lass mich dir … zeigen.",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2030,
+"en": "three",
+"de": "drei",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2031,
+"en": "green",
+"de": "grün",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2032,
+"en": "How",
+"de": "wie",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2033,
+"en": "horse",
+"de": "Pferd",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2034,
+"en": "big wheel",
+"de": "Riesenrad",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2035,
+"en": "Yes, that’s right.",
+"de": "Ja, das stimmt.",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2036,
+"en": "eleven",
+"de": "elf",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2037,
+"en": "pink",
+"de": "rosa",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2038,
+"en": "rat",
+"de": "Ratte",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2039,
+"en": "See you.",
+"de": "Bis bald.",
+"deck": "a1",
+"unit": "HWG 1"
+},
+{
+"id": 2040,
+"en": "forty",
+"de": "vierzig",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2041,
+"en": "board",
+"de": "Tafel",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2042,
+"en": "frog",
+"de": "Frosch",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2043,
+"en": "colours",
+"de": "Farben",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2044,
+"en": "sharpener",
+"de": "Spitzer",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2045,
+"en": "girl",
+"de": "Mädchen",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2046,
+"en": "fifty-five",
+"de": "fünfundfünfzig",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2047,
+"en": "cupboard",
+"de": "Schrank",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2048,
+"en": "give",
+"de": "geben",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2049,
+"en": "whale",
+"de": "Wal",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2050,
+"en": "numbers",
+"de": "Zahlen",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2051,
+"en": "pencil",
+"de": "Bleistift",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2052,
+"en": "game",
+"de": "Spiel",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2053,
+"en": "fifteen",
+"de": "fünfzehn",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2054,
+"en": "chair",
+"de": "Stuhl",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2055,
+"en": "ant",
+"de": "Ameise",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2056,
+"en": "times",
+"de": "mal",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2057,
+"en": "double",
+"de": "doppelt",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2058,
+"en": "eighty-seven",
+"de": "siebenundachtzig",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2059,
+"en": "clock",
+"de": "Uhr",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2060,
+"en": "meet",
+"de": "treffen",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2061,
+"en": "butterfly",
+"de": "Schmetterling",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2062,
+"en": "week",
+"de": "Woche",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2063,
+"en": "pen",
+"de": "Stift, Füller",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2064,
+"en": "legs",
+"de": "Beine",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2065,
+"en": "sixty-six",
+"de": "sechsundsechzig",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2066,
+"en": "door",
+"de": "Tür",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2067,
+"en": "open",
+"de": "öffnen",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2068,
+"en": "year",
+"de": "Jahr",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2069,
+"en": "exercise book",
+"de": "Heft",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2070,
+"en": "that’s wrong",
+"de": "das ist falsch",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2071,
+"en": "eighteen",
+"de": "achtzehn",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2072,
+"en": "window",
+"de": "Fenster",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2073,
+"en": "talk",
+"de": "sprechen, reden",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2074,
+"en": "monkey",
+"de": "Affe",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2075,
+"en": "town",
+"de": "Stadt",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2076,
+"en": "ruler",
+"de": "Lineal",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2077,
+"en": "strange",
+"de": "seltsam",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2078,
+"en": "thirty-nine",
+"de": "neununddreißig",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2079,
+"en": "teacher",
+"de": "Lehrer/in",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2080,
+"en": "go",
+"de": "gehen",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2081,
+"en": "pig",
+"de": "Schwein",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2082,
+"en": "picture",
+"de": "Bild",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2083,
+"en": "pencil case",
+"de": "Federmäppchen",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2084,
+"en": "without",
+"de": "ohne",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2085,
+"en": "a / one hundred",
+"de": "hundert",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2086,
+"en": "desk",
+"de": "Schreibtisch",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2087,
+"en": "see",
+"de": "sehen",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2088,
+"en": "guinea pig",
+"de": "Meerschweinchen",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2089,
+"en": "classroom",
+"de": "Klassenzimmer",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2090,
+"en": "glue stick",
+"de": "Klebestift",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2091,
+"en": "Every",
+"de": "jede(r), jedes",
+"deck": "a1",
+"unit": "HWG 2"
+},
+{
+"id": 2092,
+"en": "new",
+"de": "neu",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2093,
+"en": "French",
+"de": "Französisch",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2094,
+"en": "birthday",
+"de": "Geburtstag",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2095,
+"en": "fall asleep",
+"de": "einschlafen",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2096,
+"en": "football",
+"de": "Fußball",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2097,
+"en": "learn",
+"de": "lernen",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2098,
+"en": "o’clock",
+"de": "Uhr (volle Stunde)",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2099,
+"en": "Bye",
+"de": "Tschüs",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2100,
+"en": "Science",
+"de": "Naturwissenschaften",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2101,
+"en": "please",
+"de": "bitte",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2102,
+"en": "You’re late.",
+"de": "Du bist zu spät.",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2103,
+"en": "spell",
+"de": "buchstabieren",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2104,
+"en": "half past eleven",
+"de": "halb zwölf",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2105,
+"en": "short",
+"de": "kurz; klein",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2106,
+"en": "Religion",
+"de": "Religion",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2107,
+"en": "Thank you",
+"de": "Danke",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2108,
+"en": "(I’m) sorry.",
+"de": "Tut mir leid.",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2109,
+"en": "swimmer",
+"de": "Schwimmer/in",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2110,
+"en": "ask",
+"de": "fragen",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2111,
+"en": "quarter to twelve",
+"de": "Viertel vor zwölf",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2112,
+"en": "there",
+"de": "dort, da",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2113,
+"en": "History",
+"de": "Geschichte (Fach)",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2114,
+"en": "I don’t know.",
+"de": "Ich weiß es nicht.",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2115,
+"en": "yoghurt",
+"de": "Joghurt",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2116,
+"en": "read",
+"de": "lesen",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2117,
+"en": "quarter past eleven",
+"de": "Viertel nach elf",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2118,
+"en": "answer",
+"de": "Antwort; antworten",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2119,
+"en": "Maths",
+"de": "Mathe",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2120,
+"en": "Have a go.",
+"de": "Versuch es mal.",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2121,
+"en": "trainers",
+"de": "Turnschuhe",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2122,
+"en": "Monday",
+"de": "Montag",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2123,
+"en": "PE",
+"de": "Sport",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2124,
+"en": "find",
+"de": "finden",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2125,
+"en": "Watch out!",
+"de": "Pass auf!",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2126,
+"en": "toilet",
+"de": "Toilette",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2127,
+"en": "look at",
+"de": "ansehen",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2128,
+"en": "Wednesday",
+"de": "Mittwoch",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2129,
+"en": "don’t like",
+"de": "nicht mögen",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2130,
+"en": "Geography",
+"de": "Erdkunde",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2131,
+"en": "know",
+"de": "wissen; kennen",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2132,
+"en": "We’re finished.",
+"de": "Wir sind fertig.",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2133,
+"en": "flat",
+"de": "Wohnung",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2134,
+"en": "help",
+"de": "helfen; Hilfe",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2135,
+"en": "Thursday",
+"de": "Donnerstag",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2136,
+"en": "sad",
+"de": "traurig",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2137,
+"en": "ICT",
+"de": "Informatik",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2138,
+"en": "forget",
+"de": "vergessen",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2139,
+"en": "What’s for homework?",
+"de": "Was haben wir als Hausaufgabe auf?",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2140,
+"en": "page",
+"de": "Seite",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2141,
+"en": "write",
+"de": "schreiben",
+"deck": "a1",
+"unit": "1.1"
+},
+{
+"id": 2142,
+"en": "January",
+"de": "Januar",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2143,
+"en": "their",
+"de": "ihr (Plural)",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2144,
+"en": "eat",
+"de": "essen",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2145,
+"en": "the next question",
+"de": "die nächste Frage",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2146,
+"en": "student",
+"de": "Schüler/in; Student/in",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2147,
+"en": "place",
+"de": "Ort, Platz",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2148,
+"en": "third",
+"de": "dritte(r)",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2149,
+"en": "wear",
+"de": "tragen (Kleidung)",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2150,
+"en": "Nice to meet you.",
+"de": "Schön, dich kennenzulernen.",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2151,
+"en": "mum",
+"de": "Mama",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2152,
+"en": "uniform",
+"de": "Uniform",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2153,
+"en": "October",
+"de": "Oktober",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2154,
+"en": "brother",
+"de": "Bruder",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2155,
+"en": "watch",
+"de": "ansehen, zuschauen; Armbanduhr",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2156,
+"en": "at school",
+"de": "in der Schule",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2157,
+"en": "friendly",
+"de": "freundlich",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2158,
+"en": "June",
+"de": "Juni",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2159,
+"en": "women",
+"de": "Frauen",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2160,
+"en": "wait for",
+"de": "warten auf",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2161,
+"en": "there aren’t any",
+"de": "es gibt keine",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2162,
+"en": "hour",
+"de": "Stunde",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2163,
+"en": "library",
+"de": "Bibliothek",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2164,
+"en": "group",
+"de": "Gruppe",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2165,
+"en": "act out",
+"de": "vorspielen",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2166,
+"en": "we can’t",
+"de": "wir können nicht",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2167,
+"en": "like",
+"de": "mögen",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2168,
+"en": "breaks",
+"de": "Pausen",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2169,
+"en": "silly",
+"de": "albern",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2170,
+"en": "February",
+"de": "Februar",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2171,
+"en": "winner",
+"de": "Gewinner/in",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2172,
+"en": "live",
+"de": "wohnen, leben",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2173,
+"en": "good at art",
+"de": "gut in Kunst",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2174,
+"en": "always",
+"de": "immer",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2175,
+"en": "canteen",
+"de": "Kantine",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2176,
+"en": "December",
+"de": "Dezember",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2177,
+"en": "who?",
+"de": "wer?",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2178,
+"en": "hurry up",
+"de": "beeil dich",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2179,
+"en": "at 5 Dean Street",
+"de": "in der Dean Street 5",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2180,
+"en": "navy",
+"de": "marineblau",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2181,
+"en": "September",
+"de": "September",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2182,
+"en": "little",
+"de": "klein, wenig",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2183,
+"en": "lessons",
+"de": "Unterrichtsstunden",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2184,
+"en": "back",
+"de": "zurück; Rücken",
+"deck": "a1",
+"unit": "1.2"
+},
+{
+"id": 2185,
+"en": "living room",
+"de": "Wohnzimmer",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2186,
+"en": "till",
+"de": "bis",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2187,
+"en": "hair",
+"de": "Haar(e)",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2188,
+"en": "water",
+"de": "Wasser",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2189,
+"en": "maybe",
+"de": "vielleicht",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2190,
+"en": "bread",
+"de": "Brot",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2191,
+"en": "fish",
+"de": "Fisch",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2192,
+"en": "story",
+"de": "Geschichte",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2193,
+"en": "only",
+"de": "nur",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2194,
+"en": "potatoes",
+"de": "Kartoffeln",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2195,
+"en": "drink",
+"de": "trinken; Getränk",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2196,
+"en": "bathroom",
+"de": "Badezimmer",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2197,
+"en": "house",
+"de": "Haus",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2198,
+"en": "clothes",
+"de": "Kleidung",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2199,
+"en": "often",
+"de": "oft",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2200,
+"en": "cake",
+"de": "Kuchen",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2201,
+"en": "bedroom",
+"de": "Schlafzimmer",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2202,
+"en": "tree",
+"de": "Baum",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2203,
+"en": "toy",
+"de": "Spielzeug",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2204,
+"en": "of course",
+"de": "natürlich",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2205,
+"en": "cheese",
+"de": "Käse",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2206,
+"en": "her",
+"de": "ihr",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2207,
+"en": "dining room",
+"de": "Esszimmer",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2208,
+"en": "plate",
+"de": "Teller",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2209,
+"en": "sleep",
+"de": "schlafen",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2210,
+"en": "near here",
+"de": "hier in der Nähe",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2211,
+"en": "sandwiches",
+"de": "belegte Brote",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2212,
+"en": "kitchen",
+"de": "Küche",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2213,
+"en": "single",
+"de": "einzeln; ledig",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2214,
+"en": "suddenly",
+"de": "plötzlich",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2215,
+"en": "make",
+"de": "machen",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2216,
+"en": "garden",
+"de": "Garten",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2217,
+"en": "feed",
+"de": "füttern",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2218,
+"en": "Why?",
+"de": "Warum?",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2219,
+"en": "milk",
+"de": "Milch",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2220,
+"en": "us",
+"de": "uns",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2221,
+"en": "ship",
+"de": "Schiff",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2222,
+"en": "cream",
+"de": "Sahne",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2223,
+"en": "text",
+"de": "Text",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2224,
+"en": "vegetables",
+"de": "Gemüse",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2225,
+"en": "sit",
+"de": "sitzen",
+"deck": "a1",
+"unit": "2.1"
+},
+{
+"id": 2226,
+"en": "armchair",
+"de": "Sessel",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2227,
+"en": "downstairs",
+"de": "unten, nach unten",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2228,
+"en": "breakfast",
+"de": "Frühstück",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2229,
+"en": "uncle",
+"de": "Onkel",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2230,
+"en": "run",
+"de": "rennen, laufen",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2231,
+"en": "crab",
+"de": "Krabbe",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2232,
+"en": "small",
+"de": "klein",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2233,
+"en": "dinner",
+"de": "Abendessen",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2234,
+"en": "cousin",
+"de": "Cousin/Cousine",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2235,
+"en": "police officer",
+"de": "Polizist/in",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2236,
+"en": "would",
+"de": "würde",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2237,
+"en": "TV",
+"de": "Fernseher",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2238,
+"en": "wake up",
+"de": "aufwachen",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2239,
+"en": "grandma / grandmother",
+"de": "Oma",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2240,
+"en": "take",
+"de": "nehmen",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2241,
+"en": "seagull",
+"de": "Möwe",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2242,
+"en": "no",
+"de": "nein; kein",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2243,
+"en": "sofa",
+"de": "Sofa",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2244,
+"en": "after",
+"de": "nach; danach",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2245,
+"en": "scones",
+"de": "Scones (Teegebäck)",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2246,
+"en": "aunt",
+"de": "Tante",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2247,
+"en": "look",
+"de": "schauen",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2248,
+"en": "harbour",
+"de": "Hafen",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2249,
+"en": "away",
+"de": "weg",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2250,
+"en": "bed",
+"de": "Bett",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2251,
+"en": "doesn’t have",
+"de": "hat nicht",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2252,
+"en": "ice cream",
+"de": "Eis",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2253,
+"en": "twins",
+"de": "Zwillinge",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2254,
+"en": "go sailing",
+"de": "segeln gehen",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2255,
+"en": "trophy",
+"de": "Pokal",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2256,
+"en": "down",
+"de": "hinunter, nach unten",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2257,
+"en": "table",
+"de": "Tisch",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2258,
+"en": "never",
+"de": "nie",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2259,
+"en": "fruit salad",
+"de": "Obstsalat",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2260,
+"en": "divorced",
+"de": "geschieden",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2261,
+"en": "basket",
+"de": "Korb",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2262,
+"en": "cup",
+"de": "Tasse",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2263,
+"en": "computer",
+"de": "Computer",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2264,
+"en": "cold",
+"de": "kalt",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2265,
+"en": "married",
+"de": "verheiratet",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2266,
+"en": "tell",
+"de": "erzählen, sagen",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2267,
+"en": "paper",
+"de": "Papier",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2268,
+"en": "trouble",
+"de": "Ärger",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2269,
+"en": "remember",
+"de": "sich erinnern",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2270,
+"en": "dead",
+"de": "tot",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2271,
+"en": "shout",
+"de": "rufen, schreien",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2272,
+"en": "road",
+"de": "Straße",
+"deck": "a1",
+"unit": "2.2"
+},
+{
+"id": 2273,
+"en": "get up",
+"de": "aufstehen",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2274,
+"en": "some",
+"de": "einige, etwas",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2275,
+"en": "hand",
+"de": "Hand",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2276,
+"en": "judo",
+"de": "Judo",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2277,
+"en": "lives",
+"de": "wohnt, lebt",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2278,
+"en": "tired",
+"de": "müde",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2279,
+"en": "How are you?",
+"de": "Wie geht es dir?",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2280,
+"en": "turn … on",
+"de": "… einschalten",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2281,
+"en": "collect",
+"de": "sammeln",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2282,
+"en": "mouth",
+"de": "Mund",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2283,
+"en": "sometimes",
+"de": "manchmal",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2284,
+"en": "yoga",
+"de": "Yoga",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2285,
+"en": "stop",
+"de": "anhalten; aufhören",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2286,
+"en": "thirsty",
+"de": "durstig",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2287,
+"en": "lunchtime",
+"de": "Mittagszeit",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2288,
+"en": "called",
+"de": "genannt",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2289,
+"en": "bottle",
+"de": "Flasche",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2290,
+"en": "love",
+"de": "lieben; Liebe",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2291,
+"en": "job",
+"de": "Job, Beruf",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2292,
+"en": "address",
+"de": "Adresse",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2293,
+"en": "It’s about",
+"de": "Es geht um",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2294,
+"en": "get",
+"de": "bekommen, holen",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2295,
+"en": "understand",
+"de": "verstehen",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2296,
+"en": "chocolate",
+"de": "Schokolade",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2297,
+"en": "voice",
+"de": "Stimme",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2298,
+"en": "gymnastics",
+"de": "Turnen",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2299,
+"en": "What’s she like?",
+"de": "Wie ist sie?",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2300,
+"en": "ride",
+"de": "reiten; fahren",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2301,
+"en": "kits",
+"de": "Ausrüstungen, Sets",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2302,
+"en": "coin",
+"de": "Münze",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2303,
+"en": "programme",
+"de": "Sendung, Programm",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2304,
+"en": "gardening",
+"de": "Gartenarbeit",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2305,
+"en": "scary",
+"de": "gruselig",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2306,
+"en": "make friends",
+"de": "Freunde finden",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2307,
+"en": "walk",
+"de": "gehen, spazieren",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2308,
+"en": "Try/Take",
+"de": "Probier/Nimm",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2309,
+"en": "letter",
+"de": "Brief; Buchstabe",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2310,
+"en": "midnight",
+"de": "Mitternacht",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2311,
+"en": "traveller",
+"de": "Reisende(r)",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2312,
+"en": "wet",
+"de": "nass",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2313,
+"en": "usually",
+"de": "normalerweise",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2314,
+"en": "grow",
+"de": "wachsen",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2315,
+"en": "area",
+"de": "Gebiet, Gegend",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2316,
+"en": "bike",
+"de": "Fahrrad",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2317,
+"en": "kung fu",
+"de": "Kung-Fu",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2318,
+"en": "bark",
+"de": "bellen",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2319,
+"en": "How do you like it?",
+"de": "Wie gefällt es dir?",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2320,
+"en": "clean",
+"de": "sauber",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2321,
+"en": "idea",
+"de": "Idee",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2322,
+"en": "beach",
+"de": "Strand",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2323,
+"en": "child",
+"de": "Kind",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2324,
+"en": "homework",
+"de": "Hausaufgaben",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2325,
+"en": "boring",
+"de": "langweilig",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2326,
+"en": "Me too",
+"de": "Ich auch.",
+"deck": "a1",
+"unit": "3.1"
+},
+{
+"id": 2327,
+"en": "basketball",
+"de": "Basketball",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2328,
+"en": "quiet",
+"de": "leise, ruhig",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2329,
+"en": "listen to",
+"de": "zuhören",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2330,
+"en": "swimming",
+"de": "Schwimmen",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2331,
+"en": "imagine",
+"de": "sich vorstellen",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2332,
+"en": "information",
+"de": "Information(en)",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2333,
+"en": "everybody",
+"de": "alle, jeder",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2334,
+"en": "guitar",
+"de": "Gitarre",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2335,
+"en": "young",
+"de": "jung",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2336,
+"en": "send",
+"de": "schicken",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2337,
+"en": "skating",
+"de": "Eislaufen; Skaten",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2338,
+"en": "Come on",
+"de": "Komm schon.",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2339,
+"en": "from … to",
+"de": "von … bis",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2340,
+"en": "call",
+"de": "anrufen; nennen",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2341,
+"en": "cards",
+"de": "Karten",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2342,
+"en": "finish",
+"de": "beenden",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2343,
+"en": "hear",
+"de": "hören",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2344,
+"en": "dancing",
+"de": "Tanzen",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2345,
+"en": "Listen",
+"de": "Hör zu!",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2346,
+"en": "attic",
+"de": "Dachboden",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2347,
+"en": "have to",
+"de": "müssen",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2348,
+"en": "children",
+"de": "Kinder",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2349,
+"en": "drums",
+"de": "Schlagzeug",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2350,
+"en": "behind",
+"de": "hinter",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2351,
+"en": "join",
+"de": "mitmachen, beitreten",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2352,
+"en": "running",
+"de": "Laufen",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2353,
+"en": "someone who",
+"de": "jemand, der",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2354,
+"en": "ready",
+"de": "bereit, fertig",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2355,
+"en": "pound",
+"de": "Pfund",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2356,
+"en": "chess",
+"de": "Schach",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2357,
+"en": "visit",
+"de": "besuchen",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2358,
+"en": "shopping",
+"de": "Einkaufen",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2359,
+"en": "have fun",
+"de": "Spaß haben",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2360,
+"en": "money",
+"de": "Geld",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2361,
+"en": "piano",
+"de": "Klavier",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2362,
+"en": "inside",
+"de": "drinnen, innen",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2363,
+"en": "smell",
+"de": "riechen; Geruch",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2364,
+"en": "singing",
+"de": "Singen",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2365,
+"en": "the matter",
+"de": "los (What’s the matter? – Was ist los?)",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2366,
+"en": "taste",
+"de": "schmecken; Geschmack",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2367,
+"en": "part",
+"de": "Teil",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2368,
+"en": "volleyball",
+"de": "Volleyball",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2369,
+"en": "later",
+"de": "später",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2370,
+"en": "riding",
+"de": "Reiten",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2371,
+"en": "turn around",
+"de": "sich umdrehen",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2372,
+"en": "much",
+"de": "viel",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2373,
+"en": "diaries",
+"de": "Tagebücher",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2374,
+"en": "instrument",
+"de": "Instrument",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2375,
+"en": "out of",
+"de": "aus … heraus",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2376,
+"en": "guess",
+"de": "raten",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2377,
+"en": "sailing",
+"de": "Segeln",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2378,
+"en": "it’s you",
+"de": "du bist dran",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2379,
+"en": "umbrella",
+"de": "Regenschirm",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2380,
+"en": "sell",
+"de": "verkaufen",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2381,
+"en": "because",
+"de": "weil",
+"deck": "a1",
+"unit": "3.2"
+},
+{
+"id": 2382,
+"en": "break",
+"de": "Pause; brechen",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2383,
+"en": "together",
+"de": "zusammen",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2384,
+"en": "garage",
+"de": "Garage",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2385,
+"en": "holidays",
+"de": "Ferien",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2386,
+"en": "silky",
+"de": "seidig",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2387,
+"en": "Guess what, Dad …",
+"de": "Rate mal, Papa …",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2388,
+"en": "stay",
+"de": "bleiben",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2389,
+"en": "box",
+"de": "Kiste",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2390,
+"en": "was",
+"de": "war (Vergangenheit von be)",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2391,
+"en": "careful",
+"de": "vorsichtig",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2392,
+"en": "We couldn’t go back.",
+"de": "Wir konnten nicht zurück.",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2393,
+"en": "score",
+"de": "Punktestand",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2394,
+"en": "pronunciation",
+"de": "Aussprache",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2395,
+"en": "cinema",
+"de": "Kino",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2396,
+"en": "nose",
+"de": "Nase",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2397,
+"en": "kilometre",
+"de": "Kilometer",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2398,
+"en": "slow",
+"de": "langsam",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2399,
+"en": "on the way to",
+"de": "auf dem Weg nach",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2400,
+"en": "arrive",
+"de": "ankommen",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2401,
+"en": "sand",
+"de": "Sand",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2402,
+"en": "poor",
+"de": "arm",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2403,
+"en": "around the beach",
+"de": "um den Strand herum",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2404,
+"en": "miss",
+"de": "verpassen; vermissen",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2405,
+"en": "excited",
+"de": "aufgeregt",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2406,
+"en": "eye",
+"de": "Auge",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2407,
+"en": "shorts",
+"de": "kurze Hose",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2408,
+"en": "high",
+"de": "hoch",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2409,
+"en": "I’m cold.",
+"de": "Mir ist kalt.",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2410,
+"en": "use",
+"de": "benutzen",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2411,
+"en": "against",
+"de": "gegen",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2412,
+"en": "actors",
+"de": "Schauspieler",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2413,
+"en": "played",
+"de": "spielte (Vergangenheit von play)",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2414,
+"en": "picnic",
+"de": "Picknick",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2415,
+"en": "true",
+"de": "wahr",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2416,
+"en": "I’m sorry about",
+"de": "Es tut mir leid wegen",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2417,
+"en": "smile",
+"de": "lächeln",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2418,
+"en": "between",
+"de": "zwischen",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2419,
+"en": "chain",
+"de": "Kette",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2420,
+"en": "far",
+"de": "weit",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2421,
+"en": "be busy",
+"de": "beschäftigt sein",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2422,
+"en": "leave",
+"de": "verlassen; abfahren",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2423,
+"en": "sights",
+"de": "Sehenswürdigkeiten",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2424,
+"en": "bell",
+"de": "Glocke",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2425,
+"en": "life jacket",
+"de": "Schwimmweste",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2426,
+"en": "over to",
+"de": "hinüber zu",
+"deck": "a1",
+"unit": "4.1"
+},
+{
+"id": 2427,
+"en": "pull",
+"de": "ziehen",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2428,
+"en": "sit down",
+"de": "sich hinsetzen",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2429,
+"en": "hungry",
+"de": "hungrig",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2430,
+"en": "mobile (phone)",
+"de": "Handy",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2431,
+"en": "cage",
+"de": "Käfig",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2432,
+"en": "woke",
+"de": "wachte auf (Vergangenheit von wake)",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2433,
+"en": "exciting",
+"de": "aufregend",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2434,
+"en": "practise",
+"de": "üben",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2435,
+"en": "many",
+"de": "viele",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2436,
+"en": "worm",
+"de": "Wurm",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2437,
+"en": "another",
+"de": "noch ein(e), ein anderer",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2438,
+"en": "buy",
+"de": "kaufen",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2439,
+"en": "weigh",
+"de": "wiegen",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2440,
+"en": "those",
+"de": "jene, die da",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2441,
+"en": "go by car",
+"de": "mit dem Auto fahren",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2442,
+"en": "sun",
+"de": "Sonne",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2443,
+"en": "enough",
+"de": "genug",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2444,
+"en": "title",
+"de": "Titel",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2445,
+"en": "You’re wrong.",
+"de": "Du hast unrecht.",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2446,
+"en": "move",
+"de": "sich bewegen; umziehen",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2447,
+"en": "What is the story about?",
+"de": "Worum geht es in der Geschichte?",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2448,
+"en": "go with",
+"de": "mitgehen mit",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2449,
+"en": "caption",
+"de": "Bildunterschrift",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2450,
+"en": "bright",
+"de": "hell",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2451,
+"en": "halves",
+"de": "Hälften",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2452,
+"en": "the missing words",
+"de": "die fehlenden Wörter",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2453,
+"en": "spot",
+"de": "entdecken; Fleck",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2454,
+"en": "drawing",
+"de": "Zeichnung",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2455,
+"en": "steer",
+"de": "lenken, steuern",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2456,
+"en": "autumn",
+"de": "Herbst",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2457,
+"en": "Did you get it?",
+"de": "Hast du es verstanden?",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2458,
+"en": "invitation",
+"de": "Einladung",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2459,
+"en": "wrote",
+"de": "schrieb (Vergangenheit von write)",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2460,
+"en": "early",
+"de": "früh",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2461,
+"en": "save",
+"de": "retten; sparen",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2462,
+"en": "make a wish",
+"de": "sich etwas wünschen",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2463,
+"en": "think of",
+"de": "denken an",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2464,
+"en": "grandparents",
+"de": "Großeltern",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2465,
+"en": "Was it fun?",
+"de": "Hat es Spaß gemacht?",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2466,
+"en": "minibus",
+"de": "Kleinbus",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2467,
+"en": "were",
+"de": "waren (Vergangenheit von be)",
+"deck": "a1",
+"unit": "4.2"
+},
+{
+"id": 2468,
+"en": "hide",
+"de": "verstecken",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2469,
+"en": "expensive",
+"de": "teuer",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2470,
+"en": "ferry",
+"de": "Fähre",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2471,
+"en": "clever",
+"de": "klug",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2472,
+"en": "important",
+"de": "wichtig",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2473,
+"en": "face",
+"de": "Gesicht",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2474,
+"en": "sneeze",
+"de": "niesen",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2475,
+"en": "bad",
+"de": "schlecht",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2476,
+"en": "interesting",
+"de": "interessant",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2477,
+"en": "sleepover",
+"de": "Übernachtungsparty",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2478,
+"en": "snack",
+"de": "Snack, Imbiss",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2479,
+"en": "It’s my turn.",
+"de": "Ich bin dran.",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2480,
+"en": "sign",
+"de": "Schild, Zeichen",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2481,
+"en": "check",
+"de": "prüfen, kontrollieren",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2482,
+"en": "are over",
+"de": "sind vorbei",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2483,
+"en": "at last",
+"de": "endlich",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2484,
+"en": "under",
+"de": "unter",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2485,
+"en": "ocean",
+"de": "Ozean",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2486,
+"en": "almost",
+"de": "fast",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2487,
+"en": "hold",
+"de": "halten",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2488,
+"en": "aquarium",
+"de": "Aquarium",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2489,
+"en": "first",
+"de": "zuerst; erste(r)",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2490,
+"en": "prepare",
+"de": "vorbereiten",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2491,
+"en": "dislikes",
+"de": "mag nicht",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2492,
+"en": "shark",
+"de": "Hai",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2493,
+"en": "not yet",
+"de": "noch nicht",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2494,
+"en": "goods",
+"de": "Waren",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2495,
+"en": "line",
+"de": "Zeile; Linie",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2496,
+"en": "easy",
+"de": "leicht, einfach",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2497,
+"en": "rock",
+"de": "Fels; Felsen",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2498,
+"en": "give a talk",
+"de": "einen Vortrag halten",
+"deck": "a1",
+"unit": "5.1"
+},
+{
+"id": 2499,
+"en": "farmer",
+"de": "Bauer/Bäuerin",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2500,
+"en": "soon",
+"de": "bald",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2501,
+"en": "United Kingdom (UK)",
+"de": "Vereinigtes Königreich",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2502,
+"en": "subtitles",
+"de": "Untertitel",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2503,
+"en": "laugh",
+"de": "lachen",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2504,
+"en": "market",
+"de": "Markt",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2505,
+"en": "character",
+"de": "Figur, Charakter",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2506,
+"en": "blond(e)",
+"de": "blond",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2507,
+"en": "like that",
+"de": "so",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2508,
+"en": "cart",
+"de": "Karren",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2509,
+"en": "play",
+"de": "spielen",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2510,
+"en": "the biggest",
+"de": "der/die/das größte",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2511,
+"en": "pepper",
+"de": "Pfeffer",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2512,
+"en": "keyword",
+"de": "Schlüsselwort",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2513,
+"en": "same as",
+"de": "gleich wie",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2514,
+"en": "price",
+"de": "Preis",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2515,
+"en": "phrase",
+"de": "Redewendung",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2516,
+"en": "draw",
+"de": "zeichnen",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2517,
+"en": "smuggler",
+"de": "Schmuggler/in",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2518,
+"en": "sub-clause",
+"de": "Nebensatz",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2519,
+"en": "word order",
+"de": "Wortstellung",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2520,
+"en": "author",
+"de": "Autor/in",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2521,
+"en": "Goodbye",
+"de": "Auf Wiedersehen",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2522,
+"en": "prison",
+"de": "Gefängnis",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2523,
+"en": "Good luck!",
+"de": "Viel Glück!",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2524,
+"en": "scene",
+"de": "Szene",
+"deck": "a1",
+"unit": "5.2"
+},
+{
+"id": 2525,
+"en": "feel",
+"de": "fühlen",
+"deck": "a1",
+"unit": "5.2"
+}
+]
