@@ -389,7 +389,7 @@ function ask(s, head) {
       res === "self" ? `<button class="bad" id="bNo">Gewusst nicht</button><button class="ok" id="bYes">Gewusst!</button>` :
       `<button class="sec" id="bYes">Doch richtig gewesen</button><button id="bNo">Weiter</button>`}
       ${sayBtn("bSay2")}</div>`;
-    if (CAN_SPEAK) { $("#bSay2").onclick = () => speak(speechText(w.en)); if (dir === "en2de") speak(speechText(w.en)); }
+    if (CAN_SPEAK) { $("#bSay2").onclick = () => speak(speechText(w.en)); }
     const done = ok => { finishCard(s, ok); };
     if ($("#bNext")) $("#bNext").onclick = () => done(true);
     if ($("#bYes")) $("#bYes").onclick = () => done(true);
@@ -540,7 +540,7 @@ function verbStep(s, head) {
       return `<div class="vq ${f === "pp" && !vPPon() ? "vdim" : ""}"><div class="mute">${label}</div><div>${val}</div></div>`; }).join("");
     $("#fb").innerHTML = ok ? `<div class="fb good">Alles richtig! ✓</div>` : `<div class="fb nope">${s.blanks.filter(f => !res[f]).length === 1 ? "Eine Lücke" : "Einige Lücken"} nicht ganz richtig.</div>`;
     $("#vbtn").innerHTML = `${backBtn()}${ok ? "" : `<button class="sec" id="bYes">Doch richtig</button>`}<button id="bNext">Weiter</button><button class="ghost" id="bSayV" aria-label="Anhören">🔊</button>`;
-    $("#bSayV").onclick = () => vSay(v); vSay(v);
+    $("#bSayV").onclick = () => vSay(v);
     $("#bNext").onclick = () => finishVerb(s, ok);
     if ($("#bYes")) $("#bYes").onclick = () => finishVerb(s, true);
     const pv = $("#bPrev"); if (pv) pv.onclick = () => { if (sess.i > 0) { sess.i--; render(); } };

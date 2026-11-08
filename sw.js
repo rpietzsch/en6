@@ -1,5 +1,5 @@
 // Service Worker: App offline nutzbar machen. Bei neuem Stand die Versionsnummer erhöhen.
-const CACHE = "vokabeln-v3";
+const CACHE = "vokabeln-v4";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "data/words.json", "data/words_a1.json", "data/examples.json", "data/verbs.json", "data/verb_examples.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
