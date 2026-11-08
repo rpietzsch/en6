@@ -39,6 +39,7 @@ input:focus,textarea:focus{outline:none;border-color:var(--pri)}
 .fb.good{background:var(--okbg);color:var(--ok)}.fb.nope{background:var(--badbg);color:var(--bad)}
 .ans{font-size:1.3rem;font-weight:700}
 .ex{margin:14px 0 2px;padding:10px 12px;border-left:3px solid var(--pri);background:var(--bg);border-radius:0 10px 10px 0}.ex b{color:var(--pri)}
+.vdim{opacity:.4}
 .vex{padding:10px 0;border-top:1px solid var(--line)}.vex:first-of-type{margin-top:10px}
 .vlab{font-size:.72rem;color:var(--mute);text-transform:uppercase;letter-spacing:.05em}
 .vexrow{display:flex;gap:8px;align-items:flex-start;justify-content:space-between}.vexrow>div{min-width:0}.vexrow .ghost{padding:6px 4px;flex:0 0 auto}
@@ -443,6 +444,7 @@ const vKey = b => "v:" + b;
 const vPattern = v => v.base === v.past && v.past === v.pp ? "AAA" : v.base === v.pp ? "ABA" : v.past === v.pp ? "ABB" : "ABC";
 const V_GROUPS = { AAA: "alle drei gleich (cut – cut – cut)", ABA: "1. = 3. Form (come – came – come)", ABB: "2. = 3. Form (buy – bought – bought)", ABC: "alle verschieden (sing – sang – sung)" };
 const V_FIELDS = [["base", "Grundform"], ["de", "Übersetzung"], ["past", "2. Form (simple past)"], ["pp", "3. Form (past participle)"]];
+const vPPon = () => S.settings.vPP === true;   // 3. Form (past participle) mitlernen? Standard: aus (nur gedimmt gezeigt)
 const vSel = () => (S.settings.vGroups && S.settings.vGroups.length ? S.settings.vGroups : Object.keys(V_GROUPS));
 const vPool = () => VERBS.filter(v => vSel().includes(vPattern(v)));
 const vSay = v => speak([v.base, v.past, v.pp].join(", ").replace(/\//g, " or "));
@@ -459,10 +461,12 @@ function verbMenu() {
       <button class="big sec" id="bMix">🔀 Mix<small>Lernkarten und Testkarten gemischt – getestet wird immer erst nach der Lernkarte</small></button>
       <button class="big sec" id="bTest">✍️ Test<small>nur Testkarten: 1–3 Lücken (Übersetzung, Grundform, 2. und 3. Form)</small></button>
     </div>
+    <label class="chk card" style="margin-top:14px"><input type="checkbox" id="vPP" ${vPPon() ? "checked" : ""}><span><b>3. Form (past participle) mitlernen</b><br><span class="mute">Aus: Die 3. Form wird nur gedimmt angezeigt und nie abgefragt. Wenn die Klasse sie lernt, einschalten.</span></span></label>
     <h2 style="margin-top:20px">Muster filtern</h2>
     <div class="chips" id="chips">${Object.entries(V_GROUPS).map(([k, l]) => `<button class="chip ${sel.includes(k) ? "on" : ""}" data-v="${k}">${esc(l)}</button>`).join("")}</div>
     <p class="mute">Ohne Auswahl sind alle Muster dabei.</p>`;
   $("#bBack").onclick = home;
+  $("#vPP").onchange = () => { S.settings.vPP = $("#vPP").checked; save(); };
   document.querySelectorAll("#chips .chip").forEach(b => b.onclick = () => { const a = S.settings.vGroups, v = b.dataset.v, i = a.indexOf(v); i < 0 ? a.push(v) : a.splice(i, 1); save(); verbMenu(); });
   $("#bLearn").onclick = () => startVerbs("learn"); $("#bMix").onclick = () => startVerbs("mix"); $("#bTest").onclick = () => startVerbs("test");
 }
@@ -471,7 +475,7 @@ function vlearnStep(s, head) {
   const v = VERB_BY[s.base], ex = VERB_EX[s.base] || [], forms = [v.base, v.past, v.pp], labels = ["1. Form · Grundform", "2. Form · simple past", "3. Form · past participle"];
   app.innerHTML = head + `<div class="card"><span class="tag">Lernkarte</span>
     <div class="prompt">${esc(v.base)}</div><div class="ans" style="font-size:1.15rem">${esc(v.de)}</div>
-    ${forms.map((f, i) => `<div class="vex"><div class="vlab">${labels[i]}</div>
+    ${forms.map((f, i) => `<div class="vex ${i === 2 && !vPPon() ? "vdim" : ""}"><div class="vlab">${labels[i]}</div>
       <div class="vexrow"><div><div class="vform">${esc(f)}</div>${ex[i] ? `<div class="vsent">${hl(ex[i][0])}</div><div class="mute" style="font-size:.9rem">${esc(ex[i][1])}</div>` : ""}</div>
       <button class="ghost" data-i="${i}" aria-label="Anhören">🔊</button></div></div>`).join("")}
     <div class="row" style="margin-top:14px">${backBtn()}<button id="bNext">Weiter</button></div></div>`;
@@ -502,8 +506,9 @@ function startVerbs(mode) {
 }
 
 function pickBlanks(c) {   // 1–3 Lücken; bei sicheren Verben eher mehr
-  const n = Math.min(3, 1 + Math.floor((Math.max(c.box, 0) + Math.random() * 2) / 1.6));
-  return shuffle(V_FIELDS.map(f => f[0])).slice(0, n);
+  const fields = V_FIELDS.map(f => f[0]).filter(f => vPPon() || f !== "pp");   // ohne 3. Form nur 3 mögliche Lücken
+  const n = Math.min(fields.length - 1, 1 + Math.floor((Math.max(c.box, 0) + Math.random() * 2) / 1.6));
+  return shuffle(fields).slice(0, Math.max(1, n));
 }
 function checkVerbField(v, f, val) {
   const a = norm(val); if (!a) return false;
@@ -517,7 +522,7 @@ function verbStep(s, head) {
     const blank = inputs && s.blanks.includes(f), r = res && res[f];
     const cell = blank ? `<input type="text" id="vf_${f}" data-f="${f}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="${label}">`
       : `<span class="vgiven ${r === true ? "okc" : r === false ? "badc" : ""}">${esc(v[f])}</span>`;
-    return `<div class="vq ${blank ? "gap" : ""}"><div class="mute">${label}</div><div>${cell}</div></div>`; }).join("");
+    return `<div class="vq ${blank ? "gap" : ""} ${f === "pp" && !vPPon() ? "vdim" : ""}"><div class="mute">${label}</div><div>${cell}</div></div>`; }).join("");
   if (s.done) {   // nach „Zurück“: ansehen, nicht erneut werten
     app.innerHTML = head + `<div class="card"><span class="tag">schon beantwortet</span>${rowsHtml(false)}<div class="row" style="margin-top:14px">${backBtn()}<button id="bNext">Weiter</button><button class="ghost" id="bSayV" aria-label="Anhören">🔊</button></div></div>`;
     $("#bNext").onclick = next; $("#bSayV").onclick = () => vSay(v); return;
@@ -532,7 +537,7 @@ function verbStep(s, head) {
     $("#vq").innerHTML = V_FIELDS.map(([f, label]) => {
       const blank = s.blanks.includes(f);
       const val = !blank ? `<span class="vgiven">${esc(v[f])}</span>` : res[f] ? `<span class="vgiven okc">${esc(v[f])} ✓</span>` : `<span class="vgiven badc">${typed[f] ? "<s>" + esc(typed[f]) + "</s> → " : ""}${esc(v[f])}</span>`;
-      return `<div class="vq"><div class="mute">${label}</div><div>${val}</div></div>`; }).join("");
+      return `<div class="vq ${f === "pp" && !vPPon() ? "vdim" : ""}"><div class="mute">${label}</div><div>${val}</div></div>`; }).join("");
     $("#fb").innerHTML = ok ? `<div class="fb good">Alles richtig! ✓</div>` : `<div class="fb nope">${s.blanks.filter(f => !res[f]).length === 1 ? "Eine Lücke" : "Einige Lücken"} nicht ganz richtig.</div>`;
     $("#vbtn").innerHTML = `${backBtn()}${ok ? "" : `<button class="sec" id="bYes">Doch richtig</button>`}<button id="bNext">Weiter</button><button class="ghost" id="bSayV" aria-label="Anhören">🔊</button>`;
     $("#bSayV").onclick = () => vSay(v); vSay(v);
